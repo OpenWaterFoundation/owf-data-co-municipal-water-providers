@@ -10,19 +10,19 @@ OWF has created and is maintaining this dataset to facilitate work on various da
 The repository contains the following:
 
 ```text
-.gitignore                      				Git configuration file to ignore files that should not be committed to the repository.
-.gitattributes                  				Git configuration file indicate repository configuration, in particular handling
+.gitignore                      		Git configuration file to ignore files that should not be committed to the repository.
+.gitattributes                  		Git configuration file indicate repository configuration, in particular handling
 												of line-ending and binary files.
 build/
-												Folder used by TSTool to create products for publication.
-data/                           				Folder containing data files.
+						Folder used by TSTool to create products for publication.
+data/                           		Folder containing data files.
   Colorado-Municipal-Water-Providers.xlsx     	Simple Excel file containing core data.
   Colorado-Municipal-Water-Providers.csv      	The Excel file contents from the Water_Providers worksheet converted to a csv file, useful for automated processing.
-  Providers-in-Multiple-Counties.csv			The Excel file contents from the Providers_in_Multiple_Counties worksheet converted to a csv file, useful for automated processing.
+  Providers-in-Multiple-Counties.csv		The Excel file contents from the Providers_in_Multiple_Counties worksheet converted to a csv file, useful for automated processing.
 doc/
-  ?                             				Additional documentation for the dataset.
-TSTool/                         				TSTool software command files to process data into useful forms.
-  README.md                     				Explanation of TSTool command files used to process the core data into other products.
+  ?                             		Additional documentation for the dataset.
+TSTool/                         		TSTool software command files to process data into useful forms.
+  README.md                     		Explanation of TSTool command files used to process the core data into other products.
 ```
 
 ### Colorado-Municipal-Water-Providers.xlsx Contents ###
