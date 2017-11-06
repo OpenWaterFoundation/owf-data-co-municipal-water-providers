@@ -18,12 +18,12 @@ build/
 data/                           		Folder containing data files.
   Colorado-Municipal-Water-Providers.xlsx     	Simple Excel file containing core data.
   Colorado-Municipal-Water-Providers.csv      	The Excel file contents from the Water_Providers worksheet converted to a csv file, useful for automated processing.
-  WaterProvider_County_Relate.csv				The Excel file contents from the WaterProvider_County_Relate worksheet converted to a csv file, useful for automated processing.
-data-orig/								Folder containing original data files downloaded from agency websites.
-  Colorado-FIPS-Places.xlsx						The data file containing original data download from the U.S. Census Bureau containing FIPS IDs.
-  Colorado-GNIS-Places.csv						The data file containing original data download from the Geographic Names Information System containing GNIS IDs.
-  Colorado-LocalGovernment-IDs.csv				The data file that is the attribute table of the GIS shapefile downloaded from the Special Districts website that contains local government IDs (DOLA_LG_ID)
-  Colorado-PWS-IDs.csv							The data file containing original data download from the EPA's Safe Drinking Water Information System containing PWS IDs.
+  WaterProvider_County_Relate.csv		The Excel file contents from the WaterProvider_County_Relate worksheet converted to a csv file, useful for automated processing.
+data-orig/					Folder containing original data files downloaded from agency websites.
+  Colorado-FIPS-Places.xlsx			The data file containing original data download from the U.S. Census Bureau containing FIPS IDs.
+  Colorado-GNIS-Places.csv			The data file containing original data download from the Geographic Names Information System containing GNIS IDs.
+  Colorado-LocalGovernment-IDs.csv		The data file that is the attribute table of the GIS shapefile downloaded from the Special Districts website that contains local government IDs (DOLA_LG_ID)
+  Colorado-PWS-IDs.csv				The data file containing original data download from the EPA's Safe Drinking Water Information System containing PWS IDs.
   doc/
   ?                             		Additional documentation for the dataset.
 TSTool/                         		TSTool software command files to process data into useful forms.
