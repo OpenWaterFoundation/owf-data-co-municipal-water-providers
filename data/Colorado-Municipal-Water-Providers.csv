@@ -1,532 +1,532 @@
-Water_Provider_Name,FIPS_ID,DOLA_ID,BNDSS_ID,PWS_ID,BusinessEntity_ID,LocalGovtType,County,Number_of_Counties,Comment,
-96 Pipeline Company,NaN,NaN,96PipeWC,CO0113050,19871168504,Private,Crowley,1,Not in the Covered Entities database,
-Academy Water and Sanitation District,NaN,21001,AcademyWSD,CO0121025,NaN,Water and Sanitation District,El Paso,1,,
-"Aguilar, Town of",760,36001,Aguilar,CO0136100,NaN,Municipality,Las Animas,1,,
-"Akron, Town of",925,61002,Akron,CO0161001,NaN,Municipality,Washington,1,,
-Alameda Water and Sanitation District,NaN,30001,AlamedaWSD,CO0130116,NaN,Water and Sanitation District,Jefferson,1,Not in the Covered Entities database,
-"Alamosa, City of",1090,2003,Alamosa,CO0102100,NaN,Municipality,Alamosa,1,,
-Aldasoro Ranch and Homeowners Company,NaN,NaN,AldasoroWS,CO0157011,NaN,Private,San Miguel,1,,
-"Alma, Town of",1530,47001,Alma,CO0147001,NaN,Municipality,Park,1,,
-Alpha-Rockridge Metropolitan District,NaN,4015,AlphaRockMD,NaN,NaN,Metropolitan District,Archuleta,1,,
-"Antonito, Town of",2355,11001,Antonito,CO0111100,NaN,Municipality,Conejos,1,,
-Arapahoe County Water and Wastewater Authority,NaN,64247,ACWWA,CO0203002,NaN,Water Authority,Multiple,2,,
-Arapahoe Estates Water District,NaN,3005,ArapahoeEstatesWD,CO0103001,NaN,Water District,Arapahoe,1,,
-"Arriba, Town of",3235,37002,Arriba,CO0137001,NaN,Municipality,Lincoln,1,,
-"Arvada, City of",3455,64009,Arvada,CO0130001,NaN,Municipality,Multiple,2,,
-Aspen Park Metropolitan District,NaN,65099,AspenParkWD,NaN,NaN,Metropolitan District,Jefferson,1,,
-"Aspen, City of",3620,49006,Aspen,CO0149122,NaN,Municipality,Pitkin,1,,
-"Ault, Town of",3950,62003,Ault,CO0162125,NaN,Municipality,Weld,1,Not in the original BNDSS list,
-"Aurora, City of",4000,64010,Aurora,CO0103005,NaN,Municipality,Multiple,3,,
-"Avon, City of",4110,19003,Avon,CO0119126,NaN,Municipality,Eagle,1,,
-Avondale Water and Sanitation District,NaN,51001,AvondaleWSD,CO0151050,NaN,Water and Sanitation District,Pueblo,1,,
-Baca Grande Water and Sanitation District,NaN,55001,BacaGrandeWSD,CO0155200,NaN,Water and Sanitation District,Saguache,1,Not in the original BNDSS list,
-Bailey Water and Sanitation District,NaN,47002,BaileyWSD,CO0147010,NaN,Water and Sanitation District,Park,1,Not in the Covered Entities database,
-Bancroft-Clover Water and Sanitation District,NaN,30004,BancroftCloverWSD,CO0130133,NaN,Water and Sanitation District,Jefferson,1,,
-"Basalt, Town of",4935,64017,Basalt,CO0119134,NaN,Municipality,Multiple,2,,
-Battlement Mesa Metropolitan District,NaN,23032,BattlementMesaMD,CO0123133,NaN,Metropolitan District,Garfield,1,,
-"Bayfield, Town of",5265,34005,Bayfield,CO0134030,NaN,Municipality,La Plata,1,,
-Bear Creek Water and Sanitation District,NaN,30005,BearCreekWSD,CO0130138,NaN,Water and Sanitation District,Jefferson,1,,
-Beehive Water Association,NaN,NaN,BeehiveWAS,CO0145030,19871130969,Private,Otero,1,Not in the Covered Entities database,
-Bell Mountain Ranch Water District,NaN,18064,BellMtnRanchWD,CO0118002,NaN,Metropolitan District,Douglas,1,,
-"Bennett, Town of",6090,64258,Bennett,CO0101020,NaN,Municipality,Multiple,2,,
-Bents Fort Water Association,NaN,NaN,BentsFortWA,CO0145060,19871150010,Private,Otero,1,Not in the Covered Entities database,
-Berkeley Water and Sanitation District,NaN,64020,BerkeleyWSD,CO0116140,NaN,Water and Sanitation District,Multiple,2,Not in the Covered Entities database,
-"Berthoud, Town of",6255,64237,Berthoud,CO0135138,NaN,Municipality,Multiple,2,,
-"Bethune, Town of",6530,32001,Bethune,CO0132001,NaN,Municipality,Kit Carson,1,,
-Beulah Water Works District,NaN,51002,BeulahWD,CO0151100,NaN,Water District,Pueblo,1,,
-Beverly Hills Mutual Water Company,NaN,NaN,BeverlyHillsMWC,CO0118001,19871136472,Private,Douglas,1,Not in the original BNDSS list,
-"Black Hawk, City of",7025,24001,BlackHawk,CO0124147,NaN,Municipality,Gilpin,1,,
-Blanca/Fort Garland Metropolitan District,NaN,12002,BlancaFtGarlandMD,CO0212200,NaN,Metropolitan District,Costilla,1,,
-Blue Mountain Water District,NaN,30010,BlueMtnWD,CO0130005,NaN,Water District,Jefferson,1,Not in the Covered Entities database,
-Blue Valley Metropolitan District,NaN,25001,BlueVlyMD,CO0125148,NaN,Metropolitan District,Grand,1,,
-Board of Water Works of Pueblo,62000,51016,PuebloBWW,CO0151500,NaN,Municipality,Pueblo,1,,
-"Bonanza City, Town of",7571,55002,BonanzaCity,CO0079129,NaN,Municipality,Saguache,1,Not in the original BNDSS list,
-Bonvue Water and Sanitation District,NaN,30011,BonvueWSD,CO0130152,NaN,Water and Sanitation District,Jefferson,1,Not in the Covered Entities database,
-"Boone, Town of",7795,51005,Boone,CO0151150,NaN,Municipality,Pueblo,1,,
-"Boulder, City of",7850,7006,Boulder,CO0107152,NaN,Municipality,Boulder,1,,
-Bow Mar Water and Sanitation District,NaN,64027,BowMarWSD,CO0103153,NaN,Water and Sanitation District,Multiple,2,,
-"Branson, Town of",8345,36002,Branson,CO0136300,NaN,Municipality,Arkansas,1,Not in the original BNDSS list,
-"Breckenridge, Town of",8400,59004,Breckenridge,CO0159020,NaN,Municipality,Summit,1,,
-"Brighton, City of",8675,64029,Brighton,CO0101025,NaN,Municipality,Multiple,2,,
-Brook Forest Water District,NaN,30012,BrookForestWD,CO0130010,NaN,Water District,Jefferson,1,Not in the Covered Entities database,
-Brookridge,NaN,NaN,BrookridgeWS,NaN,NaN,Unknown,Unknown,1,"Not in the Covered Entities database; not sure if still exists, may be Brookridge Heights WD",
-"Brookside, Town of",9115,22001,Brookside,CO0122050,NaN,Municipality,Fremont,1,,
-"Broomfield, City and County of",9280,64030,Broomfield,CO0107155,NaN,Municipality,Broomfield,1,,
-"Brush, City of",9555,44001,Brush,CO0144001,NaN,Municipality,Morgan,1,,
-"Buena Vista, Town of",10105,8002,BuenaVista,CO0108300,NaN,Municipality,Chaffee,1,,
-Buffalo Creek Water District,NaN,30146,BuffaloCreekWD,CO0130015,NaN,Water District,Jefferson,1,,
-"Burlington, City of",10600,32004,Burlington,CO0132005,NaN,Municipality,Kit Carson,1,,
-Calhan,11260,21006,Calhan,CO0121075,NaN,Municipality,El Paso,1,Not in the original BNDSS list,
-"Campo, Town of",11645,5003,Campo,CO0105100,NaN,Municipality,Baca,1,,
-"Canon City, City of",11810,22002,CanonCity,CO0122100,NaN,Municipality,Fremont,1,,
-"Carbondale, Town of",12045,23004,Carbondale,CO0123167,NaN,Municipality,Garfield,1,,
-Cascade Metropolitan District 1,NaN,65308,CascadeMD1,CO0121100,NaN,Metropolitan District,El Paso,1,Not in the Covered Entities database,
-Cascade Metropolitan District 2,NaN,65309,CascadeMD2,NaN,NaN,Metropolitan District,El Paso,1,Not in the Covered Entities database,
-Castle Pines Metropolitan District,NaN,18001,CastlePinesMD,CO0118005,NaN,Metropolitan District,Douglas,1,,
-Castle Pines North Metropolitan District,NaN,18044,CastlePinesNMD,CO0118006,NaN,Metropolitan District,Douglas,1,,
-"Castle Rock, Town of",12415,18003,CastleRock,CO0118010,NaN,Municipality,Douglas,1,,
-Castleton Center Water and Sanitation District,NaN,18004,CastletonCntrWSD,NaN,NaN,Water and Sanitation District,Douglas,1,,
-Castlewood Water and Sanitation District,NaN,65156,CastlewoodWSD,CO0103166,NaN,Water and Sanitation District,Arapahoe,1,,
-Catamount Metropolitan District,NaN,54033,LakeCatamount1MD,NaN,NaN,Metropolitan District,Routt,1,,
-"Cedaredge, Town of",12635,15003,Cedaredge,CO0115171,NaN,Municipality,Delta,1,,
-Centennial Water and Sanitation District,NaN,18025,CentennialWSD,CO0118015,NaN,Water and Sanitation District,Douglas,1,,
-"Center, Town of",12855,64039,Center,CO0155500,NaN,Municipality,Multiple,2,,
-"Central City, City of",12910,64263,CentralCity,CO0124171,NaN,Municipality,Multiple,2,,
-Central Weld County Water District,NaN,62005,CWCWD,CO0162122,NaN,Water District,Weld,1,,
-Charlou Park Water District,NaN,3083,CharlouWD,CO0103020,NaN,Water District,Arapahoe,1,Not in the Covered Entities database,
-Chatfield South Water District,NaN,18108,ChatfieldSouthWD,CO0118175,NaN,Water District,Douglas,1,Not in the original BNDSS list,
-"Cheraw, Town of",13460,45001,Cheraw,CO0145090,NaN,Municipality,Otero,1,,
-Cherokee Metropolitan District,NaN,21010,CherokeeMD,CO0121125,NaN,Metropolitan District,El Paso,1,,
-Cherry Creek Valley Water and Sanitation District,NaN,3105,CherryCreekVlyWSD,CO0116175,NaN,Water and Sanitation District,Arapahoe,1,,
-Cherry Creek Village Water District,NaN,3014,CherryCreekVlgWD,CO0103176,NaN,Water District,Arapahoe,1,,
-Cherry Hills Farm Metropolitan District,NaN,NaN,CherryHillsFarmWS,CO0116177,NaN,Metropolitan District,Arapahoe,1,Not in the Covered Entities database,
-Cherry Hills Heights Water and Sanitation District,NaN,3018,CherryHlsHtsWSD,CO0103178,NaN,Water and Sanitation District,Arapahoe,1,Not in the Covered Entities database,
-Cherry Hills North Metropolitan District,NaN,3019,CherryHlsNMD,CO0116179,NaN,Metropolitan District,Arapahoe,1,Not in the Covered Entities database,
-"Cherry Hills Village, City of",13845,3023,CherryHlsVlg,NaN,NaN,Municipality,Arapahoe,1,,
-Cherrymoor Water,NaN,NaN,CherrymoorWS,CO0116181,NaN,Water District,Denver,1,Not in the Covered Entities database,
-Cheyenne Wells,14175,9007,CheyenneWells,CO0109006,NaN,Municipality,Cheyenne,1,Not in the original BNDSS list,
-Chipeta Water District,NaN,43025,ChipetaWD,CO0143176,NaN,Water District,Montrose,1,,
-Clifton Water District,NaN,39008,CliftonWD,CO0139180,NaN,Water District,Mesa,1,,
-Coal Creek,15330,36004,CoalCreek,CO0122250,NaN,Municipality,Fremont,1,Not in the original BNDSS list,
-Coalby Domestic Water Company,NaN,NaN,CoalbyDWC,CO0115185,19871253860,Private,Pitkin,1,Not in the Covered Entities database,
-Cokedale,15550,39011,Cokedale,CO0136185,NaN,Municipality,Las Animas,1,Not in the original BNDSS list,
-"Collbran, Town of",15605,21015,Collbran,CO0139185,NaN,Municipality,Mesa,1,,
-Colorado Centre Metropolitan District,NaN,21057,COCntrMD,CO0121140,NaN,Metropolitan District,El Paso,1,Not in the Covered Entities database,
-Colorado City Metropolitan District,NaN,51007,ColoradoCityMD,CO0151200,NaN,Metropolitan District,Pueblo,1,,
-Colorado River Water Conservation District,NaN,64046,RiverDistrict,NaN,NaN,Water Conservation District,Multiple,15,Not in the Covered Entities database,
-Colorado Springs Utilities,16000,3029,CSU,CO0121150,NaN,Municipality,El Paso,1,,
-Columbine Valley,16385,1005,ColumbineValley,NaN,NaN,Municipality,Arapahoe,1,Not in the original BNDSS list,
-Columbine Water and Sanitation District,NaN,3030,ColumbineWSD,CO0103185,NaN,Water and Sanitation District,Arapahoe,1,Not in the Covered Entities database,
-Commerce City,16495,42004,CommerceCity,NaN,NaN,Municipality,Adams,1,Not in the original BNDSS list,
-Consolidated Mutual Water Company,NaN,NaN,ConMutualWS,CO0130021,NaN,Private,Jefferson,1,,
-Copper Mountain Consolidated Metropolitan District,NaN,59039,CopperMtConsMD,CO0159030,NaN,Metropolitan District,Summit,1,,
-Cordillera Metropolitan District,NaN,65210,CordilleraMD,CO0119185,NaN,Metropolitan District,Eagle,1,Not in the Covered Entities database,
-"Cortez, City of",17375,41004,Cortez,CO0142200,NaN,Municipality,Montezuma,1,,
-Cottonwood Water and Sanitation District,NaN,18006,CottonwoodWSD,CO0118020,NaN,Water and Sanitation District,Douglas,1,,
-"Craig Public Works Department, City of",17760,15005,Craig,CO0141188,NaN,Municipality,Moffat,1,,
-"Crawford, Town of",17925,40001,Crawford,CO0115188,NaN,Municipality,Delta,1,,
-"Creede, Town of",14765,22006,Creede,CO0140500,NaN,Municipality,Mineral,1,,
-Crested Butte South Metropolitan District,NaN,26002,CrestedButteSMD,CO0126189,NaN,Metropolitan District,Gunnison,1,,
-"Crested Butte, Town of",18310,26004,CrestedButte,CO0126188,NaN,Municipality,Gunnison,1,,
-"Crestone, Town of",18420,55004,Crestone,CO0155188,NaN,Municipality,Saguache,1,,
-Crestview Water and Sanitation District,NaN,1006,CrestviewWSD,CO0101040,NaN,Water and Sanitation District,Adams,1,,
-"Cripple Creek, City of",18530,60001,CrippleCreek,CO0160100,NaN,Municipality,Teller,1,,
-Crook,18640,38002,Crook,CO0138005,NaN,Municipality,Logan,1,Not in the original BNDSS list,
-Crowley County Water Association,NaN,NaN,CrowleyCoWA,CO0113100,19871146560,County government,Crowley,1,Not in the Covered Entities database,
-Crowley County Water System,NaN,NaN,CrowleyCountyWS,CO0113200,NaN,County government,Crowley,1,Not in the Covered Entities database,
-"Crowley, Town of",18750,13002,Crowley,CO0113300,NaN,Municipality,Crowley,1,,
-Cucharas Sanitation and Water District,NaN,28001,CucharasWSD,CO0128100,NaN,Water and Sanitation District,Huerfano,1,,
-"Dacono, City of",19080,62007,Dacono,CO0162200,NaN,Municipality,Weld,1,,
-DeBeque,19355,39012,DeBeque,CO0139205,NaN,Municipality,Mesa,1,Not in the original BNDSS list,
-Deer Trail,19630,3033,DeerTrail,CO0103030,NaN,Municipality,Arapahoe,1,Not in the original BNDSS list,
-"Del Norte, Town of",19795,53002,DelNorte,CO0153200,NaN,Municipality,Rio Grande,1,,
-"Delta, City of",19850,15015,Delta,CO0115205,NaN,Municipality,Delta,1,,
-Denver Water,20000,16002,DenverWater,CO0116001,NaN,Municipality,Denver,1,,
-Devonshire Heights Water and Sanitation District,NaN,3035,DevonshireHtsWSD,CO0103205,NaN,Water and Sanitation District,Arapahoe,1,Not in the Covered Entities database,
-"Dillon Public Works, Town of",20440,59009,Dillon,CO0159035,NaN,Municipality,Summit,1,,
-Dillon Valley District,NaN,59010,DillonVlyMD,CO0159040,NaN,Metropolitan District,Summit,1,,
-"Dinosaur, Town of",20495,41005,Dinosaur,CO0141210,NaN,Municipality,Moffat,1,,
-Dolores Water Conservancy District,NaN,64054,DoloresWCD,NaN,NaN,Water Conservancy District,Multiple,2,Not in the Covered Entities database,
-"Dolores, Town of",20770,42008,Dolores,CO0142400,NaN,Municipality,Montezuma,1,,
-Dominion Water and Sanitation District,NaN,65359,DominionWSD,CO0118021,NaN,Water and Sanitation District,Douglas,1,Not in the original BNDSS list,
-Donala Water and Sanitation District,NaN,21016,DonalaWSD,CO0121175,NaN,Water and Sanitation District,El Paso,1,,
-Douglas County Government,NaN,NaN,DouglasCo,,NaN,County government,Douglas,1,Not in the Covered Entities database,
-Douglas County Water Resource Authority,NaN,66300,DCWRA,NaN,NaN,Water Authority,Douglas,1,Not in the Covered Entities database,
-Dove Creek,21265,17003,DoveCreek,CO0117300,NaN,Municipality,Dolores,1,Not in the original BNDSS list,
-"Dukes Mobile Home Park, LLC",NaN,NaN,DukesMHP,NaN,19991083115,Private,Jefferson,1,Not in the Covered Entities database; dissolved in May 2013,
-Durango West Metropolitan District 1,NaN,34006,DurangoWMD1,CO0134180,NaN,Metropolitan District,La Plata,1,,
-Durango West Metropolitan District 2,NaN,34007,DurangoWMD2,CO0134190,NaN,Metropolitan District,La Plata,1,,
-"Durango, City of",22035,34008,Durango,CO0134150,NaN,Municipality,La Plata,1,,
-"Eads, Town of",22145,31002,Eads,CO0131400,NaN,Municipality,Kiowa,1,,
-Eagle River Water and Sanitation District,NaN,19057,EagleRiverWSD,CO0119802,NaN,Water and Sanitation District,Eagle,1,,
-"Eagle, Town of",22200,19009,Eagle,CO0119233,NaN,Municipality,Eagle,1,Not in the Covered Entities database,
-East Alamosa Water and Sanitation District,NaN,2004,EAlamosaWSD,CO0102200,NaN,Water and Sanitation District,Alamosa,1,,
-East Boulder County Water District,NaN,7071,EBoulderCoWD,CO0107236,NaN,Water District,Boulder,1,,
-East Cherry Creek Valley Water and Sanitation District,NaN,3038,ECherryCrkVlyWSD,CO0103035,NaN,Water and Sanitation District,Arapahoe,1,,
-East Dillon Water District,NaN,59012,EDillonWD,CO0159045,NaN,Water District,Summit,1,,
-East End Water Association,NaN,NaN,EastEndWAS,CO0145120,19871132355,Private,Otero,1,Not in the Covered Entities database,
-East Larimer County Water District,NaN,64056,ELCO,CO0135233,NaN,Water District,Multiple,2,,
-East Twin Lakes Ditches and Waterworks Economic Development,NaN,NaN,ETwinLakesD&WWED,NaN,19991010001,Private,Lake,1,Not in the Covered Entities database,
-East Valley Metropolitan District,NaN,3039,EVlyMD,CO0103040,NaN,Metropolitan District,Arapahoe,1,,
-"Eaton, Town of",22860,62008,Eaton,CO0162233,NaN,Municipality,Weld,1,,
-"Eckley, Town of",23025,63003,Eckley,CO0163001,NaN,Municipality,Yuma,1,,
-Edgemont Ranch Metropolitan District,NaN,34013,EdgemontRanchMD,CO0134200,NaN,Metropolitan District,La Plata,1,,
-"Edgewater, City of",23135,30020,Edgewater,CO0130237,NaN,Municipality,Jefferson,1,,
-Edwards Metropolitan District,NaN,19016,EdwardsMD,CO0185751,NaN,Metropolitan District,Eagle,1,Not in the Covered Entities database,
-El Paso County Water Authority,NaN,21095,EPCWA,NaN,NaN,Water Authority,El Paso,1,Not in the Covered Entities database,
-El Rancho Florida Metropolitan District,NaN,34035,ElRanchoFloridaMD,CO0134210,NaN,Metropolitan District,La Plata,1,,
-Elizabeth,23740,20004,Elizabeth,CO0120010,NaN,Municipality,Elbert,1,Not in the original BNDSS list,
-"Empire, Town of",24620,10005,Empire,CO0110010,NaN,Municipality,Clear Creek,1,,
-"Englewood, City of",24785,3041,Englewood,CO0103045,NaN,Municipality,Arapahoe,1,,
-"Erie, Town of",24950,64060,Erie,CO0162255,NaN,Municipality,Multiple,2,,
-"Estes Park, Town of",25115,35004,EstesPark,CO0135257,NaN,Municipality,Larimer,1,,
-Eureka Water Company,NaN,NaN,EurekaWC,CO0145150,19871134052,Private,Otero,1,Not in the Covered Entities database,
-"Evans, City of",25280,62011,Evans,CO0162260,NaN,Municipality,Weld,1,,
-Evergreen Metropolitan District,NaN,65166,EvergreenMD,CO0130030,NaN,Metropolitan District,Jefferson,1,,
-"Fairplay, Town of",25610,47005,Fairplay,CO0147020,NaN,Municipality,Park,1,,
-Fayette Water Company,NaN,NaN,FayetteWAS,CO0145180,19871134896,Private,Otero,1,Not in the Covered Entities database,
-"Federal Heights, City of",26270,1009,FederalHts,CO0101055,NaN,Municipality,Adams,1,,
-Fehlmann,NaN,NaN,FehlmannWS,NaN,19871184529,Private,Jefferson,1,Not in the Covered Entities database,
-"Firestone, Town of",26600,62012,Firestone,CO0162476,NaN,Municipality,Weld,1,,
-"Flagler, Town of",26765,32010,Flagler,CO0132010,NaN,Municipality,Kit Carson,1,,
-Fleming,26875,38005,Fleming,CO0138010,NaN,Municipality,Logan,1,Not in the original BNDSS list,
-"Florence, City of",27040,22011,Florence,CO0122500,NaN,Municipality,Fremont,1,,
-Florida Water Conservancy District,NaN,34010,FloridaWCD,NaN,NaN,Water Conservancy District,La Plata,1,Not in the Covered Entities database,
-Forest Lakes Metropolitan District,NaN,34011,ForestLakesMD,CO0134360,NaN,Metropolitan District,La Plata,1,,
-"Fort Collins, City of",27425,35009,FtCollins,CO0135291,NaN,Municipality,Larimer,1,,
-Fort Collins-Loveland Water District,NaN,35007,FCLWD,CO0135292,NaN,Water District,Multiple,2,,
-"Fort Lupton, City of",27700,62014,FtLupton,CO0162291,NaN,Municipality,Weld,1,,
-"Fort Morgan, City of",27810,44006,FtMorgan,CO0144005,NaN,Municipality,Morgan,1,,
-Fountain Valley Authority,NaN,21025,FountainVlyAuthority,CO0121300,NaN,Water Authority,El Paso,1,Not in the original BNDSS list,
-"Fountain, City of",27865,21026,FountainUtilities,CO0121275,NaN,Municipality,El Paso,1,,
-"Fowler, Town of",27975,45004,Fowler,CO0145210,NaN,Municipality,Otero,1,,
-"Foxfield, Town of",28105,3134,Foxfield,NaN,NaN,Municipality,Arapahoe,1,,
-Franktown Business Area Metropolitan District,NaN,18120,FranktownMD,NaN,NaN,Metropolitan District,Douglas,1,,
-"Fraser, Town of",28305,25006,Fraser,CO0125288,NaN,Municipality,Grand,1,,
-"Frederick, Town of",28360,62016,Frederick,CO0162288,NaN,Municipality,Weld,1,,
-"Frisco, Town of",28690,59015,Frisco,CO0159055,NaN,Municipality,Summit,1,,
-Fruitland Domestic Water Company,NaN,NaN,FruitlandDWC,CO0115288,19871492414,Private,Delta,1,Not in the Covered Entities database,
-Garden City,29185,62018,GardenCity,CO0140897,NaN,Municipality,Weld,1,Not in the original BNDSS list,
-Garden Valley Water and Sanitation District,NaN,21027,GardenVlyWSD,CO0121325,NaN,Water and Sanitation District,El Paso,1,,
-Genesee Water and Sanitation District,NaN,30033,GeneseeWSD,CO0130035,NaN,Water and Sanitation District,Jefferson,1,,
-Genoa,29680,37004,Genoa,CO0137005,NaN,Municipality,Lincoln,1,Not in the original BNDSS list,
-"Georgetown, Town of",29735,10007,Georgetown,CO0110015,NaN,Municipality,Clear Creek,1,,
-Gilcrest,29955,62020,Gilcrest,CO0162310,NaN,Municipality,Weld,1,Not in the original BNDSS list,
-"Glendale, City of",30340,3043,Glendale,CO0103055,NaN,Municipality,Arapahoe,1,,
-"Glenwood Springs, City of",30780,23008,GlenwoodSpgs,CO0123314,NaN,Municipality,Garfield,1,,
-"Golden, Public Works, City of",30835,30035,Golden,CO0130040,NaN,Municipality,Jefferson,1,,
-Granada,31550,50007,Granada,CO0150300,NaN,Municipality,Prowers,1,Not in the original BNDSS list,
-"Granby, Town of",31605,25008,Granby,CO0125321,NaN,Municipality,Grand,1,,
-"Grand Junction, City of",31660,39020,GrandJunction,CO0139321,NaN,Municipality,Mesa,1,,
-"Grand Lake, Town of",31715,25014,GrandLake,CO0125322,NaN,Municipality,Grand,1,,
-Grand Mesa Metropolitan District No. 2,NaN,39048,PowderhornMD,NaN,NaN,Metropolitan District,Mesa,1,Formerly known as Powderhorn Metropolitan District,
-Grandview Estates Rural Water Conservation District,NaN,65674,GrandviewEstatesRuralWCD,NaN,NaN,Water Conservancy District,Douglas,1,,
-Grant Water and Sanitation District,NaN,64062,GrantWSD,NaN,NaN,Water and Sanitation District,Multiple,2,Not in the Covered Entities database,
-"Greeley, City of",32155,62022,Greeley,CO0162321,NaN,Municipality,Weld,1,,
-"Green Mountain Falls, Town of",32650,64070,GreenMtnFalls,CO0052076,NaN,Municipality,Multiple,2,,
-Green Mountain Water and Sanitation District,NaN,30037,GreenMtnWSD,CO0130321,NaN,Water and Sanitation District,Jefferson,1,,
-"Greenwood Village, City of",33035,3051,GreenwoodVlg,CO0073817,NaN,Municipality,Arapahoe,1,,
-Groundwater Association of South Platte,NaN,NaN,GrdwtrAssSPlatte,NaN,NaN,Private,Unknown,1,Not sure exists; can't find any information,
-"Grover, Town of",33310,62023,Grover,CO0162322,NaN,Municipality,Weld,1,Not in the original BNDSS list,
-"Gunnison, Town of",33640,26008,Gunnison,CO0126325,NaN,Municipality,Gunnison,1,,
-"Gypsum, Town of",33695,19020,Gypsum,CO0119329,NaN,Municipality,Eagle,1,,
-Hamilton,NaN,NaN,Hamilton,NaN,NaN,Unincorporated community,Moffat,1,Not in the original BNDSS list,
-Hamilton Creek Metropolitan District,NaN,59030,HamiltonCrkMD,CO0159063,NaN,Metropolitan District,Summit,1,,
-Hancock Water Company,NaN,NaN,HancockWC,CO0145240,NaN,Private,Otero,1,Not in the Covered Entities database,
-Hartman,34520,50008,Hartman,CO0150500,NaN,Municipality,Prowers,1,Not in the original BNDSS list,
-Hasty Water Company,NaN,NaN,HastyWC,CO0106200,19871165883,Private,Bent,1,Not in the Covered Entities database,
-Haswell,34740,31003,Haswell,CO0131600,NaN,Municipality,Kiowa,1,Not in the original BNDSS list,
-Havana Water and Sanitation District,NaN,3052,HavanaWSD,CO0116333,NaN,Water and Sanitation District,Arapahoe,1,Not in the Covered Entities database,
-Haxtun,34960,48004,Haxtun,CO0148001,NaN,Municipality,Phillips,1,Not in the original BNDSS list,
-"Hayden, Town of",35070,54005,Hayden,CO0154333,NaN,Municipality,Routt,1,,
-Heather Gardens Metropolitan District,NaN,3024,HthrGrdnsMD,NaN,NaN,Metropolitan District,Arapahoe,1,,
-Heritage Hills Metropolitan District,NaN,18105,HeritageHillsMD,NaN,NaN,Metropolitan District,Douglas,1,Not in the original BNDSS list,
-High View Water District,NaN,30038,HighViewWD,CO0130344,NaN,Water District,Jefferson,1,Not in the Covered Entities database,
-Highlands Ranch Metropolitan District,NaN,65783,HighlandsRanchMD,NaN,NaN,Metropolitan District,Douglas,1,,
-Hi-Lin Water and Sanitation District,NaN,3054,HiLinWSD,CO0116343,NaN,Water and Sanitation District,Arapahoe,1,Not in the Covered Entities database,
-Hillcrest Water and Sanitation District,NaN,3055,HillcrestWSD,CO0103345,NaN,Water and Sanitation District,Arapahoe,1,,
-Hillrose,36610,44007,Hillrose,CO0144010,NaN,Municipality,Morgan,1,Not in the original BNDSS list,
-Hilltop Water Company,NaN,NaN,HilltopWC,CO0145300,19871039460,Private,Otero,1,Not in the Covered Entities database,
-Hinsdale City Planning Commission,NaN,NaN,HinsdalePlngCom,NaN,NaN,County government,Hinsdale,1,,
-Hinsdale County,NaN,NaN,HinsdaleCo,NaN,NaN,County government,Hinsdale,1,Not in the Covered Entities database,
-Holbrook Center Soft Water,NaN,NaN,Holbrook,CO0145330,20031298976,Private,Otero,1,Not in the Covered Entities database,
-Holly,37215,50011,Holly,CO0150600,NaN,Municipality,Prowers,1,Not in the original BNDSS list,
-Holly Hills Water and Sanitation District,NaN,64077,HollyHlsWSD,CO0116352,NaN,Water and Sanitation District,Multiple,2,Not in the Covered Entities database,
-"Holyoke, City of",37270,48005,Holyoke,CO0148005,NaN,Municipality,Phillips,1,,
-Homestead Improvement Association,NaN,NaN,HomesteadIA,CO0145360,19871507652,Private,Otero,1,Not in the Covered Entities database,
-Homestead Water Company,NaN,NaN,HomesteadWC,CO0130050,20141696765,Private,Jefferson,1,Not in the Covered Entities database; dissolved in December 2014,
-Hooper,37380,2005,Hooper,NaN,NaN,Municipality,Alamosa,1,Not in the original BNDSS list,
-"Hot Sulphur Springs, Town of",37545,25015,HotSulphurSpgs,CO0125352,NaN,Municipality,Delta,1,,
-"Hotchkiss, Town of",37600,15020,Hotchkiss,CO0115352,NaN,Municipality,Grand,1,,
-"Hudson, Town of",37820,62029,Hudson,CO0162359,NaN,Municipality,Weld,1,,
-"Hugo, Town of",37875,37006,Hugo,CO0137010,NaN,Municipality,Lincoln,1,,
-"Idaho Springs Public Works, City of",38370,10008,IdahoSpgs,CO0110020,NaN,Municipality,Clear Creek,1,,
-Idledale Water and Sanitation District,NaN,30041,IdledaleWSD,CO0130055,NaN,Water and Sanitation District,Jefferson,1,,
-"Ignacio, Town of",38535,34015,Ignacio,CO0134500,NaN,Municipality,La Plata,1,,
-Iliff,38590,38007,Iliff,CO0138015,NaN,Municipality,Logan,1,Not in the original BNDSS list,
-Inverness Water and Sanitation District,NaN,64080,InvernessWSD,CO0203012,NaN,Water and Sanitation District,Multiple,2,,
-"Jamestown, Town of",39195,7018,Jamestown,CO0107401,NaN,Municipality,Boulder,1,,
-Johnstown Water-Sewer Trash,39855,64266,JohnstownWST,CO0162418,NaN,Municipality,Multiple,2,,
-Julesburg,39965,58004,Julesburg,CO0158001,NaN,Municipality,Sedgwick,1,Not in the original BNDSS list,
-"Keenesburg, Town of",40185,62033,Keenesburg,CO0162438,NaN,Municipality,Weld,1,,
-Ken-Caryl Ranch Water and Sanitation District,NaN,30049,KenCarylWS,CO0103075,NaN,Water and Sanitation District,Jefferson,1,,
-"Kersey, Town of",40515,62035,Kersey,CO0055558,NaN,Municipality,Weld,1,,
-Kim,40570,36005,Kim,CO0136400,NaN,Municipality,Las Animas,1,Not in the original BNDSS list,
-"Kiowa, Town of",40790,20005,Kiowa,CO0120015,NaN,Municipality,Elbert,1,,
-Kit Carson,41010,9013,KitCarson,CO0109011,NaN,Municipality,Cheyenne,1,Not in the original BNDSS list,
-"Kremmling, Town of",41560,25018,Kremmling,CO0125455,NaN,Municipality,Grand,1,,
-La Jara,42055,11009,LaJara,CO0111600,NaN,Municipality,Conejos,1,Not in the original BNDSS list,
-"La Junta, City of",42110,45007,LaJunta,CO0145420,NaN,Municipality,Otero,1,,
-La Plata Archuleta Water District,NaN,65987,LaPlataArchWD,CO0134191,NaN,Water District,La Plata,1,Not in the Covered Entities database,
-La Plata West Water Authority,NaN,65949,LaPlataWestWA,NaN,NaN,Water Authority,La Plata,1,Not in the Covered Entities database,
-La Salle,43605,62037,LaSalle,CO0162466,NaN,Municipality,Weld,1,Not in the original BNDSS list,
-"La Veta, Town of",44100,28007,LaVeta,CO0128500,NaN,Municipality,Huerfano,1,,
-"Lafayette, City of",41835,7020,Lafayette,CO0107473,NaN,Municipality,Boulder,1,,
-"Lake City, Town of",42330,27005,LakeCity,CO0127467,NaN,Municipality,Hinsdale,1,,
-Lake Creek Metropolitan District,NaN,19021,LakeCreekMD,NaN,NaN,Metropolitan District,Eagle,1,Not in the original BNDSS list,
-Lakehurst Water and Sanitation District,NaN,64082,LakehurstWSD,CO0130466,NaN,Water and Sanitation District,Multiple,2,,
-Lakeside,42495,30053,Lakeside,NaN,NaN,Municipality,Jefferson,1,Not in the original BNDSS list,
-"Lakewood, City of",43000,30055,Lakewood,CO0130467,NaN,Municipality,Jefferson,1,,
-"Lakewood/Fox Hollow Golf Course, City of",NaN,NaN,LakeWdFoxHGC,NaN,NaN,Local government,Jefferson,1,,
-"Lamar, Town of",43110,50012,Lamar,CO0150700,NaN,Municipality,Prowers,1,,
-Larkspur,43550,18021,Larkspur,CO0118030,NaN,Municipality,Douglas,1,Not in the original BNDSS list,
-"Las Animas, City of",43660,6005,LasAnimas,CO0106300,NaN,Municipality,Bent,1,,
-Leadville,44320,33004,Leadville,NaN,NaN,Municipality,Lake,1,Not in the original BNDSS list,
-Lefthand Water District,NaN,64194,LHWD,CO0107471,NaN,Water District,Multiple,3,,
-"Limon, Town of",44980,37007,Limon,CO0137015,NaN,Municipality,Lincoln,1,,
-Little Thompson Water District,NaN,64083,LTWD,CO0135477,NaN,Water District,Multiple,3,,
-"Littleton, City of",45255,64085,Littleton,CO0103476,NaN,Municipality,Multiple,3,,
-"Lochbuie, Town of",45530,62038,Lochbuie,CO0162486,NaN,Municipality,Multiple,2,,
-Lochmoor Water and Sanitation District,NaN,64086,LochmoorWSD,CO0116485,NaN,Water and Sanitation District,Multiple,2,Not in the Covered Entities database,
-"Log Lane Village, Town of",45695,44009,LogLaneVlg,CO0144015,NaN,Municipality,Morgan,1,,
-Lone Tree,45955,18104,LoneTree,NaN,NaN,Municipality,Douglas,1,Not in the original BNDSS list,
-"Longmont, City of",45970,64205,Longmont,CO0107485,NaN,Municipality,Multiple,2,,
-Longs Peak Water District,NaN,64206,LongsPeakWD,CO0107486,NaN,Water District,Multiple,2,Not in the original BNDSS list,
-Lookout Mountain Water District,NaN,64261,LookoutMtnWD,CO0110026,NaN,Water District,Multiple,2,Not in the Covered Entities database,
-Loretto Heights,NaN,NaN,LorettoWS,CO0103486,NaN,Unknown,Arapahoe,1,Not in the Covered Entities database,
-"Louisville, City of",46355,7029,Louisville,CO0107487,NaN,Municipality,Boulder,1,,
-"Loveland, City of",46465,35026,Loveland,CO0135485,NaN,Municipality,Larimer,1,,
-"Lyons, Town of",47070,7032,Lyons,CO0107496,NaN,Municipality,Boulder,1,,
-Manassa,48060,11010,Manassa,CO0111700,NaN,Municipality,Conejos,1,Not in the original BNDSS list,
-"Mancos, Town of",48115,42016,Mancos,CO0142700,NaN,Municipality,Montezuma,1,,
-"Manitou Springs, City of",48445,21030,ManitouSpgs,CO0121450,NaN,Municipality,El Paso,1,,
-Mansfield Heights Water and Sanitation District,NaN,3057,MansfieldHtsWSD,CO0103500,NaN,Water and Sanitation District,Arapahoe,1,Not in the Covered Entities database,
-"Manzanola, Town of",48500,45009,Manzanola,CO0145450,NaN,Municipality,Otero,1,,
-Marble,48555,26010,Marble,NaN,NaN,Municipality,Gunnison,1,Not in the original BNDSS list,
-May Valley Water Association,NaN,NaN,MayValleyWAS,CO0150800,19871166887,Private,Prowers,1,Not in the Covered Entities database,
-McClave Water Association,NaN,NaN,McClaveWAS,CO0106500,19871178254,Private,Bent,1,Not in the Covered Entities database,
-Mead,49600,62040,Mead,CO0162500,NaN,Municipality,Weld,1,Not in the original BNDSS list,
-Meadowbrook Water District,NaN,30061,MeadowbrookWS,CO0130500,NaN,Water District,Jefferson,1,Not in the Covered Entities database,
-"Meeker, Town of",49875,52007,Meeker,CO0152505,NaN,Municipality,Rio Blanco,1,,
-Menoken Water District,NaN,43024,MenokenWD,CO0143506,NaN,Water District,Montrose,1,,
-Meridian Metropolitan District,NaN,18022,MeridianMD,CO0218015,NaN,Metropolitan District,Douglas,1,,
-Meridian Ranch Water and Sanitation District,NaN,21106,MeridianRanchWSD,CO0121455,NaN,Metropolitan District,El Paso,1,,
-Merino,50040,38011,Merino,CO0138025,NaN,Municipality,Logan,1,Not in the original BNDSS list,
-Mesa Cortina Water and Sanitation District,NaN,65084,MesaCortinaWSD,CO0159080,NaN,Water and Sanitation District,Summit,1,,
-Mesa View Water District,NaN,52008,MesaViewWD,NaN,NaN,Water District,Rio Blanco,1,,
-Mesa Water and Sanitation District,NaN,39026,MesaWSD,CO0139505,NaN,Water and Sanitation District,Mesa,1,Not in the original BNDSS list,
-"Mesa, Community of",NaN,NaN,Mesa,,NaN,Unincorporated community,Mesa,1,Not in the Covered Entities database,
-Mid Valley Metropolitan District,NaN,64211,MidVlyMD,CO0119508,NaN,Metropolitan District,Multiple,2,,
-"Milliken, Town of",50480,62043,Milliken,CO0162511,NaN,Municipality,Weld,1,,
-Miners Mesa Residential Metropolitan District,NaN,24010,MinersMesaResMD,NaN,NaN,Metropolitan District,Gilpin,1,,
-Minturn,50920,19024,Minturn,CO0119510,NaN,Municipality,Eagle,1,Not in the original BNDSS list,
-Moffat,51250,55005,Moffat,NaN,NaN,Municipality,Saguache,1,Not in the original BNDSS list,
-"Monte Vista, City of",51635,53005,MonteVista,CO0153600,NaN,Municipality,Rio Grande,1,,
-Montezuma,51690,59028,Montezuma,NaN,NaN,Municipality,Summit,1,Not in the original BNDSS list,
-Montezuma County Water District 1,NaN,42019,MontezumaCountyWD1,CO0142800,NaN,Water District,Montezuma,1,,
-Montezuma Water Company,NaN,NaN,MontezumaWC,CO0142900,19871176663,Private,Montezuma,1,Not in the Covered Entities database,
-"Montrose, City of",51745,43004,Montrose,CO0143518,NaN,Municipality,Montrose,1,,
-"Monument, Water Department, Town of",51800,21032,Monument,CO0121475,NaN,Municipality,El Paso,1,,
-Morgan County Quality Water District,NaN,64094,MCQWD,CO0144020,NaN,Water District,Multiple,2,,
-Morrison Creek Water and Sanitation District,NaN,54006,MorrisonCrkWSD,CO0154518,NaN,Water and Sanitation District,Routt,1,,
-"Morrison, Town of",52075,30065,Morrison,CO0130085,NaN,Municipality,Jefferson,1,,
-Mount Werner Water and Sanitation District,NaN,54007,MtWernerWSD,CO0154524,NaN,Water and Sanitation District,Routt,1,,
-"Mountain View, Town of",52550,57027,MtnView,CO0130518,NaN,Municipality,San Miguel,1,,
-Mountain Village,52550,57027,MtnVillage,CO0157400,NaN,Municipality,San Miguel,1,Not in the original BNDSS list,
-Mountain Water and Sanitation District,NaN,64095,MtnWSD,CO0130100,NaN,Water and Sanitation District,Multiple,3,,
-Mt Crested Butte Water and Sanitation District,NaN,26003,MtCrestedButteWSD,CO0126190,NaN,Water and Sanitation District,Gunnison,1,,
-"Mt Crested Butte, Town of",52350,30067,MtCrestedButte,NaN,NaN,Municipality,Jefferson,1,Not in the Covered Entities database,
-Mt Vernon Country Club Metropolitan District,NaN,30124,MtVernonCCWS,CO0130090,NaN,Metropolitan District,Jefferson,1,Not in the Covered Entities database,
-Mustang Water Authority,NaN,65050,MustangWA,CO0143525,NaN,Water Authority,Montrose,1,Not in the original BNDSS list,
-Naturita,53120,43005,Naturita,CO0143533,NaN,Municipality,Montrose,1,Not in the original BNDSS list,
-Navajo Western Water District,NaN,28008,NavajoWesternWD,CO0128625,NaN,Water District,Huerfano,1,,
-Nederland,53175,7033,Nederland,CO0107538,NaN,Municipality,Boulder,1,Not in the original BNDSS list,
-"New Castle, Town of",53395,23012,NewCastle,CO0123538,NaN,Municipality,Garfield,1,,
-Newdale-Grand Valley Water Company,NaN,NaN,NewdaleGrandValleyWC,CO0145480,19871171775,Private,Otero,1,Not in the Covered Entities database,
-North Carter Lake Water District,NaN,35029,NCarterLakeWD,CO0135553,NaN,Water District,Larimer,1,,
-North Holbrook Water Company,NaN,NaN,NHolbrook,CO0145630,19911046735,Private,Otero,1,Not in the Covered Entities database,
-North Lincoln Water and Sanitation District,NaN,1015,NLincolnWSD,CO0116552,NaN,Water and Sanitation District,Adams,1,Not in the Covered Entities database,
-North Pecos Water and Sanitation District,NaN,64100,NPecosWSD,CO0116553,NaN,Water and Sanitation District,Multiple,2,,
-North Range Metropolitan District,NaN,1096,NRangeMD,NaN,NaN,Metropolitan District,Adams,1,Has split into multiple metropolitan districts; unsure of which LocalGovtID to use so will use District #1's ID,
-North Table Mountain Water and Sanitation District,NaN,30070,NTableMtnWSD,CO0130105,NaN,Water and Sanitation District,Jefferson,1,Not in the original BNDSS list,
-North Washington Street Water and Sanitation District,NaN,64102,NWashingtonStreetWSD,CO0101105,NaN,Water and Sanitation District,Multiple,2,,
-North Weld County Water District,NaN,64103,NWCWD,CO0162553,NaN,Water District,Multiple,2,,
-Northern Colorado Water Conservancy District,NaN,64105,NCWCD,NaN,NaN,Water Conservancy District,Multiple,8,Not in the Covered Entities database,
-Northern Douglas County Water and Sanitation District,NaN,18015,NDouglasCoWSD,CO0118016,NaN,Water and Sanitation District,Douglas,1,,
-Northgate Water District,NaN,1017,NorthgateWD,CO0101106,NaN,Water District,Adams,1,,
-"Northglenn, City of",54330,64198,Northglenn,CO0101115,NaN,Municipality,Multiple,2,,
-"Norwood, Town of",54880,57007,Norwood,CO0157500,NaN,Municipality,San Miguel,1,,
-"Nucla, Town of",54935,43007,Nucla,CO0143559,NaN,Municipality,Montrose,1,,
-Nunn,55045,62045,Nunn,CO0162559,NaN,Municipality,Weld,1,Not in the original BNDSS list,
-"Oak Creek Public Works, Town of",55155,54010,OakCrk,CO0154566,NaN,Municipality,Routt,1,,
-"Olathe, Town of",55540,43012,Olathe,CO0143582,NaN,Municipality,Montrose,1,,
-"Olney Springs, Town of",55705,13004,OlneySpgs,CO0113500,NaN,Municipality,Crowley,1,,
-Ophir,55870,57008,Ophir,CO0157600,NaN,Municipality,San Miguel,1,Not in the original BNDSS list,
-"Orchard City, Town of",55980,15022,OrchardCity,CO0115588,NaN,Municipality,Delta,1,,
-"Ordway, Town of",56145,13006,Ordway,CO0113700,NaN,Municipality,Crowley,1,,
-Other in Bent Co,NaN,NaN,BentCountyOther,NaN,NaN,County government,Bent,1,Not in the Covered Entities database,
-Other in Otero Co,NaN,NaN,OteroCountyOther,NaN,NaN,County government,Otero,1,Not in the Covered Entities database,
-Other in Prowers Co,NaN,NaN,ProwersCountyOther,NaN,NaN,County government,Prowers,1,Not in the Covered Entities database,
-"Otis, Town of",56365,61006,Otis,CO0161010,NaN,Municipality,Washington,1,,
-"Ouray Public Works, City of",56420,46007,Ouray,CO0146588,NaN,Municipality,Ouray,1,,
-"Ovid, Town of",56475,58007,Ovid,CO0158005,NaN,Municipality,Sedgwick,1,,
-Pagosa Area Water and Sanitation District,NaN,4003,PagosaAreaWSD,CO0104300,NaN,Water and Sanitation District,Archuleta,1,,
-"Pagosa Springs, Town of",56860,4006,PagosaSpgs,NaN,NaN,Municipality,Archuleta,1,,
-Paint Brush Hills Metropolitan District,NaN,21074,PaintBrushHlsMD,CO0221690,NaN,Metropolitan District,El Paso,1,Not in the Covered Entities database,
-"Palisade, Town of",56970,39034,Palisade,CO0139600,NaN,Municipality,Mesa,1,,
-"Palmer Lake, Town of",57025,21034,PalmerLake,CO0121575,NaN,Municipality,El Paso,1,,
-Panorama Improvement District,NaN,39035,PanoramaImpD,NaN,NaN,Metropolitan District,Mesa,1,,
-Panorama Park Mutual Water Association,NaN,NaN,PanoramaParkWS,CO0054916,19871177443,Private,Arapahoe,1,Not in the Covered Entities database; dissolved in November 2001,
-Paoli,57245,48006,Paoli,CO0148010,NaN,Municipality,Phillips,1,Not in the original BNDSS list,
-"Paonia, Town of",57300,15025,Paonia,CO0115601,NaN,Municipality,Delta,1,,
-Parachute,57400,23013,Parachute,CO0123602,NaN,Municipality,Garfield,1,Not in the original BNDSS list,
-Park Center Water District,NaN,22016,ParkCntrWD,CO0122600,NaN,Water District,Fremont,1,,
-Park Forest Water District,NaN,21035,ParkForestWD,CO0000685,NaN,Water District,El Paso,1,,
-Parkdale Water,NaN,NaN,ParkdaleWS,CO0145510,19871171611,Private,Otero,1,Not in the Covered Entities database; dissolved in January 2004,
-Parker Water and Sanitation District,NaN,18027,ParkerWSD,CO0118040,NaN,Water and Sanitation District,Douglas,1,,
-Parkville Water District,NaN,33005,ParkvilleWD,CO0133700,NaN,Water District,Lake,1,Not in the original BNDSS list,
-Patterson Valley Water Company,NaN,NaN,PattersonValleyWS,CO0145540,19871155183,Private,Otero,1,Not in the Covered Entities database,
-"Peetz, Town of",58235,38016,Peetz,CO0138030,NaN,Municipality,Logan,1,,
-Penrose Water District,NaN,22017,Penrose,CO0122700,NaN,Water District,Fremont,1,,
-Perry Park Water and Sanitation District,NaN,18030,PerryParkWSD,CO0118045,NaN,Water and Sanitation District,Douglas,1,,
-Phippsburg,NaN,NaN,Phippsburg,CO0154609,NaN,Census-designated Place,Routt,1,,
-Piedra Park Metropolitan Improvement District,NaN,4007,PiedraParkMImpD,CO0104700,NaN,Metropolitan District,Archuleta,1,,
-Pierce,59005,62046,Pierce,CO0162610,NaN,Municipality,Weld,1,Not in the original BNDSS list,
-Pine Brook Water District,NaN,7037,PineBrookWD,CO0107610,NaN,Water District,Boulder,1,,
-Pine Drive Water District,NaN,51008,PineDrWD,CO0151450,NaN,Water District,Pueblo,1,,
-Pinery Water and Wastewater District,NaN,NaN,PineryWD,CO0118025,NaN,Water District,Douglas,1,Not in the original BNDSS list,
-Pinewood Springs Water District,NaN,35034,PinewoodSpgsWD,CO0135610,NaN,Water District,Larimer,1,,
-Pioneer Lookout Water District,NaN,21083,PioneerLookoutWD,CO0121625,NaN,Water District,El Paso,1,,
-Pitkin,59830,26012,Pitkin,NaN,NaN,Municipality,Gunnison,1,Not in the original BNDSS list,
-Platte Canyon Water and Sanitation District,NaN,64110,PlatteCanyonWSD,CO0103614,NaN,Water and Sanitation District,Multiple,2,,
-"Platteville, Town of",60160,62050,Platteville,CO0162615,NaN,Municipality,Weld,1,,
-Pleasant View Water and Sanitation District,NaN,30076,PleasantViewWSD,CO0054379,NaN,Water and Sanitation District,Jefferson,1,,
-"Poncha Springs, Town of",60600,8006,PonchaSpgs,CO0108650,NaN,Municipality,Chaffee,1,,
-Pritchett,61315,5006,Pritchett,CO0105300,NaN,Municipality,Baca,1,Not in the original BNDSS list,
-Pueblo West Metropolitan District,NaN,51015,PuebloWMD,CO0151650,NaN,Metropolitan District,Pueblo,1,,
-Purgatory Metropolitan District,NaN,34024,PurgatoryMD,CO0134750,NaN,Metropolitan District,La Plata,1,,
-Ramah,62660,21036,Ramah,CO0121675,NaN,Municipality,El Paso,1,Not in the original BNDSS list,
-Rampart Range Metropolitan District,NaN,18125,RampartRangeMD,NaN,NaN,Metropolitan District,Douglas,1,Has split into multiple metropolitan districts; unsure of which LocalGovtID to use so will use District #1's ID,
-"Rangely, Town of",62880,52015,Rangely,CO0152666,NaN,Municipality,Rio Blanco,1,,
-Rangeview Metropolitan District,NaN,3110,RangeviewMD,CO0103666,NaN,Metropolitan District,Arapahoe,1,,
-Ravenna Metropolitan District,NaN,65239,RavennaMD,CO0118665,NaN,Metropolitan District,Douglas,1,Not in the original BNDSS list,
-Raymer,63045,62051,Raymer,CO0162666,NaN,Municipality,Weld,1,Not in the original BNDSS list,
-Red Cliff,63265,19026,RedCliff,CO0119671,NaN,Municipality,Eagle,1,Not in the original BNDSS list,
-Redstone Water and Sanitation District,NaN,49026,RedstoneWSD,CO0149671,NaN,Water and Sanitation District,Pitkin,1,,
-"Rico, Town of",64090,17007,Rico,CO0117700,NaN,Municipality,Dolores,1,,
-Ridgewood Water District,NaN,60007,RidgewoodWD,CO0160400,NaN,Water District,Teller,1,,
-"Ridgway, Town of",64200,46009,Ridgway,CO0146676,NaN,Municipality,Ouray,1,,
-"Rifle, City of",64255,23017,Rifle,CO0123676,NaN,Municipality,Garfield,1,,
-Riverbend Subdivision Homeowner's Association Inc.,NaN,NaN,RiverbendSubdv,NaN,19891083570,Private,Gunnison,1,Not in the original BNDSS list,
-Roaring Fork Water and Sanitation District,NaN,23034,RoaringForkWSD,CO0123125,NaN,Water and Sanitation District,Garfield,1,Not in the Covered Entities database,
-Rockvale,64970,22018,Rockvale,CO0122800,NaN,Municipality,Fremont,1,Not in the original BNDSS list,
-"Rocky Ford, City of",65190,45014,RockyFord,CO0145600,NaN,Municipality,Otero,1,,
-Romeo,65740,11013,Romeo,CO0111800,NaN,Municipality,Conejos,1,Not in the original BNDSS list,
-Round Mountain Water and Sanitation District,NaN,14003,RoundMtnWSD,CO0114500,NaN,Water and Sanitation District,Custer,1,,
-Roxborough Park Metropolitan District,NaN,NaN,RoxboroughParkMD,NaN,NaN,Metropolitan District,Douglas,1,"Not in the Covered Entities database; not sure if still exists, may be Roxborough Village Metro District",
-Roxborough Water and Sanitation District,NaN,18031,RoxboroughWSD,CO0118055,NaN,Water and Sanitation District,Multiple,2,,
-Rye,66895,51018,Rye,CO0151700,NaN,Municipality,Pueblo,1,Not in the original BNDSS list,
-Saguache,67005,55008,Saguache,CO0155800,NaN,Municipality,Saguache,1,Not in the original BNDSS list,
-"Salida, City of",67280,8007,Salida,CO0108700,NaN,Municipality,Chaffee,1,,
-San Juan River Village Metropolitan District,NaN,4014,SanJuanRiverVlgMD,CO0104900,NaN,Metropolitan District,Archuleta,1,,
-San Luis,68105,11016,SanLuis,NaN,NaN,Municipality,Costilla,1,Not in the original BNDSS list,
-San Luis Water and Sanitation District,NaN,12008,SanLuisWSD,CO0112900,NaN,Water and Sanitation District,Costilla,1,,
-Sand Creek Metropolitan District,NaN,64221,SandCreekMD,NaN,NaN,Metropolitan District,Multiple,2,,
-"Sanford, Town of",67830,12009,Sanford,CO0111900,NaN,Municipality,Conejos,1,,
-Sawpit,68655,57017,Sawpit,CO0157700,NaN,Municipality,San Miguel,1,Not in the original BNDSS list,
-Security Water and Sanitation District,NaN,21040,SecurityWSD,CO0121775,NaN,Water District,El Paso,1,,
-Sedalia Water and Sanitation District,NaN,18038,SedaliaWSD,CO0118060,NaN,Water and Sanitation District,Douglas,1,,
-Sedgwick,68930,58012,Sedgwick,CO0158010,NaN,Municipality,Sedgwick,1,Not in the original BNDSS list,
-Seibert,69040,32015,Seibert,CO0132015,NaN,Municipality,Kit Carson,1,Not in the original BNDSS list,
-"Severance, Town of",69150,62053,Severance,CO0162707,NaN,Municipality,Weld,1,,
-Sheridan,69645,31008,SheridanWS,CO0103709,NaN,Municipality,Arapahoe,1,Not in the Covered Entities database,
-Sheridan Lake,69700,3065,SheridanLake,NaN,NaN,Municipality,Kiowa,1,Not in the original BNDSS list,
-Sheridan Sanitation District,NaN,3063,SheridanSD1,NaN,NaN,Sanitation District,Arapahoe,1,,
-Sheridan Sanitation District 2,NaN,3064,SheridanSD2,NaN,NaN,Sanitation District,Multiple,2,Not in the original BNDSS list,
-Sierra Vista Douglas Mutual Water Company,NaN,NaN,SierraVistaDouglasMWC,NaN,19881076499,Private,Douglas,1,,
-"Silt, Town of",70195,23019,Silt,CO0123710,NaN,Municipality,Garfield,1,,
-Silver Cliff,70250,14004,SilverCliff,NaN,NaN,Municipality,Custer,1,Not in the original BNDSS list,
-Silver Heights Water and Sanitation District,NaN,18032,SilverHtsWSD,CO0118075,NaN,Water and Sanitation District,Douglas,1,,
-Silver Plume,70360,10009,SilverPlume,CO0110035,NaN,Municipality,Clear Creek,1,Not in the original BNDSS list,
-Silverthorne,70525,59018,SilverthorneWS,CO0159095,NaN,Municipality,Summit,1,Not in the Covered Entities database,
-Silverton,70580,56002,Silverton,CO0156600,NaN,Municipality,San Juan,1,Not in the original BNDSS list,
-Simla,70635,20006,Simla,CO0120025,NaN,Municipality,Elbert,1,Not in the original BNDSS list,
-Snake River Water District,NaN,59026,SnakeRiverWD,CO0159105,NaN,Water District,Summit,1,,
-Snowmass Village,71755,49012,SnowmassVillage,NaN,NaN,Municipality,Pitkin,1,Not in the original BNDSS list,
-South Adams County Water and Sanitation District,NaN,1021,SAdamsCoWSD,CO0101140,NaN,Water and Sanitation District,Adams,1,,
-South Fork,72395,53013,SouthFork,NaN,NaN,Municipality,Rio Grande,1,Not in the original BNDSS list,
-"South Sheridan Water, Sanitary Sewer and Storm Drainage District",NaN,30079,SSheridanMD,CO0130718,NaN,Metropolitan District,Jefferson,1,Not in the Covered Entities database,
-South Side Water Association,NaN,NaN,SouthSideLaJuntaWAS,CO0145660,19871133400,Private,Otero,1,Not in the Covered Entities database,
-South Swink Water Company,NaN,NaN,SouthSwinkWC,CO0145690,19871142703,Private,Otero,1,Not in the Covered Entities database,
-South University Place Water District,NaN,NaN,SouthUniversityWS,CO0103719,NaN,Water District,Arapahoe,1,Not in the Covered Entities database,
-Southeast Englewood Water District,NaN,3072,SoutheastEnglewoodWS,CO0103720,NaN,Water District,Arapahoe,1,,
-Southeastern Colorado Water Conservancy District,NaN,64128,SECWCD,NaN,NaN,Water Conservancy District,Multiple,9,Not in the Covered Entities database,
-Southgate Water and Sanitation District,NaN,64130,SouthgateWD,CO0103721,NaN,Water District,Multiple,3,,
-Southwest Cherry Hills Water District,NaN,NaN,SouthwestCherryHillsWS,CO0103722,NaN,Water District,Arapahoe,1,Not in the Covered Entities database,
-Southwest Metropolitan Water and Sanitation District,NaN,64131,SouthwestMetro,CO0103723,NaN,Water and Sanitation District,Multiple,3,,
-Southwest Suburban Denver Water and Sanitation District,NaN,30081,SouthwestSuburbanWSD,CO0130724,NaN,Water and Sanitation District,Jefferson,1,Not in the Covered Entities database,
-"Springfield, Town of",73330,5011,Springfield,CO0105500,NaN,Municipality,Baca,1,,
-St Charles Mesa Water District,NaN,51028,StCharlesMesaWD,CO0151750,NaN,Water District,Pueblo,1,,
-St Mary's Glacier Water and Sanitation District,NaN,10011,StMarysGlacierWSD,CO0110040,NaN,Water and Sanitation District,Clear Creek,1,Not in the Covered Entities database,
-Starkville,73715,36010,Starkville,CO0136724,NaN,Municipality,Las Animas,1,Not in the original BNDSS list,
-Steamboat II Metropolitan District,NaN,54017,Steamboat2MD,CO0154724,NaN,Metropolitan District,Routt,1,,
-"Steamboat Springs, City of",73825,54023,SteamboatSpgs,CO0154725,NaN,Municipality,Routt,1,,
-"Sterling, City of",73935,38019,Sterling,CO0138045,NaN,Municipality,Logan,1,,
-Stonegate Village Metropolitan District,NaN,18043,StonegateVlgMD,CO0118076,NaN,Metropolitan District,Douglas,1,Not in the Covered Entities database,
-Stratmoor Hills Water and Sanitation Districts,NaN,21045,StratmoorHlsWD,CO0121800,NaN,Water District,El Paso,1,,
-Stratton,74485,32020,Stratton,CO0132020,NaN,Municipality,Kit Carson,1,Not in the original BNDSS list,
-"Sugar City, Town of",74815,13007,SugarCity,CO0113900,NaN,Municipality,Crowley,1,,
-Summit Ridge Water District,NaN,NaN,SummitRidgeWD,CO0142950,NaN,Water District,Montezuma,1,,
-Sunset Metropolitan District/PP Water Company,NaN,21066,SunsetMDPPWC,NaN,NaN,Metropolitan District,El Paso,1,Not in the Covered Entities database,
-Sunset Water District,NaN,35042,SunsetWD,CO0135726,NaN,Water District,Larimer,1,,
-"Superior, Town of",75640,64183,Superior,NaN,NaN,Municipality,Multiple,2,,
-Superior/McCaslin Interchange Metropolitan District,NaN,7074,SupMcInterchangeMD,NaN,NaN,Metropolitan District,Boulder,1,Not in the Covered Entities database,
-"Swink, Town of",75970,45015,Swink,CO0145720,NaN,Municipality,Otero,1,,
-Teller County Water and Sanitation District,NaN,60011,TellerCoWD,CO0160600,NaN,Water and Sanitation District,Teller,1,,
-"Telluride, Town of",76795,57014,Telluride,CO0157800,NaN,Municipality,San Miguel,1,,
-"Thornton, City of",77290,64264,Thornton,CO0101150,NaN,Municipality,Multiple,2,,
-Thunderbird Water and Sanitation District,NaN,18033,ThunderbirdWSD,CO0118078,NaN,Water and Sanitation District,Douglas,1,Not in the original BNDSS list,
-Timnath,77510,35044,Timnath,CO0055699,NaN,Municipality,Larimer,1,Not in the original BNDSS list,
-"Titan Road Industrial Park Water Association, Inc",NaN,NaN,TitanRdIndstrlParkWA,CO0218031,19891074339,Private,Douglas,1,,
-Tri-County Water Conservation District,NaN,64138,Tri-County,CO0143755,NaN,Water Conservancy District,Multiple,3,,
-"Trinidad, City of",78610,36011,Trinidad,CO0136800,NaN,Municipality,Las Animas,1,,
-Triview Metropolitan District,NaN,21061,TriviewMD,CO0121840,NaN,Metropolitan District,El Paso,1,,
-Two Buttes,79270,5016,TwoButtes,CO0105700,NaN,Municipality,Baca,1,Not in the original BNDSS list,
-Uncompahgre Valley Water Association: East Mesa,NaN,NaN,UncompVlyWAEastMesa,NaN,NaN,Private,Delta,1,,
-United Water and Sanitation District,NaN,65107,UnitedWSD,NaN,NaN,Water and Sanitation District,Elbert,1,Not in the original BNDSS list,
-Upper Arkansas Water Conservancy District,NaN,64141,UAWCD,NaN,NaN,Water Conservancy District,Multiple,5,Not in the Covered Entities database,
-Upper Eagle Regional Water Authority,NaN,19042,UpEagleRivWA,CO0119786,NaN,Water Authority,Eagle,1,,
-Upper Gunnison River Water Conservancy District,NaN,64143,UGRWCD,NaN,NaN,Water Conservancy District,Multiple,3,Not in the Covered Entities database,
-Upper South Platte Water Conservancy District,NaN,64145,UpperSPlatteWaterConservancy,NaN,NaN,Water Conservancy District,Multiple,5,Not in the original BNDSS list,
-Upper Surface Creek Domestic Water Users Association (USCDWUA),NaN,NaN,USCDWUA,CO0115784,19871130243,Private,Delta,1,Not in the Covered Entities database,
-Upper Yampa Water Conservancy District,NaN,64146,UpYampaWCD,NaN,NaN,Water Conservancy District,Multiple,2,Not in the Covered Entities database,
-Ute Mountain Ute Tribe,NaN,NaN,UteMtnUtes,CO0184069,NaN,Native American,Montezuma,1,Not in the Covered Entities database,
-Ute Water Conservancy District,NaN,39043,UteWater,CO0139791,NaN,Water Conservancy District,Mesa,1,,
-Vail Associates,NaN,NaN,VailAss,NaN,NaN,Private,Eagle,1,Not in the Covered Entities database,
-"Vail, Town of",80040,19038,Vail,NaN,NaN,Municipality,Eagle,1,Not in the Covered Entities database,
-Valley Water Company,NaN,NaN,VlyWC,CO0145750,19871152426,Private,Otero,1,Not in the Covered Entities database,
-Victor,80865,60012,Victor,CO0160700,NaN,Municipality,Teller,1,Not in the original BNDSS list,
-View Ridge Mutual Water Company,NaN,NaN,ViewRidgeMWC,CO0118080,19871341780,Private,Douglas,1,,
-"Vilas, Town of",81030,5019,Vilas,CO0105800,NaN,Municipality,Baca,1,,
-Vona,81690,32023,Vona,CO0132025,NaN,Municipality,Kit Carson,1,Not in the original BNDSS list,
-Vroman Water Company,NaN,NaN,VromanWC,CO0145780,19871139734,Private,Otero,1,Not in the Covered Entities database,
-"Walden Public Works, Town of",82130,29006,Walden,CO0129834,NaN,Municipality,Jackson,1,,
-"Walsenburg, City of",82350,28010,Walsenburg,CO0128900,NaN,Municipality,Huerfano,1,,
-"Walsh, Town of",82460,5023,Walsh,CO0105900,NaN,Municipality,Baca,1,,
-Ward,82735,7042,Ward,CO0107834,NaN,Municipality,Boulder,1,Not in the original BNDSS list,
-"Wellington Public Works, Town of",83230,35047,Wellington,CO0135838,NaN,Municipality,Larimer,1,,
-West Fort Collins Water District,NaN,35048,WFtCollinsWD,CO0135290,NaN,Water District,Larimer,1,,
-West Grand Valley Water Inc,NaN,NaN,WGrandVlyWC,CO0145810,19571134935,Private,Otero,1,Not in the Covered Entities database,
-West Holbrook Water,NaN,NaN,WHolbrookWC,NaN,NaN,Private,Otero,1,Not in the Covered Entities database,
-Westcliffe,83450,14005,Westcliffe,NaN,NaN,Municipality,Custer,1,Not in the original BNDSS list,
-Westcreek Lakes Water District,NaN,18035,WestcreekLakesWD,CO0118085,NaN,Water District,Douglas,1,,
-Westlake Water and Sanitation District,NaN,NaN,WestlakeWSD,CO0101165,NaN,Water and Sanitation District,Adams,1,Not in the original BNDSS list,
-"Westminster, City of",83835,64153,Westminster,CO0101170,NaN,Municipality,Multiple,2,,
-Westwood Lakes Water District,NaN,60013,WestwoodLakesWD,CO0160750,NaN,Water District,Teller,1,Not in the original BNDSS list,
-Wheat Ridge Water District,NaN,30092,WheatRidgeWD,CO0130842,NaN,Water District,Jefferson,1,,
-Widefield Water and Sanitation District,NaN,21091,WidefieldWSD,CO0121900,NaN,Water and Sanitation District,El Paso,1,,
-Wiggins,84770,44016,Wiggins,CO0144035,NaN,Municipality,Morgan,1,Not in the original BNDSS list,
-"Wiley, Town of",85045,50017,Wiley,CO0150900,NaN,Municipality,Prowers,1,,
-Williamsburg,85155,22019,Williamsburg,CO0122950,NaN,Municipality,Fremont,1,Not in the original BNDSS list,
-Willow Brook Metropolitan District,NaN,59023,WillowBrookMD,CO0259020,NaN,Metropolitan District,Summit,1,,
-Willowbrook,NaN,30095,WillowbrookWS,CO0130843,NaN,Water and Sanitation District,Jefferson,1,Not in the Covered Entities database,
-Will-O-Wisp Metropolitan District,NaN,47015,WillOWispMD,CO0147200,NaN,Metropolitan District,Park,1,Not in the Covered Entities database,
-Willows Water District,NaN,3081,WillowsWD,CO0103100,NaN,Water District,Arapahoe,1,,
-"Windsor, Town of",85485,64225,Windsor,CO0162843,NaN,Municipality,Multiple,2,,
-Winter Park,85705,25025,WinterPark,NaN,NaN,Municipality,Grand,1,Not in the original BNDSS list,
-Winter Park Water and Sanitation District,NaN,25023,WinterParkWSD,CO0125843,NaN,Water and Sanitation District,Grand,1,Not in the Covered Entities database,
-Woodmen Hills Metropolitan District,NaN,21089,WoodmenHlsMD,CO0121930,NaN,Metropolitan District,El Paso,1,Not in the Covered Entities database,
-Woodmoor Water and Sanitation District 1,NaN,21050,WoodmoorWSD1,CO0121950,NaN,Water and Sanitation District,El Paso,1,,
-"Wray, City of",86310,63010,Wray,CO0163010,NaN,Municipality,Yuma,1,,
-"Yampa, Town of",86475,54030,Yampa,CO0154900,NaN,Municipality,Routt,1,,
-"Yuma, City of",86750,63017,Yuma,CO0163020,NaN,Municipality,Yuma ,1,,
+WaterProviderName,FIPS_ID,FIPS_ID_Flag,GNIS_ID,GNIS_ID_Flag,DOLA_LG_ID,DOLA_LG_ID_Flag,BNDSS_ID,BNDSS_ID_Flag,PWS_ID,PWS_ID_Flag,BusinessEntity_ID,BusinessEntity_ID_Flag,LocalGovtType,EntityStartYear,EntityStartYear_Flag,EntityEndYear,EntityEndYear_Flag,County,NumCounty,Comment
+96 Pipeline Company,,N,,x,,N,96PipeWC,G,CO0113050,G,19871168504,G,Company,,x,,x,Crowley,1,Not in the Covered Entities database
+Academy Water and Sanitation District,,N,,x,21001,G,AcademyWSD,G,CO0121025,G,,N,Water and Sanitation District,,x,,x,El Paso,1,
+"Aguilar, Town of",00760,G,,x,36001,G,Aguilar,G,CO0136100,G,,N,Municipality,,x,,x,Las Animas,1,
+"Akron, Town of",00925,G,,x,61002,G,Akron,G,CO0161001,G,,N,Municipality,,x,,x,Washington,1,
+Alameda Water and Sanitation District,,N,,x,30001,G,AlamedaWSD,G,CO0130116,G,,N,Water and Sanitation District,,x,,x,Jefferson,1,Not in the Covered Entities database
+"Alamosa, City of",01090,G,,x,02003,G,Alamosa,G,CO0102100,G,,N,Municipality,,x,,x,Alamosa,1,
+Aldasoro Ranch and Homeowners Company,,N,,x,,N,AldasoroWS,G,CO0157011,G,,N,Company,,x,,x,San Miguel,1,
+"Alma, Town of",01530,G,,x,47001,G,Alma,G,CO0147001,G,,N,Municipality,,x,,x,Park,1,
+Alpha-Rockridge Metropolitan District,,N,,x,04015,G,AlphaRockMD,G,,M,,N,Metropolitan District,,x,,x,Archuleta,1,
+"Antonito, Town of",02355,G,,x,11001,G,Antonito,G,CO0111100,G,,N,Municipality,,x,,x,Conejos,1,
+Arapahoe County Water and Wastewater Authority,,N,,x,64247,G,ACWWA,G,CO0203002,G,,N,Water Authority,,x,,x,Multiple,2,
+Arapahoe Estates Water District,,N,,x,03005,G,ArapahoeEstatesWD,G,CO0103001,G,,N,Water District,,x,,x,Arapahoe,1,
+"Arriba, Town of",03235,G,,x,37002,G,Arriba,G,CO0137001,G,,N,Municipality,,x,,x,Lincoln,1,
+"Arvada, City of",03455,G,,x,64009,G,Arvada,G,CO0130001,G,,N,Municipality,,x,,x,Multiple,2,
+Aspen Park Metropolitan District,,N,,x,65099,G,AspenParkWD,G,,M,,N,Metropolitan District,,x,,x,Jefferson,1,
+"Aspen, City of",03620,G,,x,49006,G,Aspen,G,CO0149122,G,,N,Municipality,,x,,x,Pitkin,1,
+"Ault, Town of",03950,G,,x,62003,G,Ault,C,CO0162125,G,,N,Municipality,,x,,x,Weld,1,Not in the original BNDSS list
+"Aurora, City of",04000,G,,x,64010,G,Aurora,G,CO0103005,G,,N,Municipality,,x,,x,Multiple,3,
+"Avon, City of",04110,G,,x,19003,G,Avon,G,CO0119126,G,,N,Municipality,,x,,x,Eagle,1,
+Avondale Water and Sanitation District,,N,,x,51001,G,AvondaleWSD,G,CO0151050,G,,N,Water and Sanitation District,,x,,x,Pueblo,1,
+Baca Grande Water and Sanitation District,,N,,x,55001,G,BacaGrandeWSD,C,CO0155200,G,,N,Water and Sanitation District,,x,,x,Saguache,1,Not in the original BNDSS list
+Bailey Water and Sanitation District,,N,,x,47002,G,BaileyWSD,G,CO0147010,G,,N,Water and Sanitation District,,x,,x,Park,1,Not in the Covered Entities database
+Bancroft-Clover Water and Sanitation District,,N,,x,30004,G,BancroftCloverWSD,G,CO0130133,G,,N,Water and Sanitation District,,x,,x,Jefferson,1,
+"Basalt, Town of",04935,G,,x,64017,G,Basalt,G,CO0119134,G,,N,Municipality,,x,,x,Multiple,2,
+Battlement Mesa Metropolitan District,,N,,x,23032,G,BattlementMesaMD,G,CO0123133,G,,N,Metropolitan District,,x,,x,Garfield,1,
+"Bayfield, Town of",05265,G,,x,34005,G,Bayfield,G,CO0134030,G,,N,Municipality,,x,,x,La Plata,1,
+Bear Creek Water and Sanitation District,,N,,x,30005,G,BearCreekWSD,G,CO0130138,G,,N,Water and Sanitation District,,x,,x,Jefferson,1,
+Beehive Water Association,,N,,x,,N,BeehiveWAS,G,CO0145030,G,19871130969,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+Bell Mountain Ranch Water District,,N,,x,18064,G,BellMtnRanchWD,G,CO0118002,G,,N,Metropolitan District,,x,,x,Douglas,1,
+"Bennett, Town of",06090,G,,x,64258,G,Bennett,G,CO0101020,G,,N,Municipality,,x,,x,Multiple,2,
+Bents Fort Water Association,,N,,x,,N,BentsFortWA,G,CO0145060,G,19871150010,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+Berkeley Water and Sanitation District,,N,,x,64020,G,BerkeleyWSD,G,CO0116140,G,,N,Water and Sanitation District,,x,,x,Multiple,2,Not in the Covered Entities database
+"Berthoud, Town of",06255,G,,x,64237,G,Berthoud,G,CO0135138,G,,N,Municipality,,x,,x,Multiple,2,
+"Bethune, Town of",06530,G,,x,32001,G,Bethune,G,CO0132001,G,,N,Municipality,,x,,x,Kit Carson,1,
+Beulah Water Works District,,N,,x,51002,G,BeulahWD,G,CO0151100,G,,N,Water District,,x,,x,Pueblo,1,
+Beverly Hills Mutual Water Company,,N,,x,,N,BeverlyHillsMWC,C,CO0118001,G,19871136472,G,Company,,x,,x,Douglas,1,Not in the original BNDSS list
+"Black Hawk, City of",07025,G,,x,24001,G,BlackHawk,G,CO0124147,G,,N,Municipality,,x,,x,Gilpin,1,
+Blanca/Fort Garland Metropolitan District,,N,,x,12002,G,BlancaFtGarlandMD,G,CO0212200,G,,N,Metropolitan District,,x,,x,Costilla,1,
+Blue Mountain Water District,,N,,x,30010,G,BlueMtnWD,G,CO0130005,G,,N,Water District,,x,,x,Jefferson,1,Not in the Covered Entities database
+Blue Valley Metropolitan District,,N,,x,25001,G,BlueVlyMD,G,CO0125148,G,,N,Metropolitan District,,x,,x,Grand,1,
+Board of Water Works of Pueblo,62000,G,,x,51016,G,PuebloBWW,G,CO0151500,G,,N,Municipality,,x,,x,Pueblo,1,
+"Bonanza City, Town of",07571,G,,x,55002,G,BonanzaCity,C,CO0079129,G,,N,Municipality,,x,,x,Saguache,1,Not in the original BNDSS list
+Bonvue Water and Sanitation District,,N,,x,30011,G,BonvueWSD,G,CO0130152,G,,N,Water and Sanitation District,,x,,x,Jefferson,1,Not in the Covered Entities database
+"Boone, Town of",07795,G,,x,51005,G,Boone,G,CO0151150,G,,N,Municipality,,x,,x,Pueblo,1,
+"Boulder, City of",07850,G,,x,07006,G,Boulder,G,CO0107152,G,,N,Municipality,,x,,x,Boulder,1,
+Bow Mar Water and Sanitation District,,N,,x,64027,G,BowMarWSD,G,CO0103153,G,,N,Water and Sanitation District,,x,,x,Multiple,2,
+"Branson, Town of",08345,G,,x,36002,G,Branson,C,CO0136300,G,,N,Municipality,,x,,x,Arkansas,1,Not in the original BNDSS list
+"Breckenridge, Town of",08400,G,,x,59004,G,Breckenridge,G,CO0159020,G,,N,Municipality,,x,,x,Summit,1,
+"Brighton, City of",08675,G,,x,64029,G,Brighton,G,CO0101025,G,,N,Municipality,,x,,x,Multiple,2,
+Brook Forest Water District,,N,,x,30012,G,BrookForestWD,G,CO0130010,G,,N,Water District,,x,,x,Jefferson,1,Not in the Covered Entities database
+Brookridge,,N,,x,,z,BrookridgeWS,G,,M,,N,,,x,,x,,1,"Not in the Covered Entities database; not sure if still exists, may be Brookridge Heights WD"
+"Brookside, Town of",09115,G,,x,22001,G,Brookside,G,CO0122050,G,,N,Municipality,,x,,x,Fremont,1,
+"Broomfield, City and County of",09280,G,,x,64030,G,Broomfield,G,CO0107155,G,,N,Municipality,,x,,x,Broomfield,1,
+"Brush, City of",09555,G,,x,44001,G,Brush,G,CO0144001,G,,N,Municipality,,x,,x,Morgan,1,
+"Buena Vista, Town of",10105,G,,x,08002,G,BuenaVista,G,CO0108300,G,,N,Municipality,,x,,x,Chaffee,1,
+Buffalo Creek Water District,,N,,x,30146,G,BuffaloCreekWD,G,CO0130015,G,,N,Water District,,x,,x,Jefferson,1,
+"Burlington, City of",10600,G,,x,32004,G,Burlington,G,CO0132005,G,,N,Municipality,,x,,x,Kit Carson,1,
+Calhan,11260,G,,x,21006,G,Calhan,C,CO0121075,G,,N,Municipality,,x,,x,El Paso,1,Not in the original BNDSS list
+"Campo, Town of",11645,G,,x,05003,G,Campo,G,CO0105100,G,,N,Municipality,,x,,x,Baca,1,
+"Canon City, City of",11810,G,,x,22002,G,CanonCity,G,CO0122100,G,,N,Municipality,,x,,x,Fremont,1,
+"Carbondale, Town of",12045,G,,x,23004,G,Carbondale,G,CO0123167,G,,N,Municipality,,x,,x,Garfield,1,
+Cascade Metropolitan District 1,,N,,x,65308,G,CascadeMD1,G,CO0121100,G,,N,Metropolitan District,,x,,x,El Paso,1,Not in the Covered Entities database
+Cascade Metropolitan District 2,,N,,x,65309,G,CascadeMD2,G,,M,,N,Metropolitan District,,x,,x,El Paso,1,Not in the Covered Entities database
+Castle Pines Metropolitan District,,N,,x,18001,G,CastlePinesMD,G,CO0118005,G,,N,Metropolitan District,,x,,x,Douglas,1,
+Castle Pines North Metropolitan District,,N,,x,18044,G,CastlePinesNMD,G,CO0118006,G,,N,Metropolitan District,,x,,x,Douglas,1,
+"Castle Rock, Town of",12415,G,,x,18003,G,CastleRock,G,CO0118010,G,,N,Municipality,,x,,x,Douglas,1,
+Castleton Center Water and Sanitation District,,N,,x,18004,G,CastletonCntrWSD,G,,M,,N,Water and Sanitation District,,x,,x,Douglas,1,
+Castlewood Water and Sanitation District,,N,,x,65156,G,CastlewoodWSD,G,CO0103166,G,,N,Water and Sanitation District,,x,,x,Arapahoe,1,
+Catamount Metropolitan District,,N,,x,54033,G,LakeCatamount1MD,G,,M,,N,Metropolitan District,,x,,x,Routt,1,
+"Cedaredge, Town of",12635,G,,x,15003,G,Cedaredge,G,CO0115171,G,,N,Municipality,,x,,x,Delta,1,
+Centennial Water and Sanitation District,,N,,x,18025,G,CentennialWSD,G,CO0118015,G,,N,Water and Sanitation District,,x,,x,Douglas,1,
+"Center, Town of",12855,G,,x,64039,G,Center,G,CO0155500,G,,N,Municipality,,x,,x,Multiple,2,
+"Central City, City of",12910,G,,x,64263,G,CentralCity,G,CO0124171,G,,N,Municipality,,x,,x,Multiple,2,
+Central Weld County Water District,,N,,x,62005,G,CWCWD,G,CO0162122,G,,N,Water District,,x,,x,Weld,1,
+Charlou Park Water District,,N,,x,03083,G,CharlouWD,G,CO0103020,G,,N,Water District,,x,,x,Arapahoe,1,Not in the Covered Entities database
+Chatfield South Water District,,N,,x,18108,G,ChatfieldSouthWD,C,CO0118175,G,,N,Water District,,x,,x,Douglas,1,Not in the original BNDSS list
+"Cheraw, Town of",13460,G,,x,45001,G,Cheraw,G,CO0145090,G,,N,Municipality,,x,,x,Otero,1,
+Cherokee Metropolitan District,,N,,x,21010,G,CherokeeMD,G,CO0121125,G,,N,Metropolitan District,,x,,x,El Paso,1,
+Cherry Creek Valley Water and Sanitation District,,N,,x,03105,G,CherryCreekVlyWSD,G,CO0116175,G,,N,Water and Sanitation District,,x,,x,Arapahoe,1,
+Cherry Creek Village Water District,,N,,x,03014,G,CherryCreekVlgWD,G,CO0103176,G,,N,Water District,,x,,x,Arapahoe,1,
+Cherry Hills Farm Metropolitan District,,N,,x,,z,CherryHillsFarmWS,G,CO0116177,G,,N,Metropolitan District,,x,,x,Arapahoe,1,Not in the Covered Entities database
+Cherry Hills Heights Water and Sanitation District,,N,,x,03018,G,CherryHlsHtsWSD,G,CO0103178,G,,N,Water and Sanitation District,,x,,x,Arapahoe,1,Not in the Covered Entities database
+Cherry Hills North Metropolitan District,,N,,x,03019,G,CherryHlsNMD,G,CO0116179,G,,N,Metropolitan District,,x,,x,Arapahoe,1,Not in the Covered Entities database
+"Cherry Hills Village, City of",13845,G,,x,03023,G,CherryHlsVlg,G,,M,,N,Municipality,,x,,x,Arapahoe,1,
+Cherrymoor Water,,N,,x,,z,CherrymoorWS,G,CO0116181,G,,N,Water District,,x,,x,Denver,1,Not in the Covered Entities database
+Cheyenne Wells,14175,G,,x,09007,G,CheyenneWells,C,CO0109006,G,,N,Municipality,,x,,x,Cheyenne,1,Not in the original BNDSS list
+Chipeta Water District,,N,,x,43025,G,ChipetaWD,G,CO0143176,G,,N,Water District,,x,,x,Montrose,1,
+Clifton Water District,,N,,x,39008,G,CliftonWD,G,CO0139180,G,,N,Water District,,x,,x,Mesa,1,
+Coal Creek,15330,G,,x,36004,G,CoalCreek,C,CO0122250,G,,N,Municipality,,x,,x,Fremont,1,Not in the original BNDSS list
+Coalby Domestic Water Company,,N,,x,,N,CoalbyDWC,G,CO0115185,G,19871253860,G,Company,,x,,x,Pitkin,1,Not in the Covered Entities database
+Cokedale,15550,G,,x,39011,G,Cokedale,C,CO0136185,G,,N,Municipality,,x,,x,Las Animas,1,Not in the original BNDSS list
+"Collbran, Town of",15605,G,,x,21015,G,Collbran,G,CO0139185,G,,N,Municipality,,x,,x,Mesa,1,
+Colorado Centre Metropolitan District,,N,,x,21057,G,COCntrMD,G,CO0121140,G,,N,Metropolitan District,,x,,x,El Paso,1,Not in the Covered Entities database
+Colorado City Metropolitan District,,N,,x,51007,G,ColoradoCityMD,G,CO0151200,G,,N,Metropolitan District,,x,,x,Pueblo,1,
+Colorado River Water Conservation District,,N,,x,64046,G,RiverDistrict,G,,N,,N,Water Conservation District,,x,,x,Multiple,15,Not in the Covered Entities database
+Colorado Springs Utilities,16000,G,,x,03029,G,CSU,G,CO0121150,G,,N,Municipality,,x,,x,El Paso,1,
+Columbine Valley,16385,G,,x,01005,G,ColumbineValley,C,,M,,N,Municipality,,x,,x,Arapahoe,1,Not in the original BNDSS list
+Columbine Water and Sanitation District,,N,,x,03030,G,ColumbineWSD,G,CO0103185,G,,N,Water and Sanitation District,,x,,x,Arapahoe,1,Not in the Covered Entities database
+Commerce City,16495,G,,x,42004,G,CommerceCity,C,,M,,N,Municipality,,x,,x,Adams,1,Not in the original BNDSS list
+Consolidated Mutual Water Company,,N,,x,,N,ConMutualWS,G,CO0130021,G,,N,Company,,x,,x,Jefferson,1,
+Copper Mountain Consolidated Metropolitan District,,N,,x,59039,G,CopperMtConsMD,G,CO0159030,G,,N,Metropolitan District,,x,,x,Summit,1,
+Cordillera Metropolitan District,,N,,x,65210,G,CordilleraMD,G,CO0119185,G,,N,Metropolitan District,,x,,x,Eagle,1,Not in the Covered Entities database
+"Cortez, City of",17375,G,,x,41004,G,Cortez,G,CO0142200,G,,N,Municipality,,x,,x,Montezuma,1,
+Cottonwood Water and Sanitation District,,N,,x,18006,G,CottonwoodWSD,G,CO0118020,G,,N,Water and Sanitation District,,x,,x,Douglas,1,
+"Craig Public Works Department, City of",17760,G,,x,15005,G,Craig,G,CO0141188,G,,N,Municipality,,x,,x,Moffat,1,
+"Crawford, Town of",17925,G,,x,40001,G,Crawford,G,CO0115188,G,,N,Municipality,,x,,x,Delta,1,
+"Creede, Town of",14765,G,,x,22006,G,Creede,G,CO0140500,G,,N,Municipality,,x,,x,Mineral,1,
+Crested Butte South Metropolitan District,,N,,x,26002,G,CrestedButteSMD,G,CO0126189,G,,N,Metropolitan District,,x,,x,Gunnison,1,
+"Crested Butte, Town of",18310,G,,x,26004,G,CrestedButte,G,CO0126188,G,,N,Municipality,,x,,x,Gunnison,1,
+"Crestone, Town of",18420,G,,x,55004,G,Crestone,G,CO0155188,G,,N,Municipality,,x,,x,Saguache,1,
+Crestview Water and Sanitation District,,N,,x,01006,G,CrestviewWSD,G,CO0101040,G,,N,Water and Sanitation District,,x,,x,Adams,1,
+"Cripple Creek, City of",18530,G,,x,60001,G,CrippleCreek,G,CO0160100,G,,N,Municipality,,x,,x,Teller,1,
+Crook,18640,G,,x,38002,G,Crook,C,CO0138005,G,,N,Municipality,,x,,x,Logan,1,Not in the original BNDSS list
+Crowley County Water Association,,N,,x,,N,CrowleyCoWA,G,CO0113100,G,19871146560,G,County government,,x,,x,Crowley,1,Not in the Covered Entities database
+Crowley County Water System,,N,,x,,N,CrowleyCountyWS,G,CO0113200,G,,N,County government,,x,,x,Crowley,1,Not in the Covered Entities database
+"Crowley, Town of",18750,G,,x,13002,G,Crowley,G,CO0113300,G,,N,Municipality,,x,,x,Crowley,1,
+Cucharas Sanitation and Water District,,N,,x,28001,G,CucharasWSD,G,CO0128100,G,,N,Water and Sanitation District,,x,,x,Huerfano,1,
+"Dacono, City of",19080,G,,x,62007,G,Dacono,G,CO0162200,G,,N,Municipality,,x,,x,Weld,1,
+DeBeque,19355,G,,x,39012,G,DeBeque,C,CO0139205,G,,N,Municipality,,x,,x,Mesa,1,Not in the original BNDSS list
+Deer Trail,19630,G,,x,03033,G,DeerTrail,C,CO0103030,G,,N,Municipality,,x,,x,Arapahoe,1,Not in the original BNDSS list
+"Del Norte, Town of",19795,G,,x,53002,G,DelNorte,G,CO0153200,G,,N,Municipality,,x,,x,Rio Grande,1,
+"Delta, City of",19850,G,,x,15015,G,Delta,G,CO0115205,G,,N,Municipality,,x,,x,Delta,1,
+Denver Water,20000,G,,x,16002,G,DenverWater,G,CO0116001,G,,N,Municipality,,x,,x,Denver,1,
+Devonshire Heights Water and Sanitation District,,N,,x,03035,G,DevonshireHtsWSD,G,CO0103205,G,,N,Water and Sanitation District,,x,,x,Arapahoe,1,Not in the Covered Entities database
+"Dillon Public Works, Town of",20440,G,,x,59009,G,Dillon,G,CO0159035,G,,N,Municipality,,x,,x,Summit,1,
+Dillon Valley District,,N,,x,59010,G,DillonVlyMD,G,CO0159040,G,,N,Metropolitan District,,x,,x,Summit,1,
+"Dinosaur, Town of",20495,G,,x,41005,G,Dinosaur,G,CO0141210,G,,N,Municipality,,x,,x,Moffat,1,
+Dolores Water Conservancy District,,N,,x,64054,G,DoloresWCD,G,,N,,N,Water Conservancy District,,x,,x,Multiple,2,Not in the Covered Entities database
+"Dolores, Town of",20770,G,,x,42008,G,Dolores,G,CO0142400,G,,N,Municipality,,x,,x,Montezuma,1,
+Dominion Water and Sanitation District,,N,,x,65359,G,DominionWSD,C,CO0118021,G,,N,Water and Sanitation District,,x,,x,Douglas,1,Not in the original BNDSS list
+Donala Water and Sanitation District,,N,,x,21016,G,DonalaWSD,G,CO0121175,G,,N,Water and Sanitation District,,x,,x,El Paso,1,
+Douglas County Government,,N,,x,,N,DouglasCo,G,,N,,N,County government,,x,,x,Douglas,1,Not in the Covered Entities database
+Douglas County Water Resource Authority,,N,,x,66300,G,DCWRA,G,,N,,N,Water Authority,,x,,x,Douglas,1,Not in the Covered Entities database
+Dove Creek,21265,G,,x,17003,G,DoveCreek,C,CO0117300,G,,N,Municipality,,x,,x,Dolores,1,Not in the original BNDSS list
+"Dukes Mobile Home Park, LLC",,N,,x,,N,DukesMHP,G,,M,19991083115,D,Company,,x,,x,Jefferson,1,Not in the Covered Entities database; dissolved in May 2013
+Durango West Metropolitan District 1,,N,,x,34006,G,DurangoWMD1,G,CO0134180,G,,N,Metropolitan District,,x,,x,La Plata,1,
+Durango West Metropolitan District 2,,N,,x,34007,G,DurangoWMD2,G,CO0134190,G,,N,Metropolitan District,,x,,x,La Plata,1,
+"Durango, City of",22035,G,,x,34008,G,Durango,G,CO0134150,G,,N,Municipality,,x,,x,La Plata,1,
+"Eads, Town of",22145,G,,x,31002,G,Eads,G,CO0131400,G,,N,Municipality,,x,,x,Kiowa,1,
+Eagle River Water and Sanitation District,,N,,x,19057,G,EagleRiverWSD,G,CO0119802,G,,N,Water and Sanitation District,,x,,x,Eagle,1,
+"Eagle, Town of",22200,G,,x,19009,G,Eagle,G,CO0119233,G,,N,Municipality,,x,,x,Eagle,1,Not in the Covered Entities database
+East Alamosa Water and Sanitation District,,N,,x,02004,G,EAlamosaWSD,G,CO0102200,G,,N,Water and Sanitation District,,x,,x,Alamosa,1,
+East Boulder County Water District,,N,,x,07071,G,EBoulderCoWD,G,CO0107236,G,,N,Water District,,x,,x,Boulder,1,
+East Cherry Creek Valley Water and Sanitation District,,N,,x,03038,G,ECherryCrkVlyWSD,G,CO0103035,G,,N,Water and Sanitation District,,x,,x,Arapahoe,1,
+East Dillon Water District,,N,,x,59012,G,EDillonWD,G,CO0159045,G,,N,Water District,,x,,x,Summit,1,
+East End Water Association,,N,,x,,N,EastEndWAS,G,CO0145120,G,19871132355,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+East Larimer County Water District,,N,,x,64056,G,ELCO,G,CO0135233,G,,N,Water District,,x,,x,Multiple,2,
+East Twin Lakes Ditches and Waterworks Economic Development,,N,,x,,N,ETwinLakesD&WWED,G,,M,19991010001,G,Company,,x,,x,Lake,1,Not in the Covered Entities database
+East Valley Metropolitan District,,N,,x,03039,G,EVlyMD,G,CO0103040,G,,N,Metropolitan District,,x,,x,Arapahoe,1,
+"Eaton, Town of",22860,G,,x,62008,G,Eaton,G,CO0162233,G,,N,Municipality,,x,,x,Weld,1,
+"Eckley, Town of",23025,G,,x,63003,G,Eckley,G,CO0163001,G,,N,Municipality,,x,,x,Yuma,1,
+Edgemont Ranch Metropolitan District,,N,,x,34013,G,EdgemontRanchMD,G,CO0134200,G,,N,Metropolitan District,,x,,x,La Plata,1,
+"Edgewater, City of",23135,G,,x,30020,G,Edgewater,G,CO0130237,G,,N,Municipality,,x,,x,Jefferson,1,
+Edwards Metropolitan District,,N,,x,19016,G,EdwardsMD,G,CO0185751,G,,N,Metropolitan District,,x,,x,Eagle,1,Not in the Covered Entities database
+El Paso County Water Authority,,N,,x,21095,G,EPCWA,G,,N,,N,Water Authority,,x,,x,El Paso,1,Not in the Covered Entities database
+El Rancho Florida Metropolitan District,,N,,x,34035,G,ElRanchoFloridaMD,G,CO0134210,G,,N,Metropolitan District,,x,,x,La Plata,1,
+Elizabeth,23740,G,,x,20004,G,Elizabeth,C,CO0120010,G,,N,Municipality,,x,,x,Elbert,1,Not in the original BNDSS list
+"Empire, Town of",24620,G,,x,10005,G,Empire,G,CO0110010,G,,N,Municipality,,x,,x,Clear Creek,1,
+"Englewood, City of",24785,G,,x,03041,G,Englewood,G,CO0103045,G,,N,Municipality,,x,,x,Arapahoe,1,
+"Erie, Town of",24950,G,,x,64060,G,Erie,G,CO0162255,G,,N,Municipality,,x,,x,Multiple,2,
+"Estes Park, Town of",25115,G,,x,35004,G,EstesPark,G,CO0135257,G,,N,Municipality,,x,,x,Larimer,1,
+Eureka Water Company,,N,,x,,N,EurekaWC,G,CO0145150,G,19871134052,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+"Evans, City of",25280,G,,x,62011,G,Evans,G,CO0162260,G,,N,Municipality,,x,,x,Weld,1,
+Evergreen Metropolitan District,,N,,x,65166,G,EvergreenMD,G,CO0130030,G,,N,Metropolitan District,,x,,x,Jefferson,1,
+"Fairplay, Town of",25610,G,,x,47005,G,Fairplay,G,CO0147020,G,,N,Municipality,,x,,x,Park,1,
+Fayette Water Company,,N,,x,,N,FayetteWAS,G,CO0145180,G,19871134896,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+"Federal Heights, City of",26270,G,,x,01009,G,FederalHts,G,CO0101055,G,,N,Municipality,,x,,x,Adams,1,
+Fehlmann,,N,,x,,N,FehlmannWS,G,,M,19871184529,G,Company,,x,,x,Jefferson,1,Not in the Covered Entities database
+"Firestone, Town of",26600,G,,x,62012,G,Firestone,G,CO0162476,G,,N,Municipality,,x,,x,Weld,1,
+"Flagler, Town of",26765,G,,x,32010,G,Flagler,G,CO0132010,G,,N,Municipality,,x,,x,Kit Carson,1,
+Fleming,26875,G,,x,38005,G,Fleming,C,CO0138010,G,,N,Municipality,,x,,x,Logan,1,Not in the original BNDSS list
+"Florence, City of",27040,G,,x,22011,G,Florence,G,CO0122500,G,,N,Municipality,,x,,x,Fremont,1,
+Florida Water Conservancy District,,N,,x,34010,G,FloridaWCD,G,,N,,N,Water Conservancy District,,x,,x,La Plata,1,Not in the Covered Entities database
+Forest Lakes Metropolitan District,,N,,x,34011,G,ForestLakesMD,G,CO0134360,G,,N,Metropolitan District,,x,,x,La Plata,1,
+"Fort Collins, City of",27425,G,,x,35009,G,FtCollins,G,CO0135291,G,,N,Municipality,,x,,x,Larimer,1,
+Fort Collins-Loveland Water District,,N,,x,35007,G,FCLWD,G,CO0135292,G,,N,Water District,,x,,x,Multiple,2,
+"Fort Lupton, City of",27700,G,,x,62014,G,FtLupton,G,CO0162291,G,,N,Municipality,,x,,x,Weld,1,
+"Fort Morgan, City of",27810,G,,x,44006,G,FtMorgan,G,CO0144005,G,,N,Municipality,,x,,x,Morgan,1,
+Fountain Valley Authority,,N,,x,21025,G,FountainVlyWA,C,CO0121300,G,,N,Water Authority,,x,,x,El Paso,1,Not in the original BNDSS list
+"Fountain, City of",27865,G,,x,21026,G,FountainUtilities,G,CO0121275,G,,N,Municipality,,x,,x,El Paso,1,
+"Fowler, Town of",27975,G,,x,45004,G,Fowler,G,CO0145210,G,,N,Municipality,,x,,x,Otero,1,
+"Foxfield, Town of",28105,G,,x,03134,G,Foxfield,G,,M,,N,Municipality,,x,,x,Arapahoe,1,
+Franktown Business Area Metropolitan District,,N,,x,18120,G,FranktownMD,G,,M,,N,Metropolitan District,,x,,x,Douglas,1,
+"Fraser, Town of",28305,G,,x,25006,G,Fraser,G,CO0125288,G,,N,Municipality,,x,,x,Grand,1,
+"Frederick, Town of",28360,G,,x,62016,G,Frederick,G,CO0162288,G,,N,Municipality,,x,,x,Weld,1,
+"Frisco, Town of",28690,G,,x,59015,G,Frisco,G,CO0159055,G,,N,Municipality,,x,,x,Summit,1,
+Fruitland Domestic Water Company,,N,,x,,N,FruitlandDWC,G,CO0115288,G,19871492414,G,Company,,x,,x,Delta,1,Not in the Covered Entities database
+Garden City,29185,G,,x,62018,G,GardenCity,C,CO0140897,G,,N,Municipality,,x,,x,Weld,1,Not in the original BNDSS list
+Garden Valley Water and Sanitation District,,N,,x,21027,G,GardenVlyWSD,G,CO0121325,G,,N,Water and Sanitation District,,x,,x,El Paso,1,
+Genesee Water and Sanitation District,,N,,x,30033,G,GeneseeWSD,G,CO0130035,G,,N,Water and Sanitation District,,x,,x,Jefferson,1,
+Genoa,29680,G,,x,37004,G,Genoa,C,CO0137005,G,,N,Municipality,,x,,x,Lincoln,1,Not in the original BNDSS list
+"Georgetown, Town of",29735,G,,x,10007,G,Georgetown,G,CO0110015,G,,N,Municipality,,x,,x,Clear Creek,1,
+Gilcrest,29955,G,,x,62020,G,Gilcrest,C,CO0162310,G,,N,Municipality,,x,,x,Weld,1,Not in the original BNDSS list
+"Glendale, City of",30340,G,,x,03043,G,Glendale,G,CO0103055,G,,N,Municipality,,x,,x,Arapahoe,1,
+"Glenwood Springs, City of",30780,G,,x,23008,G,GlenwoodSpgs,G,CO0123314,G,,N,Municipality,,x,,x,Garfield,1,
+"Golden, Public Works, City of",30835,G,,x,30035,G,Golden,G,CO0130040,G,,N,Municipality,,x,,x,Jefferson,1,
+Granada,31550,G,,x,50007,G,Granada,C,CO0150300,G,,N,Municipality,,x,,x,Prowers,1,Not in the original BNDSS list
+"Granby, Town of",31605,G,,x,25008,G,Granby,G,CO0125321,G,,N,Municipality,,x,,x,Grand,1,
+"Grand Junction, City of",31660,G,,x,39020,G,GrandJunction,G,CO0139321,G,,N,Municipality,,x,,x,Mesa,1,
+"Grand Lake, Town of",31715,G,,x,25014,G,GrandLake,G,CO0125322,G,,N,Municipality,,x,,x,Grand,1,
+Grand Mesa Metropolitan District No. 2,,N,,x,39048,G,PowderhornMD,G,,M,,N,Metropolitan District,,x,,x,Mesa,1,Formerly known as Powderhorn Metropolitan District
+Grandview Estates Rural Water Conservation District,,N,,x,65674,G,GrandviewEstatesRuralWCD,G,,M,,N,Water Conservancy District,,x,,x,Douglas,1,
+Grant Water and Sanitation District,,N,,x,64062,G,GrantWSD,G,,M,,N,Water and Sanitation District,,x,,x,Multiple,2,Not in the Covered Entities database
+"Greeley, City of",32155,G,,x,62022,G,Greeley,G,CO0162321,G,,N,Municipality,,x,,x,Weld,1,
+"Green Mountain Falls, Town of",32650,G,,x,64070,G,GreenMtnFalls,G,CO0052076,G,,N,Municipality,,x,,x,Multiple,2,
+Green Mountain Water and Sanitation District,,N,,x,30037,G,GreenMtnWSD,G,CO0130321,G,,N,Water and Sanitation District,,x,,x,Jefferson,1,
+"Greenwood Village, City of",33035,G,,x,03051,G,GreenwoodVlg,G,CO0073817,G,,N,Municipality,,x,,x,Arapahoe,1,
+Groundwater Association of South Platte,,N,,x,,N,GrdwtrAssSPlatte,G,,M,,N,Company,,x,,x,,1,Not sure exists; can't find any information
+"Grover, Town of",33310,G,,x,62023,G,Grover,C,CO0162322,G,,N,Municipality,,x,,x,Weld,1,Not in the original BNDSS list
+"Gunnison, Town of",33640,G,,x,26008,G,Gunnison,G,CO0126325,G,,N,Municipality,,x,,x,Gunnison,1,
+"Gypsum, Town of",33695,G,,x,19020,G,Gypsum,G,CO0119329,G,,N,Municipality,,x,,x,Eagle,1,
+Hamilton,,N,,x,,N,Hamilton,C,,M,,N,Unincorporated community,,x,,x,Moffat,1,Not in the original BNDSS list
+Hamilton Creek Metropolitan District,,N,,x,59030,G,HamiltonCrkMD,G,CO0159063,G,,N,Metropolitan District,,x,,x,Summit,1,
+Hancock Water Company,,N,,x,,N,HancockWC,G,CO0145240,G,,N,Company,,x,,x,Otero,1,Not in the Covered Entities database
+Hartman,34520,G,,x,50008,G,Hartman,C,CO0150500,G,,N,Municipality,,x,,x,Prowers,1,Not in the original BNDSS list
+Hasty Water Company,,N,,x,,N,HastyWC,G,CO0106200,G,19871165883,G,Company,,x,,x,Bent,1,Not in the Covered Entities database
+Haswell,34740,G,,x,31003,G,Haswell,C,CO0131600,G,,N,Municipality,,x,,x,Kiowa,1,Not in the original BNDSS list
+Havana Water and Sanitation District,,N,,x,03052,G,HavanaWSD,G,CO0116333,G,,N,Water and Sanitation District,,x,,x,Arapahoe,1,Not in the Covered Entities database
+Haxtun,34960,G,,x,48004,G,Haxtun,C,CO0148001,G,,N,Municipality,,x,,x,Phillips,1,Not in the original BNDSS list
+"Hayden, Town of",35070,G,,x,54005,G,Hayden,G,CO0154333,G,,N,Municipality,,x,,x,Routt,1,
+Heather Gardens Metropolitan District,,N,,x,03024,G,HthrGrdnsMD,G,,M,,N,Metropolitan District,,x,,x,Arapahoe,1,
+Heritage Hills Metropolitan District,,N,,x,18105,G,HeritageHillsMD,C,,M,,N,Metropolitan District,,x,,x,Douglas,1,Not in the original BNDSS list
+High View Water District,,N,,x,30038,G,HighViewWD,G,CO0130344,G,,N,Water District,,x,,x,Jefferson,1,Not in the Covered Entities database
+Highlands Ranch Metropolitan District,,N,,x,65783,G,HighlandsRanchMD,G,,M,,N,Metropolitan District,,x,,x,Douglas,1,
+Hi-Lin Water and Sanitation District,,N,,x,03054,G,HiLinWSD,G,CO0116343,G,,N,Water and Sanitation District,,x,,x,Arapahoe,1,Not in the Covered Entities database
+Hillcrest Water and Sanitation District,,N,,x,03055,G,HillcrestWSD,G,CO0103345,G,,N,Water and Sanitation District,,x,,x,Arapahoe,1,
+Hillrose,36610,G,,x,44007,G,Hillrose,C,CO0144010,G,,N,Municipality,,x,,x,Morgan,1,Not in the original BNDSS list
+Hilltop Water Company,,N,,x,,N,HilltopWC,G,CO0145300,G,19871039460,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+Hinsdale City Planning Commission,,N,,x,,N,HinsdalePlngCom,G,,M,,N,County government,,x,,x,Hinsdale,1,
+Hinsdale County,,N,,x,,N,HinsdaleCo,G,,N,,N,County government,,x,,x,Hinsdale,1,Not in the Covered Entities database
+Holbrook Center Soft Water,,N,,x,,N,Holbrook,G,CO0145330,G,20031298976,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+Holly,37215,G,,x,50011,G,Holly,C,CO0150600,G,,N,Municipality,,x,,x,Prowers,1,Not in the original BNDSS list
+Holly Hills Water and Sanitation District,,N,,x,64077,G,HollyHlsWSD,G,CO0116352,G,,N,Water and Sanitation District,,x,,x,Multiple,2,Not in the Covered Entities database
+"Holyoke, City of",37270,G,,x,48005,G,Holyoke,G,CO0148005,G,,N,Municipality,,x,,x,Phillips,1,
+Homestead Improvement Association,,N,,x,,N,HomesteadIA,G,CO0145360,G,19871507652,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+Homestead Water Company,,N,,x,,N,HomesteadWC,G,CO0130050,G,20141696765,D,Company,,x,,x,Jefferson,1,Not in the Covered Entities database; dissolved in December 2014
+Hooper,37380,G,,x,02005,G,Hooper,C,,M,,N,Municipality,,x,,x,Alamosa,1,Not in the original BNDSS list
+"Hot Sulphur Springs, Town of",37545,G,,x,25015,G,HotSulphurSpgs,G,CO0125352,G,,N,Municipality,,x,,x,Delta,1,
+"Hotchkiss, Town of",37600,G,,x,15020,G,Hotchkiss,G,CO0115352,G,,N,Municipality,,x,,x,Grand,1,
+"Hudson, Town of",37820,G,,x,62029,G,Hudson,G,CO0162359,G,,N,Municipality,,x,,x,Weld,1,
+"Hugo, Town of",37875,G,,x,37006,G,Hugo,G,CO0137010,G,,N,Municipality,,x,,x,Lincoln,1,
+"Idaho Springs Public Works, City of",38370,G,,x,10008,G,IdahoSpgs,G,CO0110020,G,,N,Municipality,,x,,x,Clear Creek,1,
+Idledale Water and Sanitation District,,N,,x,30041,G,IdledaleWSD,G,CO0130055,G,,N,Water and Sanitation District,,x,,x,Jefferson,1,
+"Ignacio, Town of",38535,G,,x,34015,G,Ignacio,G,CO0134500,G,,N,Municipality,,x,,x,La Plata,1,
+Iliff,38590,G,,x,38007,G,Iliff,C,CO0138015,G,,N,Municipality,,x,,x,Logan,1,Not in the original BNDSS list
+Inverness Water and Sanitation District,,N,,x,64080,G,InvernessWSD,G,CO0203012,G,,N,Water and Sanitation District,,x,,x,Multiple,2,
+"Jamestown, Town of",39195,G,,x,07018,G,Jamestown,G,CO0107401,G,,N,Municipality,,x,,x,Boulder,1,
+Johnstown Water-Sewer Trash,39855,G,,x,64266,G,JohnstownWST,G,CO0162418,G,,N,Municipality,,x,,x,Multiple,2,
+Julesburg,39965,G,,x,58004,G,Julesburg,C,CO0158001,G,,N,Municipality,,x,,x,Sedgwick,1,Not in the original BNDSS list
+"Keenesburg, Town of",40185,G,,x,62033,G,Keenesburg,G,CO0162438,G,,N,Municipality,,x,,x,Weld,1,
+Ken-Caryl Ranch Water and Sanitation District,,N,,x,30049,G,KenCarylWS,G,CO0103075,G,,N,Water and Sanitation District,,x,,x,Jefferson,1,
+"Kersey, Town of",40515,G,,x,62035,G,Kersey,G,CO0055558,G,,N,Municipality,,x,,x,Weld,1,
+Kim,40570,G,,x,36005,G,Kim,C,CO0136400,G,,N,Municipality,,x,,x,Las Animas,1,Not in the original BNDSS list
+"Kiowa, Town of",40790,G,,x,20005,G,Kiowa,G,CO0120015,G,,N,Municipality,,x,,x,Elbert,1,
+Kit Carson,41010,G,,x,09013,G,KitCarson,C,CO0109011,G,,N,Municipality,,x,,x,Cheyenne,1,Not in the original BNDSS list
+"Kremmling, Town of",41560,G,,x,25018,G,Kremmling,G,CO0125455,G,,N,Municipality,,x,,x,Grand,1,
+La Jara,42055,G,,x,11009,G,LaJara,C,CO0111600,G,,N,Municipality,,x,,x,Conejos,1,Not in the original BNDSS list
+"La Junta, City of",42110,G,,x,45007,G,LaJunta,G,CO0145420,G,,N,Municipality,,x,,x,Otero,1,
+La Plata Archuleta Water District,,N,,x,65987,G,LaPlataArchWD,G,CO0134191,G,,N,Water District,,x,,x,La Plata,1,Not in the Covered Entities database
+La Plata West Water Authority,,N,,x,65949,G,LaPlataWestWA,G,,N,,N,Water Authority,,x,,x,La Plata,1,Not in the Covered Entities database
+La Salle,43605,G,,x,62037,G,LaSalle,C,CO0162466,G,,N,Municipality,,x,,x,Weld,1,Not in the original BNDSS list
+"La Veta, Town of",44100,G,,x,28007,G,LaVeta,G,CO0128500,G,,N,Municipality,,x,,x,Huerfano,1,
+"Lafayette, City of",41835,G,,x,07020,G,Lafayette,G,CO0107473,G,,N,Municipality,,x,,x,Boulder,1,
+"Lake City, Town of",42330,G,,x,27005,G,LakeCity,G,CO0127467,G,,N,Municipality,,x,,x,Hinsdale,1,
+Lake Creek Metropolitan District,,N,,x,19021,G,LakeCreekMD,C,,M,,N,Metropolitan District,,x,,x,Eagle,1,Not in the original BNDSS list
+Lakehurst Water and Sanitation District,,N,,x,64082,G,LakehurstWSD,G,CO0130466,G,,N,Water and Sanitation District,,x,,x,Multiple,2,
+Lakeside,42495,G,,x,30053,G,Lakeside,C,,M,,N,Municipality,,x,,x,Jefferson,1,Not in the original BNDSS list
+"Lakewood, City of",43000,G,,x,30055,G,Lakewood,G,CO0130467,G,,N,Municipality,,x,,x,Jefferson,1,
+"Lakewood/Fox Hollow Golf Course, City of",,N,,x,,N,LakeWdFoxHGC,G,,M,,N,,,x,,x,Jefferson,1,
+"Lamar, Town of",43110,G,,x,50012,G,Lamar,G,CO0150700,G,,N,Municipality,,x,,x,Prowers,1,
+Larkspur,43550,G,,x,18021,G,Larkspur,C,CO0118030,G,,N,Municipality,,x,,x,Douglas,1,Not in the original BNDSS list
+"Las Animas, City of",43660,G,,x,06005,G,LasAnimas,G,CO0106300,G,,N,Municipality,,x,,x,Bent,1,
+Leadville,44320,G,,x,33004,G,Leadville,C,,M,,N,Municipality,,x,,x,Lake,1,Not in the original BNDSS list
+Lefthand Water District,,N,,x,64194,G,LHWD,G,CO0107471,G,,N,Water District,,x,,x,Multiple,3,
+"Limon, Town of",44980,G,,x,37007,G,Limon,G,CO0137015,G,,N,Municipality,,x,,x,Lincoln,1,
+Little Thompson Water District,,N,,x,64083,G,LTWD,G,CO0135477,G,,N,Water District,,x,,x,Multiple,3,
+"Littleton, City of",45255,G,,x,64085,G,Littleton,G,CO0103476,G,,N,Municipality,,x,,x,Multiple,3,
+"Lochbuie, Town of",45530,G,,x,62038,G,Lochbuie,G,CO0162486,G,,N,Municipality,,x,,x,Multiple,2,
+Lochmoor Water and Sanitation District,,N,,x,64086,G,LochmoorWSD,G,CO0116485,G,,N,Water and Sanitation District,,x,,x,Multiple,2,Not in the Covered Entities database
+"Log Lane Village, Town of",45695,G,,x,44009,G,LogLaneVlg,G,CO0144015,G,,N,Municipality,,x,,x,Morgan,1,
+Lone Tree,45955,G,,x,18104,G,LoneTree,C,,M,,N,Municipality,,x,,x,Douglas,1,Not in the original BNDSS list
+"Longmont, City of",45970,G,,x,64205,G,Longmont,G,CO0107485,G,,N,Municipality,,x,,x,Multiple,2,
+Longs Peak Water District,,N,,x,64206,G,LongsPeakWD,C,CO0107486,G,,N,Water District,,x,,x,Multiple,2,Not in the original BNDSS list
+Lookout Mountain Water District,,N,,x,64261,G,LookoutMtnWD,G,CO0110026,G,,N,Water District,,x,,x,Multiple,2,Not in the Covered Entities database
+Loretto Heights,,N,,x,,N,LorettoWS,G,CO0103486,G,,N,,,x,,x,Arapahoe,1,Not in the Covered Entities database
+"Louisville, City of",46355,G,,x,07029,G,Louisville,G,CO0107487,G,,N,Municipality,,x,,x,Boulder,1,
+"Loveland, City of",46465,G,,x,35026,G,Loveland,G,CO0135485,G,,N,Municipality,,x,,x,Larimer,1,
+"Lyons, Town of",47070,G,,x,07032,G,Lyons,G,CO0107496,G,,N,Municipality,,x,,x,Boulder,1,
+Manassa,48060,G,,x,11010,G,Manassa,C,CO0111700,G,,N,Municipality,,x,,x,Conejos,1,Not in the original BNDSS list
+"Mancos, Town of",48115,G,,x,42016,G,Mancos,G,CO0142700,G,,N,Municipality,,x,,x,Montezuma,1,
+"Manitou Springs, City of",48445,G,,x,21030,G,ManitouSpgs,G,CO0121450,G,,N,Municipality,,x,,x,El Paso,1,
+Mansfield Heights Water and Sanitation District,,N,,x,03057,G,MansfieldHtsWSD,G,CO0103500,G,,N,Water and Sanitation District,,x,,x,Arapahoe,1,Not in the Covered Entities database
+"Manzanola, Town of",48500,G,,x,45009,G,Manzanola,G,CO0145450,G,,N,Municipality,,x,,x,Otero,1,
+Marble,48555,G,,x,26010,G,Marble,C,,M,,N,Municipality,,x,,x,Gunnison,1,Not in the original BNDSS list
+May Valley Water Association,,N,,x,,N,MayValleyWAS,G,CO0150800,G,19871166887,G,Company,,x,,x,Prowers,1,Not in the Covered Entities database
+McClave Water Association,,N,,x,,N,McClaveWAS,G,CO0106500,G,19871178254,G,Company,,x,,x,Bent,1,Not in the Covered Entities database
+Mead,49600,G,,x,62040,G,Mead,C,CO0162500,G,,N,Municipality,,x,,x,Weld,1,Not in the original BNDSS list
+Meadowbrook Water District,,N,,x,30061,G,MeadowbrookWS,G,CO0130500,G,,N,Water District,,x,,x,Jefferson,1,Not in the Covered Entities database
+"Meeker, Town of",49875,G,,x,52007,G,Meeker,G,CO0152505,G,,N,Municipality,,x,,x,Rio Blanco,1,
+Menoken Water District,,N,,x,43024,G,MenokenWD,G,CO0143506,G,,N,Water District,,x,,x,Montrose,1,
+Meridian Metropolitan District,,N,,x,18022,G,MeridianMD,G,CO0218015,G,,N,Metropolitan District,,x,,x,Douglas,1,
+Meridian Ranch Water and Sanitation District,,N,,x,21106,G,MeridianRanchWSD,G,CO0121455,G,,N,Metropolitan District,,x,,x,El Paso,1,
+Merino,50040,G,,x,38011,G,Merino,C,CO0138025,G,,N,Municipality,,x,,x,Logan,1,Not in the original BNDSS list
+Mesa Cortina Water and Sanitation District,,N,,x,65084,G,MesaCortinaWSD,G,CO0159080,G,,N,Water and Sanitation District,,x,,x,Summit,1,
+Mesa View Water District,,N,,x,52008,G,MesaViewWD,G,,M,,N,Water District,,x,,x,Rio Blanco,1,
+Mesa Water and Sanitation District,,N,,x,39026,G,MesaWSD,C,CO0139505,G,,N,Water and Sanitation District,,x,,x,Mesa,1,Not in the original BNDSS list
+"Mesa, Community of",,N,,x,,N,Mesa,G,,M,,N,Unincorporated community,,x,,x,Mesa,1,Not in the Covered Entities database
+Mid Valley Metropolitan District,,N,,x,64211,G,MidVlyMD,G,CO0119508,G,,N,Metropolitan District,,x,,x,Multiple,2,
+"Milliken, Town of",50480,G,,x,62043,G,Milliken,G,CO0162511,G,,N,Municipality,,x,,x,Weld,1,
+Miners Mesa Residential Metropolitan District,,N,,x,24010,G,MinersMesaResMD,G,,M,,N,Metropolitan District,,x,,x,Gilpin,1,
+Minturn,50920,G,,x,19024,G,Minturn,C,CO0119510,G,,N,Municipality,,x,,x,Eagle,1,Not in the original BNDSS list
+Moffat,51250,G,,x,55005,G,Moffat,C,,M,,N,Municipality,,x,,x,Saguache,1,Not in the original BNDSS list
+"Monte Vista, City of",51635,G,,x,53005,G,MonteVista,G,CO0153600,G,,N,Municipality,,x,,x,Rio Grande,1,
+Montezuma,51690,G,,x,59028,G,Montezuma,C,,M,,N,Municipality,,x,,x,Summit,1,Not in the original BNDSS list
+Montezuma County Water District 1,,N,,x,42019,G,MontezumaCountyWD1,G,CO0142800,G,,N,Water District,,x,,x,Montezuma,1,
+Montezuma Water Company,,N,,x,,N,MontezumaWC,G,CO0142900,G,19871176663,G,Company,,x,,x,Montezuma,1,Not in the Covered Entities database
+"Montrose, City of",51745,G,,x,43004,G,Montrose,G,CO0143518,G,,N,Municipality,,x,,x,Montrose,1,
+"Monument, Water Department, Town of",51800,G,,x,21032,G,Monument,G,CO0121475,G,,N,Municipality,,x,,x,El Paso,1,
+Morgan County Quality Water District,,N,,x,64094,G,MCQWD,G,CO0144020,G,,N,Water District,,x,,x,Multiple,2,
+Morrison Creek Water and Sanitation District,,N,,x,54006,G,MorrisonCrkWSD,G,CO0154518,G,,N,Water and Sanitation District,,x,,x,Routt,1,
+"Morrison, Town of",52075,G,,x,30065,G,Morrison,G,CO0130085,G,,N,Municipality,,x,,x,Jefferson,1,
+Mount Werner Water and Sanitation District,,N,,x,54007,G,MtWernerWSD,G,CO0154524,G,,N,Water and Sanitation District,,x,,x,Routt,1,
+"Mountain View, Town of",52550,G,,x,57027,G,MtnView,G,CO0130518,G,,N,Municipality,,x,,x,San Miguel,1,
+Mountain Village,52550,G,,x,57027,G,MtnVillage,C,CO0157400,G,,N,Municipality,,x,,x,San Miguel,1,Not in the original BNDSS list
+Mountain Water and Sanitation District,,N,,x,64095,G,MtnWSD,G,CO0130100,G,,N,Water and Sanitation District,,x,,x,Multiple,3,
+Mt Crested Butte Water and Sanitation District,,N,,x,26003,G,MtCrestedButteWSD,G,CO0126190,G,,N,Water and Sanitation District,,x,,x,Gunnison,1,
+"Mt Crested Butte, Town of",52350,G,,x,30067,G,MtCrestedButte,G,,M,,N,Municipality,,x,,x,Jefferson,1,Not in the Covered Entities database
+Mt Vernon Country Club Metropolitan District,,N,,x,30124,G,MtVernonCCWS,G,CO0130090,G,,N,Metropolitan District,,x,,x,Jefferson,1,Not in the Covered Entities database
+Mustang Water Authority,,N,,x,65050,G,MustangWA,C,CO0143525,G,,N,Water Authority,,x,,x,Montrose,1,Not in the original BNDSS list
+Naturita,53120,G,,x,43005,G,Naturita,C,CO0143533,G,,N,Municipality,,x,,x,Montrose,1,Not in the original BNDSS list
+Navajo Western Water District,,N,,x,28008,G,NavajoWesternWD,G,CO0128625,G,,N,Water District,,x,,x,Huerfano,1,
+Nederland,53175,G,,x,07033,G,Nederland,C,CO0107538,G,,N,Municipality,,x,,x,Boulder,1,Not in the original BNDSS list
+"New Castle, Town of",53395,G,,x,23012,G,NewCastle,G,CO0123538,G,,N,Municipality,,x,,x,Garfield,1,
+Newdale-Grand Valley Water Company,,N,,x,,N,NewdaleGrandValleyWC,G,CO0145480,G,19871171775,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+North Carter Lake Water District,,N,,x,35029,G,NCarterLakeWD,G,CO0135553,G,,N,Water District,,x,,x,Larimer,1,
+North Holbrook Water Company,,N,,x,,N,NHolbrook,G,CO0145630,G,19911046735,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+North Lincoln Water and Sanitation District,,N,,x,01015,G,NLincolnWSD,G,CO0116552,G,,N,Water and Sanitation District,,x,,x,Adams,1,Not in the Covered Entities database
+North Pecos Water and Sanitation District,,N,,x,64100,G,NPecosWSD,G,CO0116553,G,,N,Water and Sanitation District,,x,,x,Multiple,2,
+North Range Metropolitan District,,N,,x,,m,NRangeMD,G,,M,,N,Metropolitan District,,x,,x,Adams,1,Has split into multiple metropolitan districts; unsure of which DOLA_LG_ID to use
+North Table Mountain Water and Sanitation District,,N,,x,30070,G,NTableMtnWSD,C,CO0130105,G,,N,Water and Sanitation District,,x,,x,Jefferson,1,Not in the original BNDSS list
+North Washington Street Water and Sanitation District,,N,,x,64102,G,NWashingtonStreetWSD,G,CO0101105,G,,N,Water and Sanitation District,,x,,x,Multiple,2,
+North Weld County Water District,,N,,x,64103,G,NWCWD,G,CO0162553,G,,N,Water District,,x,,x,Multiple,2,
+Northern Colorado Water Conservancy District,,N,,x,64105,G,NCWCD,G,,N,,N,Water Conservancy District,,x,,x,Multiple,8,Not in the Covered Entities database
+Northern Douglas County Water and Sanitation District,,N,,x,18015,G,NDouglasCoWSD,G,CO0118016,G,,N,Water and Sanitation District,,x,,x,Douglas,1,
+Northgate Water District,,N,,x,01017,G,NorthgateWD,G,CO0101106,G,,N,Water District,,x,,x,Adams,1,
+"Northglenn, City of",54330,G,,x,64198,G,Northglenn,G,CO0101115,G,,N,Municipality,,x,,x,Multiple,2,
+"Norwood, Town of",54880,G,,x,57007,G,Norwood,G,CO0157500,G,,N,Municipality,,x,,x,San Miguel,1,
+"Nucla, Town of",54935,G,,x,43007,G,Nucla,G,CO0143559,G,,N,Municipality,,x,,x,Montrose,1,
+Nunn,55045,G,,x,62045,G,Nunn,C,CO0162559,G,,N,Municipality,,x,,x,Weld,1,Not in the original BNDSS list
+"Oak Creek Public Works, Town of",55155,G,,x,54010,G,OakCrk,G,CO0154566,G,,N,Municipality,,x,,x,Routt,1,
+"Olathe, Town of",55540,G,,x,43012,G,Olathe,G,CO0143582,G,,N,Municipality,,x,,x,Montrose,1,
+"Olney Springs, Town of",55705,G,,x,13004,G,OlneySpgs,G,CO0113500,G,,N,Municipality,,x,,x,Crowley,1,
+Ophir,55870,G,,x,57008,G,Ophir,C,CO0157600,G,,N,Municipality,,x,,x,San Miguel,1,Not in the original BNDSS list
+"Orchard City, Town of",55980,G,,x,15022,G,OrchardCity,G,CO0115588,G,,N,Municipality,,x,,x,Delta,1,
+"Ordway, Town of",56145,G,,x,13006,G,Ordway,G,CO0113700,G,,N,Municipality,,x,,x,Crowley,1,
+Other in Bent Co,,N,,x,,N,BentCountyOther,G,,N,,N,County government,,x,,x,Bent,1,Not in the Covered Entities database
+Other in Otero Co,,N,,x,,N,OteroCountyOther,G,,N,,N,County government,,x,,x,Otero,1,Not in the Covered Entities database
+Other in Prowers Co,,N,,x,,N,ProwersCountyOther,G,,N,,N,County government,,x,,x,Prowers,1,Not in the Covered Entities database
+"Otis, Town of",56365,G,,x,61006,G,Otis,G,CO0161010,G,,N,Municipality,,x,,x,Washington,1,
+"Ouray Public Works, City of",56420,G,,x,46007,G,Ouray,G,CO0146588,G,,N,Municipality,,x,,x,Ouray,1,
+"Ovid, Town of",56475,G,,x,58007,G,Ovid,G,CO0158005,G,,N,Municipality,,x,,x,Sedgwick,1,
+Pagosa Area Water and Sanitation District,,N,,x,04003,G,PagosaAreaWSD,G,CO0104300,G,,N,Water and Sanitation District,,x,,x,Archuleta,1,
+"Pagosa Springs, Town of",56860,G,,x,04006,G,PagosaSpgs,G,,M,,N,Municipality,,x,,x,Archuleta,1,
+Paint Brush Hills Metropolitan District,,N,,x,21074,G,PaintBrushHlsMD,G,CO0221690,G,,N,Metropolitan District,,x,,x,El Paso,1,Not in the Covered Entities database
+"Palisade, Town of",56970,G,,x,39034,G,Palisade,G,CO0139600,G,,N,Municipality,,x,,x,Mesa,1,
+"Palmer Lake, Town of",57025,G,,x,21034,G,PalmerLake,G,CO0121575,G,,N,Municipality,,x,,x,El Paso,1,
+Panorama Improvement District,,N,,x,39035,G,PanoramaImpD,G,,M,,N,Metropolitan District,,x,,x,Mesa,1,
+Panorama Park Mutual Water Association,,N,,x,,N,PanoramaParkWS,G,CO0054916,G,19871177443,D,Company,,x,,x,Arapahoe,1,Not in the Covered Entities database; dissolved in November 2001
+Paoli,57245,G,,x,48006,G,Paoli,C,CO0148010,G,,N,Municipality,,x,,x,Phillips,1,Not in the original BNDSS list
+"Paonia, Town of",57300,G,,x,15025,G,Paonia,G,CO0115601,G,,N,Municipality,,x,,x,Delta,1,
+Parachute,57400,G,,x,23013,G,Parachute,C,CO0123602,G,,N,Municipality,,x,,x,Garfield,1,Not in the original BNDSS list
+Park Center Water District,,N,,x,22016,G,ParkCntrWD,G,CO0122600,G,,N,Water District,,x,,x,Fremont,1,
+Park Forest Water District,,N,,x,21035,G,ParkForestWD,G,CO0000685,G,,N,Water District,,x,,x,El Paso,1,
+Parkdale Water,,N,,x,,N,ParkdaleWS,G,CO0145510,G,19871171611,D,Company,,x,,x,Otero,1,Not in the Covered Entities database; dissolved in January 2004
+Parker Water and Sanitation District,,N,,x,18027,G,ParkerWSD,G,CO0118040,G,,N,Water and Sanitation District,,x,,x,Douglas,1,
+Parkville Water District,,N,,x,33005,G,ParkvilleWD,C,CO0133700,G,,N,Water District,,x,,x,Lake,1,Not in the original BNDSS list
+Patterson Valley Water Company,,N,,x,,N,PattersonValleyWS,G,CO0145540,G,19871155183,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+"Peetz, Town of",58235,G,,x,38016,G,Peetz,G,CO0138030,G,,N,Municipality,,x,,x,Logan,1,
+Penrose Water District,,N,,x,22017,G,Penrose,G,CO0122700,G,,N,Water District,,x,,x,Fremont,1,
+Perry Park Water and Sanitation District,,N,,x,18030,G,PerryParkWSD,G,CO0118045,G,,N,Water and Sanitation District,,x,,x,Douglas,1,
+Phippsburg,,N,,x,,N,Phippsburg,G,CO0154609,G,,N,Census-designated Place,,x,,x,Routt,1,
+Piedra Park Metropolitan Improvement District,,N,,x,04007,G,PiedraParkMImpD,G,CO0104700,G,,N,Metropolitan District,,x,,x,Archuleta,1,
+Pierce,59005,G,,x,62046,G,Pierce,C,CO0162610,G,,N,Municipality,,x,,x,Weld,1,Not in the original BNDSS list
+Pine Brook Water District,,N,,x,07037,G,PineBrookWD,G,CO0107610,G,,N,Water District,,x,,x,Boulder,1,
+Pine Drive Water District,,N,,x,51008,G,PineDrWD,G,CO0151450,G,,N,Water District,,x,,x,Pueblo,1,
+Pinery Water and Wastewater District,,N,,x,,z,PineryWD,C,CO0118025,G,,N,Water District,,x,,x,Douglas,1,Not in the original BNDSS list
+Pinewood Springs Water District,,N,,x,35034,G,PinewoodSpgsWD,G,CO0135610,G,,N,Water District,,x,,x,Larimer,1,
+Pioneer Lookout Water District,,N,,x,21083,G,PioneerLookoutWD,G,CO0121625,G,,N,Water District,,x,,x,El Paso,1,
+Pitkin,59830,G,,x,26012,G,Pitkin,C,,M,,N,Municipality,,x,,x,Gunnison,1,Not in the original BNDSS list
+Platte Canyon Water and Sanitation District,,N,,x,64110,G,PlatteCanyonWSD,G,CO0103614,G,,N,Water and Sanitation District,,x,,x,Multiple,2,
+"Platteville, Town of",60160,G,,x,62050,G,Platteville,G,CO0162615,G,,N,Municipality,,x,,x,Weld,1,
+Pleasant View Water and Sanitation District,,N,,x,30076,G,PleasantViewWSD,G,CO0054379,G,,N,Water and Sanitation District,,x,,x,Jefferson,1,
+"Poncha Springs, Town of",60600,G,,x,08006,G,PonchaSpgs,G,CO0108650,G,,N,Municipality,,x,,x,Chaffee,1,
+Pritchett,61315,G,,x,05006,G,Pritchett,C,CO0105300,G,,N,Municipality,,x,,x,Baca,1,Not in the original BNDSS list
+Pueblo West Metropolitan District,,N,,x,51015,G,PuebloWMD,G,CO0151650,G,,N,Metropolitan District,,x,,x,Pueblo,1,
+Purgatory Metropolitan District,,N,,x,34024,G,PurgatoryMD,G,CO0134750,G,,N,Metropolitan District,,x,,x,La Plata,1,
+Ramah,62660,G,,x,21036,G,Ramah,C,CO0121675,G,,N,Municipality,,x,,x,El Paso,1,Not in the original BNDSS list
+Rampart Range Metropolitan District,,N,,x,,m,RampartRangeMD,G,,M,,N,Metropolitan District,,x,,x,Douglas,1,Has split into multiple metropolitan districts; unsure of which DOLA_LG_ID to use
+"Rangely, Town of",62880,G,,x,52015,G,Rangely,G,CO0152666,G,,N,Municipality,,x,,x,Rio Blanco,1,
+Rangeview Metropolitan District,,N,,x,03110,G,RangeviewMD,G,CO0103666,G,,N,Metropolitan District,,x,,x,Arapahoe,1,
+Ravenna Metropolitan District,,N,,x,65239,G,RavennaMD,C,CO0118665,G,,N,Metropolitan District,,x,,x,Douglas,1,Not in the original BNDSS list
+Raymer,63045,G,,x,62051,G,Raymer,C,CO0162666,G,,N,Municipality,,x,,x,Weld,1,Not in the original BNDSS list
+Red Cliff,63265,G,,x,19026,G,RedCliff,C,CO0119671,G,,N,Municipality,,x,,x,Eagle,1,Not in the original BNDSS list
+Redstone Water and Sanitation District,,N,,x,49026,G,RedstoneWSD,G,CO0149671,G,,N,Water and Sanitation District,,x,,x,Pitkin,1,
+"Rico, Town of",64090,G,,x,17007,G,Rico,G,CO0117700,G,,N,Municipality,,x,,x,Dolores,1,
+Ridgewood Water District,,N,,x,60007,G,RidgewoodWD,G,CO0160400,G,,N,Water District,,x,,x,Teller,1,
+"Ridgway, Town of",64200,G,,x,46009,G,Ridgway,G,CO0146676,G,,N,Municipality,,x,,x,Ouray,1,
+"Rifle, City of",64255,G,,x,23017,G,Rifle,G,CO0123676,G,,N,Municipality,,x,,x,Garfield,1,
+Riverbend Subdivision Homeowner's Association Inc.,,N,,x,,N,RiverbendSubdv,G,,M,19891083570,G,Company,,x,,x,Gunnison,1,
+Roaring Fork Water and Sanitation District,,N,,x,23034,G,RoaringForkWSD,G,CO0123125,G,,N,Water and Sanitation District,,x,,x,Garfield,1,Not in the Covered Entities database
+Rockvale,64970,G,,x,22018,G,Rockvale,C,CO0122800,G,,N,Municipality,,x,,x,Fremont,1,Not in the original BNDSS list
+"Rocky Ford, City of",65190,G,,x,45014,G,RockyFord,G,CO0145600,G,,N,Municipality,,x,,x,Otero,1,
+Romeo,65740,G,,x,11013,G,Romeo,C,CO0111800,G,,N,Municipality,,x,,x,Conejos,1,Not in the original BNDSS list
+Round Mountain Water and Sanitation District,,N,,x,14003,G,RoundMtnWSD,G,CO0114500,G,,N,Water and Sanitation District,,x,,x,Custer,1,
+Roxborough Park Metropolitan District,,N,,x,,z,RoxboroughParkMD,G,,M,,N,Metropolitan District,,x,,x,Douglas,1,"Not in the Covered Entities database; not sure if still exists, may be Roxborough Village Metro District"
+Roxborough Water and Sanitation District,,N,,x,18031,G,RoxboroughWSD,G,CO0118055,G,,N,Water and Sanitation District,,x,,x,Multiple,2,
+Rye,66895,G,,x,51018,G,Rye,C,CO0151700,G,,N,Municipality,,x,,x,Pueblo,1,Not in the original BNDSS list
+Saguache,67005,G,,x,55008,G,Saguache,C,CO0155800,G,,N,Municipality,,x,,x,Saguache,1,Not in the original BNDSS list
+"Salida, City of",67280,G,,x,08007,G,Salida,G,CO0108700,G,,N,Municipality,,x,,x,Chaffee,1,
+San Juan River Village Metropolitan District,,N,,x,04014,G,SanJuanRiverVlgMD,G,CO0104900,G,,N,Metropolitan District,,x,,x,Archuleta,1,
+San Luis,68105,G,,x,11016,G,SanLuis,C,,M,,N,Municipality,,x,,x,Costilla,1,Not in the original BNDSS list
+San Luis Water and Sanitation District,,N,,x,12008,G,SanLuisWSD,G,CO0112900,G,,N,Water and Sanitation District,,x,,x,Costilla,1,
+Sand Creek Metropolitan District,,N,,x,64221,G,SandCreekMD,G,,M,,N,Metropolitan District,,x,,x,Multiple,2,
+"Sanford, Town of",67830,G,,x,12009,G,Sanford,G,CO0111900,G,,N,Municipality,,x,,x,Conejos,1,
+Sawpit,68655,G,,x,57017,G,Sawpit,C,CO0157700,G,,N,Municipality,,x,,x,San Miguel,1,Not in the original BNDSS list
+Security Water and Sanitation District,,N,,x,21040,G,SecurityWSD,G,CO0121775,G,,N,Water District,,x,,x,El Paso,1,
+Sedalia Water and Sanitation District,,N,,x,18038,G,SedaliaWSD,G,CO0118060,G,,N,Water and Sanitation District,,x,,x,Douglas,1,
+Sedgwick,68930,G,,x,58012,G,Sedgwick,C,CO0158010,G,,N,Municipality,,x,,x,Sedgwick,1,Not in the original BNDSS list
+Seibert,69040,G,,x,32015,G,Seibert,C,CO0132015,G,,N,Municipality,,x,,x,Kit Carson,1,Not in the original BNDSS list
+"Severance, Town of",69150,G,,x,62053,G,Severance,G,CO0162707,G,,N,Municipality,,x,,x,Weld,1,
+Sheridan,69645,G,,x,31008,G,SheridanWS,G,CO0103709,G,,N,Municipality,,x,,x,Arapahoe,1,Not in the Covered Entities database
+Sheridan Lake,69700,G,,x,03065,G,SheridanLake,C,,M,,N,Municipality,,x,,x,Kiowa,1,Not in the original BNDSS list
+Sheridan Sanitation District,,N,,x,03063,G,SheridanSD1,G,,M,,N,Sanitation District,,x,,x,Arapahoe,1,
+Sheridan Sanitation District 2,,N,,x,03064,G,SheridanSD2,C,,M,,N,Sanitation District,,x,,x,Multiple,2,Not in the original BNDSS list
+Sierra Vista Douglas Mutual Water Company,,N,,x,,N,SierraVistaDouglasMWC,G,,M,19881076499,G,Company,,x,,x,Douglas,1,
+"Silt, Town of",70195,G,,x,23019,G,Silt,G,CO0123710,G,,N,Municipality,,x,,x,Garfield,1,
+Silver Cliff,70250,G,,x,14004,G,SilverCliff,C,,M,,N,Municipality,,x,,x,Custer,1,Not in the original BNDSS list
+Silver Heights Water and Sanitation District,,N,,x,18032,G,SilverHtsWSD,G,CO0118075,G,,N,Water and Sanitation District,,x,,x,Douglas,1,
+Silver Plume,70360,G,,x,10009,G,SilverPlume,C,CO0110035,G,,N,Municipality,,x,,x,Clear Creek,1,Not in the original BNDSS list
+Silverthorne,70525,G,,x,59018,G,SilverthorneWS,G,CO0159095,G,,N,Municipality,,x,,x,Summit,1,Not in the Covered Entities database
+Silverton,70580,G,,x,56002,G,Silverton,C,CO0156600,G,,N,Municipality,,x,,x,San Juan,1,Not in the original BNDSS list
+Simla,70635,G,,x,20006,G,Simla,C,CO0120025,G,,N,Municipality,,x,,x,Elbert,1,Not in the original BNDSS list
+Snake River Water District,,N,,x,59026,G,SnakeRiverWD,G,CO0159105,G,,N,Water District,,x,,x,Summit,1,
+Snowmass Village,71755,G,,x,49012,G,SnowmassVillage,C,,M,,N,Municipality,,x,,x,Pitkin,1,Not in the original BNDSS list
+South Adams County Water and Sanitation District,,N,,x,01021,G,SAdamsCoWSD,G,CO0101140,G,,N,Water and Sanitation District,,x,,x,Adams,1,
+South Fork,72395,G,,x,53013,G,SouthFork,C,,M,,N,Municipality,,x,,x,Rio Grande,1,Not in the original BNDSS list
+"South Sheridan Water, Sanitary Sewer and Storm Drainage District",,N,,x,30079,G,SSheridanMD,G,CO0130718,G,,N,Metropolitan District,,x,,x,Jefferson,1,Not in the Covered Entities database
+South Side Water Association,,N,,x,,N,SouthSideLaJuntaWAS,G,CO0145660,G,19871133400,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+South Swink Water Company,,N,,x,,N,SouthSwinkWC,G,CO0145690,G,19871142703,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+South University Place Water District,,N,,x,,z,SouthUniversityWS,G,CO0103719,G,,N,Water District,,x,,x,Arapahoe,1,Not in the Covered Entities database
+Southeast Englewood Water District,,N,,x,03072,G,SoutheastEnglewoodWS,G,CO0103720,G,,N,Water District,,x,,x,Arapahoe,1,
+Southeastern Colorado Water Conservancy District,,N,,x,64128,G,SECWCD,G,,N,,N,Water Conservancy District,,x,,x,Multiple,9,Not in the Covered Entities database
+Southgate Water and Sanitation District,,N,,x,64130,G,SouthgateWD,G,CO0103721,G,,N,Water District,,x,,x,Multiple,3,
+Southwest Cherry Hills Water District,,N,,x,,z,SouthwestCherryHillsWS,G,CO0103722,G,,N,Water District,,x,,x,Arapahoe,1,Not in the Covered Entities database
+Southwest Metropolitan Water and Sanitation District,,N,,x,64131,G,SouthwestMetro,G,CO0103723,G,,N,Water and Sanitation District,,x,,x,Multiple,3,
+Southwest Suburban Denver Water and Sanitation District,,N,,x,30081,G,SouthwestSuburbanWSD,G,CO0130724,G,,N,Water and Sanitation District,,x,,x,Jefferson,1,Not in the Covered Entities database
+"Springfield, Town of",73330,G,,x,05011,G,Springfield,G,CO0105500,G,,N,Municipality,,x,,x,Baca,1,
+St Charles Mesa Water District,,N,,x,51028,G,StCharlesMesaWD,G,CO0151750,G,,N,Water District,,x,,x,Pueblo,1,
+St Mary's Glacier Water and Sanitation District,,N,,x,10011,G,StMarysGlacierWSD,G,CO0110040,G,,N,Water and Sanitation District,,x,,x,Clear Creek,1,Not in the Covered Entities database
+Starkville,73715,G,,x,36010,G,Starkville,C,CO0136724,G,,N,Municipality,,x,,x,Las Animas,1,Not in the original BNDSS list
+Steamboat II Metropolitan District,,N,,x,54017,G,Steamboat2MD,G,CO0154724,G,,N,Metropolitan District,,x,,x,Routt,1,
+"Steamboat Springs, City of",73825,G,,x,54023,G,SteamboatSpgs,G,CO0154725,G,,N,Municipality,,x,,x,Routt,1,
+"Sterling, City of",73935,G,,x,38019,G,Sterling,G,CO0138045,G,,N,Municipality,,x,,x,Logan,1,
+Stonegate Village Metropolitan District,,N,,x,18043,G,StonegateVlgMD,G,CO0118076,G,,N,Metropolitan District,,x,,x,Douglas,1,Not in the Covered Entities database
+Stratmoor Hills Water and Sanitation Districts,,N,,x,21045,G,StratmoorHlsWD,G,CO0121800,G,,N,Water District,,x,,x,El Paso,1,
+Stratton,74485,G,,x,32020,G,Stratton,C,CO0132020,G,,N,Municipality,,x,,x,Kit Carson,1,Not in the original BNDSS list
+"Sugar City, Town of",74815,G,,x,13007,G,SugarCity,G,CO0113900,G,,N,Municipality,,x,,x,Crowley,1,
+Summit Ridge Water District,,N,,x,,z,SummitRidgeWD,G,CO0142950,G,,N,Water District,,x,,x,Montezuma,1,
+Sunset Metropolitan District/PP Water Company,,N,,x,21066,G,SunsetMDPPWC,G,,M,,N,Metropolitan District,,x,,x,El Paso,1,Not in the Covered Entities database
+Sunset Water District,,N,,x,35042,G,SunsetWD,G,CO0135726,G,,N,Water District,,x,,x,Larimer,1,
+"Superior, Town of",75640,G,,x,64183,G,Superior,G,,M,,N,Municipality,,x,,x,Multiple,2,
+Superior/McCaslin Interchange Metropolitan District,,N,,x,07074,G,SupMcInterchangeMD,G,,M,,N,Metropolitan District,,x,,x,Boulder,1,Not in the Covered Entities database
+"Swink, Town of",75970,G,,x,45015,G,Swink,G,CO0145720,G,,N,Municipality,,x,,x,Otero,1,
+Teller County Water and Sanitation District,,N,,x,60011,G,TellerCoWD,G,CO0160600,G,,N,Water and Sanitation District,,x,,x,Teller,1,
+"Telluride, Town of",76795,G,,x,57014,G,Telluride,G,CO0157800,G,,N,Municipality,,x,,x,San Miguel,1,
+"Thornton, City of",77290,G,,x,64264,G,Thornton,G,CO0101150,G,,N,Municipality,,x,,x,Multiple,2,
+Thunderbird Water and Sanitation District,,N,,x,18033,G,ThunderbirdWSD,C,CO0118078,G,,N,Water and Sanitation District,,x,,x,Douglas,1,Not in the original BNDSS list
+Timnath,77510,G,,x,35044,G,Timnath,C,CO0055699,G,,N,Municipality,,x,,x,Larimer,1,Not in the original BNDSS list
+"Titan Road Industrial Park Water Association, Inc",,N,,x,,N,TitanRdIndstrlParkWA,G,CO0218031,G,19891074339,G,Company,,x,,x,Douglas,1,
+Tri-County Water Conservation District,,N,,x,64138,G,Tri-County,G,CO0143755,G,,N,Water Conservancy District,,x,,x,Multiple,3,
+"Trinidad, City of",78610,G,,x,36011,G,Trinidad,G,CO0136800,G,,N,Municipality,,x,,x,Las Animas,1,
+Triview Metropolitan District,,N,,x,21061,G,TriviewMD,G,CO0121840,G,,N,Metropolitan District,,x,,x,El Paso,1,
+Two Buttes,79270,G,,x,05016,G,TwoButtes,C,CO0105700,G,,N,Municipality,,x,,x,Baca,1,Not in the original BNDSS list
+Uncompahgre Valley Water Association: East Mesa,,N,,x,,N,UncompVlyWAEastMesa,G,,M,,N,Company,,x,,x,Delta,1,
+United Water and Sanitation District,,N,,x,65107,G,UnitedWSD,C,,M,,N,Water and Sanitation District,,x,,x,Elbert,1,Not in the original BNDSS list
+Upper Arkansas Water Conservancy District,,N,,x,64141,G,UAWCD,G,,N,,N,Water Conservancy District,,x,,x,Multiple,5,Not in the Covered Entities database
+Upper Eagle Regional Water Authority,,N,,x,19042,G,UpEagleRivWA,G,CO0119786,G,,N,Water Authority,,x,,x,Eagle,1,
+Upper Gunnison River Water Conservancy District,,N,,x,64143,G,UGRWCD,G,,N,,N,Water Conservancy District,,x,,x,Multiple,3,Not in the Covered Entities database
+Upper South Platte Water Conservancy,,N,,x,64145,G,UpperSPlatteWCD,C,,N,,N,Water Conservancy District,,x,,x,Multiple,5,Not in the original BNDSS list
+Upper Surface Creek Domestic Water Users Association (USCDWUA),,N,,x,,N,USCDWUA,G,CO0115784,G,19871130243,G,Company,,x,,x,Delta,1,Not in the Covered Entities database
+Upper Yampa Water Conservancy District,,N,,x,64146,G,UpYampaWCD,G,,N,,N,Water Conservancy District,,x,,x,Multiple,2,Not in the Covered Entities database
+Ute Mountain Ute Tribe,,N,,x,,N,UteMtnUtes,G,CO0184069,G,,N,Tribal,,x,,x,Montezuma,1,Not in the Covered Entities database
+Ute Water Conservancy District,,N,,x,39043,G,UteWater,G,CO0139791,G,,N,Water Conservancy District,,x,,x,Mesa,1,
+Vail Associates,,N,,x,,N,VailAss,G,,M,,N,Company,,x,,x,Eagle,1,Not in the Covered Entities database
+"Vail, Town of",80040,G,,x,19038,G,Vail,G,,M,,N,Municipality,,x,,x,Eagle,1,Not in the Covered Entities database
+Valley Water Company,,N,,x,,N,VlyWC,G,CO0145750,G,19871152426,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+Victor,80865,G,,x,60012,G,Victor,C,CO0160700,G,,N,Municipality,,x,,x,Teller,1,Not in the original BNDSS list
+View Ridge Mutual Water Company,,N,,x,,N,ViewRidgeMWC,G,CO0118080,G,19871341780,G,Company,,x,,x,Douglas,1,
+"Vilas, Town of",81030,G,,x,05019,G,Vilas,G,CO0105800,G,,N,Municipality,,x,,x,Baca,1,
+Vona,81690,G,,x,32023,G,Vona,C,CO0132025,G,,N,Municipality,,x,,x,Kit Carson,1,Not in the original BNDSS list
+Vroman Water Company,,N,,x,,N,VromanWC,G,CO0145780,G,19871139734,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+"Walden Public Works, Town of",82130,G,,x,29006,G,Walden,G,CO0129834,G,,N,Municipality,,x,,x,Jackson,1,
+"Walsenburg, City of",82350,G,,x,28010,G,Walsenburg,G,CO0128900,G,,N,Municipality,,x,,x,Huerfano,1,
+"Walsh, Town of",82460,G,,x,05023,G,Walsh,G,CO0105900,G,,N,Municipality,,x,,x,Baca,1,
+Ward,82735,G,,x,07042,G,Ward,C,CO0107834,G,,N,Municipality,,x,,x,Boulder,1,Not in the original BNDSS list
+"Wellington Public Works, Town of",83230,G,,x,35047,G,Wellington,G,CO0135838,G,,N,Municipality,,x,,x,Larimer,1,
+West Fort Collins Water District,,N,,x,35048,G,WFtCollinsWD,G,CO0135290,G,,N,Water District,,x,,x,Larimer,1,
+West Grand Valley Water Inc,,N,,x,,N,WGrandVlyWC,G,CO0145810,G,19571134935,G,Company,,x,,x,Otero,1,Not in the Covered Entities database
+West Holbrook Water,,N,,x,,N,WHolbrookWC,G,,M,,N,Company,,x,,x,Otero,1,Not in the Covered Entities database
+Westcliffe,83450,G,,x,14005,G,Westcliffe,C,,M,,N,Municipality,,x,,x,Custer,1,Not in the original BNDSS list
+Westcreek Lakes Water District,,N,,x,18035,G,WestcreekLakesWD,G,CO0118085,G,,N,Water District,,x,,x,Douglas,1,
+Westlake Water and Sanitation District,,N,,x,,z,WestlakeWSD,C,CO0101165,G,,N,Water and Sanitation District,,x,,x,Adams,1,Not in the original BNDSS list
+"Westminster, City of",83835,G,,x,64153,G,Westminster,G,CO0101170,G,,N,Municipality,,x,,x,Multiple,2,
+Westwood Lakes Water District,,N,,x,60013,G,WestwoodLakesWD,C,CO0160750,G,,N,Water District,,x,,x,Teller,1,Not in the original BNDSS list
+Wheat Ridge Water District,,N,,x,30092,G,WheatRidgeWD,G,CO0130842,G,,N,Water District,,x,,x,Jefferson,1,
+Widefield Water and Sanitation District,,N,,x,21091,G,WidefieldWSD,G,CO0121900,G,,N,Water and Sanitation District,,x,,x,El Paso,1,
+Wiggins,84770,G,,x,44016,G,Wiggins,C,CO0144035,G,,N,Municipality,,x,,x,Morgan,1,Not in the original BNDSS list
+"Wiley, Town of",85045,G,,x,50017,G,Wiley,G,CO0150900,G,,N,Municipality,,x,,x,Prowers,1,
+Williamsburg,85155,G,,x,22019,G,Williamsburg,C,CO0122950,G,,N,Municipality,,x,,x,Fremont,1,Not in the original BNDSS list
+Willow Brook Metropolitan District,,N,,x,59023,G,WillowBrookMD,G,CO0259020,G,,N,Metropolitan District,,x,,x,Summit,1,
+Willowbrook,,N,,x,30095,G,WillowbrookWS,G,CO0130843,G,,N,Water and Sanitation District,,x,,x,Jefferson,1,Not in the Covered Entities database
+Will-O-Wisp Metropolitan District,,N,,x,47015,G,WillOWispMD,G,CO0147200,G,,N,Metropolitan District,,x,,x,Park,1,Not in the Covered Entities database
+Willows Water District,,N,,x,03081,G,WillowsWD,G,CO0103100,G,,N,Water District,,x,,x,Arapahoe,1,
+"Windsor, Town of",85485,G,,x,64225,G,Windsor,G,CO0162843,G,,N,Municipality,,x,,x,Multiple,2,
+Winter Park,85705,G,,x,25025,G,WinterPark,C,,M,,N,Municipality,,x,,x,Grand,1,Not in the original BNDSS list
+Winter Park Water and Sanitation District,,N,,x,25023,G,WinterParkWSD,G,CO0125843,G,,N,Water and Sanitation District,,x,,x,Grand,1,Not in the Covered Entities database
+Woodmen Hills Metropolitan District,,N,,x,21089,G,WoodmenHlsMD,G,CO0121930,G,,N,Metropolitan District,,x,,x,El Paso,1,Not in the Covered Entities database
+Woodmoor Water and Sanitation District 1,,N,,x,21050,G,WoodmoorWSD1,G,CO0121950,G,,N,Water and Sanitation District,,x,,x,El Paso,1,
+"Wray, City of",86310,G,,x,63010,G,Wray,G,CO0163010,G,,N,Municipality,,x,,x,Yuma,1,
+"Yampa, Town of",86475,G,,x,54030,G,Yampa,G,CO0154900,G,,N,Municipality,,x,,x,Routt,1,
+"Yuma, City of",86750,G,,x,63017,G,Yuma,G,CO0163020,G,,N,Municipality,,x,,x,Yuma ,1,

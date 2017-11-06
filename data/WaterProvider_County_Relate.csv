@@ -1,4 +1,4 @@
-BNDSS_ID,Water_Provider_Name,County
+BNDSS_ID,WaterProviderName,County
 ACWWA,Arapahoe County Water and Wastewater Authority,Arapahoe
 ACWWA,Arapahoe County Water and Wastewater Authority,Douglas
 Arvada,"Arvada, City of",Adams
@@ -111,11 +111,11 @@ UAWCD,Upper Arkansas Water Conservancy District,Custer
 UAWCD,Upper Arkansas Water Conservancy District,El Paso
 UAWCD,Upper Arkansas Water Conservancy District,Fremont
 UAWCD,Upper Arkansas Water Conservancy District,Saguache
-UpperSPlatteWaterConservancy,Upper South Platte Water Conservancy District,Clear Creek
-UpperSPlatteWaterConservancy,Upper South Platte Water Conservancy District,Douglas
-UpperSPlatteWaterConservancy,Upper South Platte Water Conservancy District,Jefferson
-UpperSPlatteWaterConservancy,Upper South Platte Water Conservancy District,Park
-UpperSPlatteWaterConservancy,Upper South Platte Water Conservancy District,Teller
+UpperSPlatteWCD,Upper South Platte Water Conservancy,Clear Creek
+UpperSPlatteWCD,Upper South Platte Water Conservancy,Douglas
+UpperSPlatteWCD,Upper South Platte Water Conservancy,Jefferson
+UpperSPlatteWCD,Upper South Platte Water Conservancy,Park
+UpperSPlatteWCD,Upper South Platte Water Conservancy,Teller
 NCWCD,Northern Colorado Water Conservancy District,Boulder
 NCWCD,Northern Colorado Water Conservancy District,Broomfield
 NCWCD,Northern Colorado Water Conservancy District,Larimer
