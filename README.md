@@ -21,12 +21,17 @@ data/                           		Folder containing data files.
   WaterProvider_County_Relate.csv		The Excel file contents from the WaterProvider_County_Relate worksheet converted to a csv file, useful for automated processing.
 data-orig/					Folder containing original data files downloaded from agency websites.
   Colorado-FIPS-Places.xlsx			The data file containing original data download from the U.S. Census Bureau containing FIPS IDs.
-  Colorado-GNIS-Places.csv			The data file containing original data download from the Geographic Names Information System containing GNIS IDs.
+  Colorado-GNIS-Civil.csv			The data file containing original data download from the Geographic Names Information System containing GNIS IDs.
   Colorado-LocalGovernment-IDs.csv		The data file that is the attribute table of the GIS shapefile downloaded from the Special Districts website that contains local government IDs (DOLA_LG_ID)
   Colorado-PWS-IDs.csv				The data file containing original data download from the EPA's Safe Drinking Water Information System containing PWS IDs.
+  Colorado-Municipal-Boundaries.geojson Exported spatial data file from the Colorado Information Marketplace's Municipal Boundaries in Colorado map.
+  Colorado-Municipality-PointLocation.csv		Saved attribute table of Colorado-Municipal-Boundaries.geojson that contains coordinates of the centroid of each municipality's boundaries.
+  Colorado-Special-Districts.geojson    Exported spatial data file from the Colorado Information Marketplace's All Special Districts in Colorado map.
+  Colorado-WaterProvider-PointLocation.csv      Saved attribute table of Colorado-Special-Districts.geojson that contains coordinates of the centroid of each district's boundaries.
   doc/
   ?                             		Additional documentation for the dataset.
-TSTool/                         		TSTool software command files to process data into useful forms.
+analysis/                         		TSTool software command files to process data into useful forms.
+  Process-xlsx-to-csv.TSTool			TSTool command file that processes the core dataset from .xlsx to .csv.
   README.md                     		Explanation of TSTool command files used to process the core data into other products.
 ```
 
@@ -37,8 +42,8 @@ The core Excel workbook that serves as the master data contains the following da
 * **WaterProviderName** -- name of the water provider
 * **FIPS_ID** -- [Federal Information Processing Standard](https://www.census.gov/geo/reference/codes/place.html) code, to link federal datasets
 * **FIPS_ID_Flag** -- data status of FIPS_ID values; see more detail below
-* **GNIS_ID -- TO BE ADDED**
-* **GNIS_ID_Flag -- TO BE ADDED**
+* **GNIS_ID** -- [Geographic Names Information System](https://geonames.usgs.gov/apex/f?p=138:1:9185633219989) identifier, to link federal datasets
+* **GNIS_ID_Flag** -- data status of GNIS_ID values; see more detail below
 * **DOLA_LG_ID** -- identifier used by Colorado's [Department of Local Affairs (DOLA)](https://dola.colorado.gov/lgis/municipalities.jsf), to link DOLA datasets
 * **DOLA_LG_ID_Flag** -- data status of DOLA_LG_ID values; see more detail below
 * **BNDSS_ID** -- Basin Needs Decision Support System identifier, also used in [Water Efficiency Data Portal](http://cowaterefficiency.com/unauthenticated_home), to link Colorado Water Conservation Board datasets
@@ -99,6 +104,8 @@ If names did not match exactly, it was sometimes necessary to search for the web
 (the difference between water demand and available supply for Colorado) and a prototype database and website to manage water provider and Identified Projects and Processes data.  The BNDSS ID is included in this dataset
 so that it can be potentially linked to datasets that result from the Statewide Water Supply Initiative (SWSI) Update.
 * The Business Entity ID is from the [Colorado Information Marketplace](https://data.colorado.gov/Business/Business-Entities-in-Colorado/4ykn-tg5h/data) and is a state-assigned identification number.  Because there are not a large number of water providers that are considered businesses, OWF manually entered the ID where appropriate.
+* Latitude and Longitude coordinates were found for most providers by accessing Colorado Information Marketplace maps:  Municipal Boundaries in Colorado (https://data.colorado.gov/Municipal/Municipal-Boundaries-in-Colorado/u943-ics6) and All Special Districts in Colorado (https://data.colorado.gov/Government/All-Special-Districts-in-Colorado/dm2a-biqr).  The maps were downloaded as GeoJSON files.
+
 
 ## How to Use the Data ##
 
