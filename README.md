@@ -62,12 +62,12 @@ The core Excel workbook that serves as the master data contains the following da
 * **Comment** -- any other information about the water provider
 
 Each type of identifier also contains a data column of the same name with the word "Flag" added to the column name.  These columns are an indication of data status as it relates to missing data.  The following conventions are used:
-* G = ID is a known/good value.  
-* g = ID is an estimated (but good) value.  The associated ID cell is also highlighted in yellow.
-* N = ID is not applicable for the provider and a blank cell is expected.
-* M = ID is known to be missing in original source and therefore a blank cell indicates that a value cannot be provided.
-* m = ID is estimated to be missing.  The associated ID cell is also highlighted in gray.
-* z = ID is unable to be confirmed.  A value is possible but cannot be confirmed one way or the other.  The associated ID cell is also highlighted in orange.
+* G = Value is known/good.  
+* g = Value is estimated (but good).  The associated cell is also highlighted in yellow.
+* N = Value is not applicable for the provider and a blank cell is expected.
+* M = Value is known to be missing in original source and therefore a blank cell indicates that a value cannot be provided.
+* m = Value is estimated to be missing.  The associated cell is also highlighted in gray.
+* z = Value is unable to be confirmed.  A value is possible but cannot be confirmed one way or the other.  The associated cell is also highlighted in orange.
 * x = OWF has not made an attempt to populate the cell at this time.  The value is missing because OWF has not attempted to find the value.  The associated cell is also highlighted in black.
 * C = BNDSS_ID has been newly created based on BNDSS_ID naming conventions (applies to BNDSS IDs only)
 * D = ID is a known/good value but provider has dissolved (currently applies only to BusinessEntity_ID)
@@ -105,6 +105,19 @@ If names did not match exactly, it was sometimes necessary to search for the web
 so that it can be potentially linked to datasets that result from the Statewide Water Supply Initiative (SWSI) Update.
 * The Business Entity ID is from the [Colorado Information Marketplace](https://data.colorado.gov/Business/Business-Entities-in-Colorado/4ykn-tg5h/data) and is a state-assigned identification number.  Because there are not a large number of water providers that are considered businesses, OWF manually entered the ID where appropriate.
 * Latitude and Longitude coordinates were found for most providers by accessing Colorado Information Marketplace maps:  Municipal Boundaries in Colorado (https://data.colorado.gov/Municipal/Municipal-Boundaries-in-Colorado/u943-ics6) and All Special Districts in Colorado (https://data.colorado.gov/Government/All-Special-Districts-in-Colorado/dm2a-biqr).  The maps were downloaded as GeoJSON files.
+
+
+## Data Workflow ##
+
+This dataset began as a list of water providers from the BNDSS project and each water provider had its own unique text identifier, the BNDSS ID.  Approximately 430 water providers were in this dataset.  OWF then received
+a dataset from the CWCB in January 2017 that contained population and water use data for over 400 water providers as part of its Covered Entities Database.  Many of the water providers overlapped with the BNDSS list of water
+providers, but approximately 100 providers needed to be added to the BNDSS list, for an overall total of 531 water providers.  Once this initial dataset was created, OWF then manually cross-referenced water providers to the identifiers
+described above for FIPS, GNIS, DOLA, PWS and Business Entities.  From here, the general workflow is as follows:
+1. Data flags are created for many of the data columns that indicate data status as described above.
+2. The data are formatted as a table to allow for data filtering.
+3. The dataset is saved in .xlsx format.
+4. The xlsx-formatted file is opened in TSTool and a short command file (Process-xlsx-to-csv.TSTool) converts the dataset into CSV format.  **Note that this step is currently not working.**
+5. The xlsx-formatted file is opened in TSTool and a short command file converts the dataset into geoJSON format.  This step is optional and applicable for datasets in which a map will be created or if further processing will occur in GIS application such as QGIS.
 
 
 ## How to Use the Data ##
