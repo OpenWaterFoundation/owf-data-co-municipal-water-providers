@@ -10,29 +10,27 @@ OWF has created and is maintaining this dataset to facilitate work on various da
 The repository contains the following:
 
 ```text
-.gitignore                      		Git configuration file to ignore files that should not be committed to the repository.
-.gitattributes                  		Git configuration file indicate repository configuration, in particular handling
-												of line-ending and binary files.
-build/
-						Folder used by TSTool to create products for publication.
-data/                           		Folder containing data files.
-  Colorado-Municipal-Water-Providers.xlsx     	Simple Excel file containing core data.
-  Colorado-Municipal-Water-Providers.csv      	The Excel file contents from the Water_Providers worksheet converted to a csv file, useful for automated processing.
-  WaterProvider_County_Relate.csv		The Excel file contents from the WaterProvider_County_Relate worksheet converted to a csv file, useful for automated processing.
+analysis/                         		TSTool software command files to process data into useful forms.
+  Process-xlsx-to-csv.TSTool			TSTool command file that processes the core dataset from .xlsx to .csv.
 data-orig/					Folder containing original data files downloaded from agency websites.
   Colorado-FIPS-Places.xlsx			The data file containing original data download from the U.S. Census Bureau containing FIPS IDs.
   Colorado-GNIS-Civil.csv			The data file containing original data download from the Geographic Names Information System containing GNIS IDs.
   Colorado-LocalGovernment-IDs.csv		The data file that is the attribute table of the GIS shapefile downloaded from the Special Districts website that contains local government IDs (DOLA_LG_ID)
-  Colorado-PWS-IDs.csv				The data file containing original data download from the EPA's Safe Drinking Water Information System containing PWS IDs.
   Colorado-Municipal-Boundaries.geojson Exported spatial data file from the Colorado Information Marketplace's Municipal Boundaries in Colorado map.
   Colorado-Municipality-PointLocation.csv		Saved attribute table of Colorado-Municipal-Boundaries.geojson that contains coordinates of the centroid of each municipality's boundaries.
+  Colorado-PWS-IDs.csv				The data file containing original data download from the EPA's Safe Drinking Water Information System containing PWS IDs.
   Colorado-Special-Districts.geojson    Exported spatial data file from the Colorado Information Marketplace's All Special Districts in Colorado map.
   Colorado-WaterProvider-PointLocation.csv      Saved attribute table of Colorado-Special-Districts.geojson that contains coordinates of the centroid of each district's boundaries.
-  doc/
+data/                           		Folder containing data files.
+  Colorado-Municipal-Water-Providers.xlsx     	Simple Excel file containing core data.
+  Colorado-Municipal-Water-Providers.csv      	The Excel file contents from the Water_Providers worksheet converted to a csv file, useful for automated processing.
+  WaterProvider_County_Relate.csv		The Excel file contents from the WaterProvider_County_Relate worksheet converted to a csv file, useful for automated processing.
+doc/
   ?                             		Additional documentation for the dataset.
-analysis/                         		TSTool software command files to process data into useful forms.
-  Process-xlsx-to-csv.TSTool			TSTool command file that processes the core dataset from .xlsx to .csv.
-  README.md                     		Explanation of TSTool command files used to process the core data into other products.
+.gitattributes                  		Git configuration file indicate repository configuration, in particular handling
+												of line-ending and binary files.
+.gitignore                      		Git configuration file to ignore files that should not be committed to the repository.
+README.md                     		Explanation of repository contents, data files and sources and TSTool command files used to process the core data into other products.
 ```
 
 ### Colorado-Municipal-Water-Providers.xlsx Contents ###
@@ -123,7 +121,7 @@ described above for FIPS, GNIS, DOLA, PWS and Business Entities.  From here, the
 ## How to Use the Data ##
 
 The Colorado Municipal Water Providers dataset provides a complete statewide list of municipal water providers assembled from multiple sources.  There are several unique identifiers for each water provider and the dataset allows cross-referencing the identifiers
-so that other datasets can be joined.  For example, the [Colorado Municipalities dataset](owf-data-co-municipalities) uses municipal water provider
+so that other datasets can be joined.  For example, the [Colorado Municipalities dataset](https://github.com/OpenWaterFoundation/owf-data-co-municipalities) uses municipal water provider
 identifiers and can be used to link additional data.
 
 The Excel or csv files can be used as tabular datasets as is, to create filtered lists or to link to other datasets.  Data-processing software such as TSTool can be used to link this dataset to other datasets.  Datasets can be used within GIS software to create maps.
