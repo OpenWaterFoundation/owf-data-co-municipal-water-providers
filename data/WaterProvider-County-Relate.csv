@@ -1,8 +1,11 @@
-BNDSS_ID,WaterProviderName,County
+OWF_ID,WaterProviderName,County
 ACWWA,Arapahoe County Water and Wastewater Authority,Arapahoe
 ACWWA,Arapahoe County Water and Wastewater Authority,Douglas
 Arvada,"Arvada, City of",Adams
 Arvada,"Arvada, City of",Jefferson
+Aurora,"Aurora, City of",Adams
+Aurora,"Aurora, City of",Arapahoe
+Aurora,"Aurora, City of",Douglas
 Basalt,"Basalt, Town of",Eagle
 Basalt,"Basalt, Town of",Pitkin
 Bennett,"Bennett, Town of",Adams
@@ -19,6 +22,21 @@ Center,"Center, Town of",Rio Grande
 Center,"Center, Town of",Saguache
 CentralCity,"Central City, City of",Clear Creek
 CentralCity,"Central City, City of",Gilpin
+RiverDistrict,Colorado River Water Conservation District,Delta
+RiverDistrict,Colorado River Water Conservation District,Eagle
+RiverDistrict,Colorado River Water Conservation District,Garfield
+RiverDistrict,Colorado River Water Conservation District,Grand
+RiverDistrict,Colorado River Water Conservation District,Gunnison
+RiverDistrict,Colorado River Water Conservation District,Hinsdale
+RiverDistrict,Colorado River Water Conservation District,Mesa
+RiverDistrict,Colorado River Water Conservation District,Moffat
+RiverDistrict,Colorado River Water Conservation District,Montrose
+RiverDistrict,Colorado River Water Conservation District,Ouray
+RiverDistrict,Colorado River Water Conservation District,Pitkin
+RiverDistrict,Colorado River Water Conservation District,Rio Blanco
+RiverDistrict,Colorado River Water Conservation District,Routt
+RiverDistrict,Colorado River Water Conservation District,Saguache
+RiverDistrict,Colorado River Water Conservation District,Summit
 DoloresWCD,Dolores Water Conservancy District,Dolores
 DoloresWCD,Dolores Water Conservancy District,Montezuma
 ELCO,East Larimer County Water District,Larimer
@@ -39,6 +57,15 @@ JohnstownWST,Johnstown Water-Sewer Trash,Larimer
 JohnstownWST,Johnstown Water-Sewer Trash,Weld
 LakehurstWSD,Lakehurst Water and Sanitation District,Denver
 LakehurstWSD,Lakehurst Water and Sanitation District,Jefferson
+LHWD,Left Hand Water District,Boulder
+LHWD,Left Hand Water District,Broomfield
+LHWD,Left Hand Water District,Weld
+LTWD,Little Thompson Water District,Boulder
+LTWD,Little Thompson Water District,Larimer
+LTWD,Little Thompson Water District,Weld
+Littleton,"Littleton, City of",Arapahoe
+Littleton,"Littleton, City of",Douglas
+Littleton,"Littleton, City of",Jefferson
 Lochbuie,"Lochbuie, Town of",Adams
 Lochbuie,"Lochbuie, Town of",Weld
 LochmoorWSD,Lochmoor Water and Sanitation District,Denver
@@ -53,12 +80,23 @@ MidVlyMD,Mid Valley Metropolitan District,Eagle
 MidVlyMD,Mid Valley Metropolitan District,Garfield
 MCQWD,Morgan County Quality Water District,Morgan
 MCQWD,Morgan County Quality Water District,Washington
+MtnWSD,Mountain Water and Sanitation District,Clear Creek
+MtnWSD,Mountain Water and Sanitation District,Jefferson
+MtnWSD,Mountain Water and Sanitation District,Park
 NPecosWSD,North Pecos Water and Sanitation District,Adams
 NPecosWSD,North Pecos Water and Sanitation District,Denver
 NWashingtonStreetWSD,North Washington Street Water and Sanitation District,Adams
 NWashingtonStreetWSD,North Washington Street Water and Sanitation District,Denver
 NWCWD,North Weld County Water District,Larimer
 NWCWD,North Weld County Water District,Weld
+NCWCD,Northern Colorado Water Conservancy District,Boulder
+NCWCD,Northern Colorado Water Conservancy District,Broomfield
+NCWCD,Northern Colorado Water Conservancy District,Larimer
+NCWCD,Northern Colorado Water Conservancy District,Logan
+NCWCD,Northern Colorado Water Conservancy District,Morgan
+NCWCD,Northern Colorado Water Conservancy District,Sedgwick
+NCWCD,Northern Colorado Water Conservancy District,Washington
+NCWCD,Northern Colorado Water Conservancy District,Weld
 Northglenn,"Northglenn, City of",Adams
 Northglenn,"Northglenn, City of",Weld
 PlatteCanyonWSD,Platte Canyon Water and Sanitation District,Arapahoe
@@ -69,61 +107,6 @@ SandCreekMD,Sand Creek Metropolitan District,Adams
 SandCreekMD,Sand Creek Metropolitan District,Denver
 SheridanSD2,Sheridan Sanitation District 2,Arapahoe
 SheridanSD2,Sheridan Sanitation District 2,Denver
-Superior,"Superior, Town of",Boulder
-Superior,"Superior, Town of",Jefferson
-Thornton,"Thornton, City of",Adams
-Thornton,"Thornton, City of",Weld
-UpYampaWCD,Upper Yampa Water Conservancy District,Moffat
-UpYampaWCD,Upper Yampa Water Conservancy District,Routt
-Westminster,"Westminster, City of",Adams
-Westminster,"Westminster, City of",Jefferson
-Windsor,"Windsor, Town of",Larimer
-Windsor,"Windsor, Town of",Weld
-Aurora,"Aurora, City of",Adams
-Aurora,"Aurora, City of",Arapahoe
-Aurora,"Aurora, City of",Douglas
-LHWD,Lefthand Water District,Boulder
-LHWD,Lefthand Water District,Broomfield
-LHWD,Lefthand Water District,Weld
-LTWD,Little Thompson Water District,Boulder
-LTWD,Little Thompson Water District,Larimer
-LTWD,Little Thompson Water District,Weld
-Littleton,"Littleton, City of",Arapahoe
-Littleton,"Littleton, City of",Douglas
-Littleton,"Littleton, City of",Jefferson
-MtnWSD,Mountain Water and Sanitation District,Clear Creek
-MtnWSD,Mountain Water and Sanitation District,Jefferson
-MtnWSD,Mountain Water and Sanitation District,Park
-SouthgateWD,Southgate Water and Sanitation District,Arapahoe
-SouthgateWD,Southgate Water and Sanitation District,Denver
-SouthgateWD,Southgate Water and Sanitation District,Douglas
-SouthwestMetro,Southwest Metropolitan Water and Sanitation District,Arapahoe
-SouthwestMetro,Southwest Metropolitan Water and Sanitation District,Douglas
-SouthwestMetro,Southwest Metropolitan Water and Sanitation District,Jefferson
-Tri-County,Tri-County Water Conservation District,Delta
-Tri-County,Tri-County Water Conservation District,Montrose
-Tri-County,Tri-County Water Conservation District,Ouray
-UGRWCD,Upper Gunnison River Water Conservancy District,Gunnison
-UGRWCD,Upper Gunnison River Water Conservancy District,Hinsdale
-UGRWCD,Upper Gunnison River Water Conservancy District,Saguache
-UAWCD,Upper Arkansas Water Conservancy District,Chaffee
-UAWCD,Upper Arkansas Water Conservancy District,Custer
-UAWCD,Upper Arkansas Water Conservancy District,El Paso
-UAWCD,Upper Arkansas Water Conservancy District,Fremont
-UAWCD,Upper Arkansas Water Conservancy District,Saguache
-UpperSPlatteWCD,Upper South Platte Water Conservancy,Clear Creek
-UpperSPlatteWCD,Upper South Platte Water Conservancy,Douglas
-UpperSPlatteWCD,Upper South Platte Water Conservancy,Jefferson
-UpperSPlatteWCD,Upper South Platte Water Conservancy,Park
-UpperSPlatteWCD,Upper South Platte Water Conservancy,Teller
-NCWCD,Northern Colorado Water Conservancy District,Boulder
-NCWCD,Northern Colorado Water Conservancy District,Broomfield
-NCWCD,Northern Colorado Water Conservancy District,Larimer
-NCWCD,Northern Colorado Water Conservancy District,Logan
-NCWCD,Northern Colorado Water Conservancy District,Morgan
-NCWCD,Northern Colorado Water Conservancy District,Sedgwick
-NCWCD,Northern Colorado Water Conservancy District,Washington
-NCWCD,Northern Colorado Water Conservancy District,Weld
 SECWCD,Southeastern Colorado Water Conservancy District,Bent
 SECWCD,Southeastern Colorado Water Conservancy District,Chaffee
 SECWCD,Southeastern Colorado Water Conservancy District,Crowley
@@ -133,18 +116,35 @@ SECWCD,Southeastern Colorado Water Conservancy District,Kiowa
 SECWCD,Southeastern Colorado Water Conservancy District,Otero
 SECWCD,Southeastern Colorado Water Conservancy District,Prowers
 SECWCD,Southeastern Colorado Water Conservancy District,Pueblo
-RiverDistrict,Colorado River Water Conservation District,Delta
-RiverDistrict,Colorado River Water Conservation District,Eagle
-RiverDistrict,Colorado River Water Conservation District,Garfield
-RiverDistrict,Colorado River Water Conservation District,Grand
-RiverDistrict,Colorado River Water Conservation District,Gunnison
-RiverDistrict,Colorado River Water Conservation District,Hinsdale
-RiverDistrict,Colorado River Water Conservation District,Mesa
-RiverDistrict,Colorado River Water Conservation District,Moffat
-RiverDistrict,Colorado River Water Conservation District,Montrose
-RiverDistrict,Colorado River Water Conservation District,Ouray
-RiverDistrict,Colorado River Water Conservation District,Pitkin
-RiverDistrict,Colorado River Water Conservation District,Rio Blanco
-RiverDistrict,Colorado River Water Conservation District,Routt
-RiverDistrict,Colorado River Water Conservation District,Saguache
-RiverDistrict,Colorado River Water Conservation District,Summit
+SouthgateWD,Southgate Water and Sanitation District,Arapahoe
+SouthgateWD,Southgate Water and Sanitation District,Denver
+SouthgateWD,Southgate Water and Sanitation District,Douglas
+SouthwestMetro,Southwest Metropolitan Water and Sanitation District,Arapahoe
+SouthwestMetro,Southwest Metropolitan Water and Sanitation District,Douglas
+SouthwestMetro,Southwest Metropolitan Water and Sanitation District,Jefferson
+Superior,"Superior, Town of",Boulder
+Superior,"Superior, Town of",Jefferson
+Thornton,"Thornton, City of",Adams
+Thornton,"Thornton, City of",Weld
+Tri-County,Tri-County Water Conservation District,Delta
+Tri-County,Tri-County Water Conservation District,Montrose
+Tri-County,Tri-County Water Conservation District,Ouray
+UAWCD,Upper Arkansas Water Conservancy District,Chaffee
+UAWCD,Upper Arkansas Water Conservancy District,Custer
+UAWCD,Upper Arkansas Water Conservancy District,El Paso
+UAWCD,Upper Arkansas Water Conservancy District,Fremont
+UAWCD,Upper Arkansas Water Conservancy District,Saguache
+UGRWCD,Upper Gunnison River Water Conservancy District,Gunnison
+UGRWCD,Upper Gunnison River Water Conservancy District,Hinsdale
+UGRWCD,Upper Gunnison River Water Conservancy District,Saguache
+UpperSPlatteWCD,Upper South Platte Water Conservancy,Clear Creek
+UpperSPlatteWCD,Upper South Platte Water Conservancy,Douglas
+UpperSPlatteWCD,Upper South Platte Water Conservancy,Jefferson
+UpperSPlatteWCD,Upper South Platte Water Conservancy,Park
+UpperSPlatteWCD,Upper South Platte Water Conservancy,Teller
+UpYampaWCD,Upper Yampa Water Conservancy District,Moffat
+UpYampaWCD,Upper Yampa Water Conservancy District,Routt
+Westminster,"Westminster, City of",Adams
+Westminster,"Westminster, City of",Jefferson
+Windsor,"Windsor, Town of",Larimer
+Windsor,"Windsor, Town of",Weld

@@ -50,6 +50,8 @@ The core Excel workbook that serves as the master data contains the following da
 * **PWS_ID_Flag** -- data status of PWS_ID values; see more detail below
 * **BusinessEntity_ID** -- state-assigned identification number for a business entity, from the [Colorado Information Marketplace](https://data.colorado.gov/Business/Business-Entities-in-Colorado/4ykn-tg5h/data), to link state datasets
 * **BusinessEntity_ID_Flag** -- data status of BusinessEntity_ID values; see more detail below
+* **OWF_ID** -- unique text identifier created by OWF to ensure that one type of ID contains values for every water provider
+* **OWF_ID_Flag** --  data status of OWF_ID values; see more detail below
 * **LocalGovtType** -- indication of the type of local government entity or if a company.  Filled by selecting from a drop-down list.  Choices are explained in the **LocalGovtType** worksheet.
 * **EntityStartYear** -- year the provider began operation or was incorporated **TO BE ADDED**
 * **EntityStartYear_Flag** -- data status of EntityStartYear values **TO BE ADDED**
@@ -59,7 +61,35 @@ The core Excel workbook that serves as the master data contains the following da
 * **NumCounty** -- number of counties the water provider serves.  This is a quick way to determine if the entity serves multiple counties and if so, the counties can be found in the **WaterProvider_County_Relate** worksheet.
 * **Comment** -- any other information about the water provider
 
-Each type of identifier also contains a data column of the same name with the word "Flag" added to the column name.  These columns are an indication of data status as it relates to missing data.  The following conventions are used:
+#### Naming Conventions for BNDSS_ID and OWF_ID ####
+The following naming conventions are used to create BNDSS_IDs and OWF_IDs.
+* MD = Metropolitan District
+* WD = Water District
+* WSD = Water and Sanitation District
+* WCD = Water Conservation District
+* WA = Water Authority
+* WC = Water Company
+* MWC = Mutual Water Company
+* WS = Water System
+
+* Co = County
+* Crk = Creek
+* Hls = Hills
+* Hts = Heights
+* Mt = Mount
+* Mtn = Mountain
+* Spgs = Springs
+* St = Saint
+* Vlg = Village
+* Vly = Valley
+* Ft = Fort
+* N = North
+* E = East
+* W = West
+* S = South
+
+#### Data Flags ####
+For many data columns, a second column of the same name with the word "Flag" added to the column name is present.  These columns are an indication of data status as it relates to missing data.  The following conventions are used:
 * G = Value is known/good.  
 * g = Value is estimated (but good).  The associated cell is also highlighted in yellow.
 * N = Value is not applicable for the provider and a blank cell is expected.
@@ -67,8 +97,10 @@ Each type of identifier also contains a data column of the same name with the wo
 * m = Value is estimated to be missing.  The associated cell is also highlighted in gray.
 * z = Value is unable to be confirmed.  A value is possible but cannot be confirmed one way or the other.  The associated cell is also highlighted in orange.
 * x = OWF has not made an attempt to populate the cell at this time.  The value is missing because OWF has not attempted to find the value.  The associated cell is also highlighted in black.
-* C = BNDSS_ID has been newly created based on BNDSS_ID naming conventions (applies to BNDSS IDs only)
+* C = OWF_ID has been created based on BNDSS_ID naming conventions
 * D = ID is a known/good value but provider has dissolved (currently applies only to BusinessEntity_ID)
+
+*Note that colors are visible only in xlsx files and not csv files.*
 
 Column names are taken from original sources if possible.  For clarity and attribution, agency abbreviations may be added to the original column name.  Column name length is not restricted, therefore, some data representations such as Esri shapefiles may contain truncated column names.  In such cases, alternative formats such as GeoJSON are recommended.
 
@@ -77,7 +109,7 @@ Descriptions of identifiers are also provided in the **Notes** worksheet within 
 
 Other worksheets within the workbook contain the following:
 
-* **WaterProvider_County_Relate** worksheet lists the water providers whose service areas are in more than one county.  The county is listed as "Multiple" in the **WaterProvider** worksheet.  This worksheet is organized so that each county served by a water provider is its own record.  Therefore, the same water provider may be listed in several rows and be associated with a different county.  This will allow for the establishment of one-to-many relationships when linking to and processing other datasets.
+* **WaterProvider_County_Relate** worksheet lists the water providers whose service areas are in more than one county.  This worksheet is organized so that each county served by a water provider is its own record.  Therefore, the same water provider may be listed in more than one row and be associated with a different county.  This will allow for the establishment of one-to-many relationships when linking to and processing other datasets.
 
 * **County** worksheet is simply a list of all of the counties in Colorado.  It is used to fill in county data in other worksheets to ensure data consistency, i.e., no grammatical errors when typing in a county name.
 
@@ -102,6 +134,7 @@ If names did not match exactly, it was sometimes necessary to search for the web
 (the difference between water demand and available supply for Colorado) and a prototype database and website to manage water provider and Identified Projects and Processes data.  The BNDSS ID is included in this dataset
 so that it can be potentially linked to datasets that result from the Statewide Water Supply Initiative (SWSI) Update.
 * The Business Entity ID is from the [Colorado Information Marketplace](https://data.colorado.gov/Business/Business-Entities-in-Colorado/4ykn-tg5h/data) and is a state-assigned identification number.  Because there are not a large number of water providers that are considered businesses, OWF manually entered the ID where appropriate.
+* OWF ID was created for each water provider by OWF in order to ensure that at least one type of identifier contains values for every water provider.  The OWF ID is needed to potentially link every water provider to other datasets.  OWF ID is used in "Relate" worksheets and csv files as the identifier for this reason.  
 * Latitude and Longitude coordinates were found for most providers by accessing Colorado Information Marketplace maps:  Municipal Boundaries in Colorado (https://data.colorado.gov/Municipal/Municipal-Boundaries-in-Colorado/u943-ics6) and All Special Districts in Colorado (https://data.colorado.gov/Government/All-Special-Districts-in-Colorado/dm2a-biqr).  The maps were downloaded as GeoJSON files.
 
 
