@@ -64,7 +64,7 @@ The file contains the following data columns.
 Once the "Feature Name" column was cross-referenced to the **WaterProviderName** column in the main dataset, then the "ID" column was pasted into the main dataset and the column renamed to **GNIS_ID**.
 
 
-## Colorado-Municipality-PointLocation.csv ##  **NEED TO EDIT AND FIGURE A PROCESS TO CONSOLIDATE THIS; ALSO GET RID OF LARGE GEOJSON FILES THAT ARE UNNECESSARY**
+## Colorado-Municipality-PointLocation.csv ##
 
 This file is the saved attribute table of the [Municipal Boundaries in Colorado](https://data.colorado.gov/Municipal/Municipal-Boundaries-in-Colorado/u943-ics6) GeoJSON file downloaded from the Colorado Information Marketplace.  The GeoJSON file was opened in QGIS and the centroid of each municipality's boundaries was calculated (the process is not described here).  The attribute table of the GeoJSON file was saved in CSV format.
 
@@ -99,7 +99,7 @@ The file contains the following data columns.
 Once the "PWS Name" column was cross-referenced to the **WaterProviderName** column in the main dataset, then the "PWS ID" column was pasted into the main dataset and the column renamed to **PWS_ID**.
 
 
-## Colorado-WaterProvider-PointLocation.csv ##  **NEED TO EDIT AND FIGURE A PROCESS TO CONSOLIDATE THIS; ALSO GET RID OF LARGE GEOJSON FILES THAT ARE UNNECESSARY**
+## Colorado-WaterProvider-PointLocation.csv ##
 
 This file is the saved attribute table of the [Special Districts](https://demography.dola.colorado.gov/CO_SpecialDistrict/#) GeoJSON file for all special districts.  The GeoJSON file was opened in QGIS and the centroid of each municipality's boundaries was calculated (the process is not described here).  The attribute table of the GeoJSON file was saved in CSV format.
 
