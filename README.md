@@ -12,6 +12,7 @@ The repository contains the following:
 ```text
 analysis/                                   TSTool software command files to process data into useful forms.
   Process-xlsx-to-csv.TSTool                TSTool command file that processes the core dataset from .xlsx to .csv.
+  Process-xlsx-to-geojson.TSTool            TSTool command file that processes the core dataset from .xlsx to .geojson.
 data-orig/                                  Folder containing original data files downloaded from agency websites.
   Colorado-FIPS-Places.xlsx                 The data file containing original data download from the U.S. Census Bureau containing FIPS IDs.
   Colorado-GNIS-Civil.csv                   The data file containing original data download from the Geographic Names Information System containing GNIS IDs.
@@ -21,6 +22,7 @@ data-orig/                                  Folder containing original data file
   Colorado-PWS-IDs.csv                      The data file containing original data download from the EPA's Safe Drinking Water Information System containing PWS IDs.
   Colorado-Special-Districts.geojson        Exported spatial data file from the Colorado Information Marketplace's All Special Districts in Colorado map.
   Colorado-WaterProvider-PointLocation.csv  Saved attribute table of Colorado-Special-Districts.geojson that contains coordinates of the centroid of each district's boundaries.
+  README.md                                 Explanation of folder contents, description of data files, and the methodology used to obtain the data and mapping to the joined dataset.
 data/                                       Folder containing data files.
   Colorado-Municipal-Water-Providers.xlsx   Simple Excel file containing core data.
   Colorado-Municipal-Water-Providers.csv    The Excel file contents from the Water_Providers worksheet converted to a csv file, useful for automated processing.
@@ -134,7 +136,7 @@ If names did not match exactly, it was sometimes necessary to search for the web
 so that it can be potentially linked to datasets that result from the Statewide Water Supply Initiative (SWSI) Update.
 * The BusinessEntity_ID is from the [Colorado Information Marketplace](https://data.colorado.gov/Business/Business-Entities-in-Colorado/4ykn-tg5h/data) and is a state-assigned identification number.  Because there are not a large number of water providers that are considered businesses, OWF manually entered the ID where appropriate.
 * OWF_ID was created for each water provider by OWF in order to ensure that at least one type of identifier contains values for every water provider.  The OWF_ID is needed to potentially link every water provider to other datasets.  OWF_ID is used in "Relate" worksheets and csv files as the identifier for this reason.  
-* Latitude and Longitude coordinates were found for most providers by accessing Colorado Information Marketplace maps:  Municipal Boundaries in Colorado (https://data.colorado.gov/Municipal/Municipal-Boundaries-in-Colorado/u943-ics6) and All Special Districts in Colorado (https://data.colorado.gov/Government/All-Special-Districts-in-Colorado/dm2a-biqr).  The maps were downloaded as GeoJSON files.
+* Latitude and Longitude coordinates were found for most providers by accessing Colorado Information Marketplace maps:  [Municipal Boundaries in Colorado](https://data.colorado.gov/Municipal/Municipal-Boundaries-in-Colorado/u943-ics6) and [All Special Districts in Colorado](https://data.colorado.gov/Government/All-Special-Districts-in-Colorado/dm2a-biqr).  The maps were downloaded as GeoJSON files.
 
 
 ## Data Workflow ##
@@ -146,8 +148,8 @@ described above for FIPS, GNIS, DOLA, PWS and Business Entities.  From here, the
 1. Data flags are created for many of the data columns that indicate data status as described above.
 2. The data are formatted as a table to allow for data filtering.
 3. The dataset is saved in .xlsx format.
-4. The xlsx-formatted file is opened in TSTool and a short command file [(Process-xlsx-to-csv.TSTool)](https://github.com/OpenWaterFoundation/owf-data-co-municipal-water-providers/blob/master/analysis/Process-xlsx-to-csv.TSTool) converts the dataset into CSV format.  **Note that this step is currently not working.**
-5. The xlsx-formatted file is opened in TSTool and a short command file converts the dataset into GeoJSON format.  This step is optional and applicable for datasets in which a map will be created or if further processing will occur in GIS application such as QGIS.
+4. The xlsx-formatted file is opened in TSTool and a short command file [(Process-xlsx-to-csv.TSTool)](https://github.com/OpenWaterFoundation/owf-data-co-municipal-water-providers/blob/master/analysis/Process-xlsx-to-csv.TSTool) converts the dataset into CSV format.  **Note that this step currently takes about 20 minutes to complete.  OWF is working to resolve this issue**
+5. The xlsx-formatted file is opened in TSTool and a short command file [(Process-xlsx-to-geojson.TSTool)](https://github.com/OpenWaterFoundation/owf-data-co-municipal-water-providers/blob/master/analysis/Process-xlsx-to-geojson.TSTool) converts the dataset into GeoJSON format.  This step is optional and applicable for datasets in which a map will be created or if further processing will occur in GIS application such as QGIS.
 
 
 ## How to Use the Data ##
