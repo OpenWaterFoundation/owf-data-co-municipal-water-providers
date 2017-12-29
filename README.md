@@ -60,6 +60,11 @@ The core Excel workbook that serves as the master data contains the following da
 * **EntityEndYear_Flag** -- data status of EntityEndYear values **TO BE ADDED**
 * **County** -- county in which the water provider's service area is contained.  Several water providers serve more than one county.  In these cases, the county is listed as "Multiple".  The actual county names can be found in the **WaterProvider_County_Relate** worksheet.
 * **NumCounty** -- number of counties the water provider serves.  This is a quick way to determine if the entity serves multiple counties and if so, the counties can be found in the **WaterProvider_County_Relate** worksheet.
+* **Latitude** -- latitude of provider's point location in decimal degrees
+* **Longitude** -- longitude of provider's point location in decimal degrees
+* **Lat_Long_Flag** -- indication of how latitude and longitude were determined; g1 = coordinates are based on the mailing address of the provider
+* **Website** -- website URL of the provider
+* **Website_Flag** -- data status of Website values; see more detail below
 * **Comment** -- any other information about the water provider
 
 #### Identifier Conventions for BNDSS_ID and OWF_ID ####
@@ -103,6 +108,8 @@ For many data columns, a second column of the same name with the word "_Flag" ad
 
 *Note that colors are visible only in xlsx files and not csv files.*
 
+Single-character flags may also be followed with a number, as in g1.  These flags are specific to certain columns and are detailed above in the descriptions of the data columns.  
+
 Column names are taken from original sources if possible.  For clarity and attribution, agency abbreviations may be added to the original column name.  Column name length is not restricted, therefore, some data representations such as Esri shapefiles may contain truncated column names.  In such cases, alternative formats such as GeoJSON are recommended.
 
 Descriptions of identifiers are also provided in the **Notes** worksheet within the workbook.  This worksheet also details how the original data were downloaded and where to find those files.
@@ -128,7 +135,7 @@ The data sources for this dataset are listed below.
 * Data available from the [U.S. Census Bureau](https://www.census.gov/geo/reference/codes/place.html) includes municipal Federal Information Processing Standard (FIPS) codes.  The FIPS code is for municipalities only, not other types of water providers such as water and sanitation districts.  OWF manually cross-referenced the PLACENAME column to the WaterProviderName.
 * The U.S. Geological Survey (USGS)'s [Geographic Names Information System (GNIS)](https://geonames.usgs.gov/apex/f?p=138:1:9185633219989) is the Federal and national standard for geographic nomenclature.  The USGS developed the GNIS in support of the U.S. Board on Geographic Names as the official repository of domestic geographic names data.  OWF manually cross-referenced the Feature Name column to the WaterProviderName.
 * The Colorado Department of Local Affairs (DOLA)'s [Local Government Information System](https://dola.colorado.gov/lgis/municipalities.jsf) uses a local government ID (LG ID).  Data are not readily available for download from this website.  Instead, GIS shapefiles containing the 
- local government ID are available from the [Special Districts](https://demography.dola.colorado.gov/CO_SpecialDistrict/) website from the State Demography Office.  OWF manually cross-referenced the LGNAME column to the WaterProviderName.  OWF is using DOLA_LG_ID instead of LG ID to add more description to the identifier.
+ local government ID are available from the [Special Districts](https://demography.dola.colorado.gov/CO_SpecialDistrict/) website from the State Demography Office.  OWF manually cross-referenced the LGNAME column to the WaterProviderName.  OWF is using DOLA_LG_ID instead of LG ID to add more description to the identifier.  The Special Districts dataset was also the source for website URLs for many water providers.  For water providers that are municipalities, website URLs come from the [Colorado Municipalities](https://github.com/OpenWaterFoundation/owf-data-co-municipalities) dataset.
 * The Environmental Protection Agency (EPA)'s [Safe Drinking Water Information System (SDWIS)](https://ofmpub.epa.gov/apex/sfdw/f?p=108:1:::NO:::) contains information about Public Water System IDs (PWS ID).  PWS IDs are used for water quality reports.  The Colorado Department of Public Health and Environment (CDPHE)'s Water Quality Control Division also uses the PWS ID.  OWF manually cross-referenced the PWS Name column to the WaterProviderName.
 If names did not match exactly, it was sometimes necessary to search for the website of the provider and then search for water quality reports that contain the PWS ID.
 * The BNDSS_ID is from the Basin Needs Decision Support System, which was initially developed as a project for the Colorado Water Conservation Board (CWCB) from 2009-2011.  The BNDSS resulted in a prototype gap analysis 
