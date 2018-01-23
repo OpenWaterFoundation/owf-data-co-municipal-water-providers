@@ -1,5 +1,5 @@
 "WaterProviderName","FIPS_ID","FIPS_ID_Flag","GNIS_ID","GNIS_ID_Flag","DOLA_LG_ID","DOLA_LG_ID_Flag","BNDSS_ID","BNDSS_ID_Flag","PWS_ID","PWS_ID_Flag","BusinessEntity_ID","BusinessEntity_ID_Flag","OWF_ID","OWF_ID_Flag","LocalGovtType","EntityStartYear","EntityStartYear_Flag","EntityEndYear","EntityEndYear_Flag","County_CSV","NumCounty","Latitude","Longitude","Lat_Long_Flag","Website","Website_Flag","Comment"
-96 Pipeline Company,,N,,N,,N,96PipeWC,G,CO0113050,G,19871168504.000000,G,96PipeWC,G,Company,,x,,x,Crowley,1,38.218061,-103.756061,g1,,x,Not in the Covered Entities database
+96 Pipeline Company,,N,,N,,N,96PipeWC,G,CO0113050,G,19871168504,G,96PipeWC,G,Company,,x,,x,Crowley,1,38.218061,-103.756061,g1,,x,Not in the Covered Entities database
 Academy Water and Sanitation District,,N,,N,21001,G,AcademyWSD,G,CO0121025,G,,N,AcademyWSD,G,Water and Sanitation District,,x,,x,El Paso,1,39.052835,-104.801110,G,,x,
 "Aguilar, Town of",00760,G,2412339,G,36001,G,Aguilar,G,CO0136100,G,,N,Aguilar,G,Municipality,,x,,x,Las Animas,1,37.403626,-104.655036,G,http://www.aguilarco.us/,G,
 "Akron, Town of",00925,G,2412340,G,61002,G,Akron,G,CO0161001,G,,N,Akron,G,Municipality,,x,,x,Washington,1,40.163374,-103.220269,G,www.townofakron.com,G,
@@ -26,15 +26,15 @@ Bancroft-Clover Water and Sanitation District,,N,,N,30004,G,BancroftCloverWSD,G,
 Battlement Mesa Metropolitan District,,N,,N,23032,G,BattlementMesaMD,G,CO0123133,G,,N,BattlementMesaMD,G,Metropolitan District,,x,,x,Garfield,1,39.444372,-108.027162,G,,x,Former name was Consolidated Metropolitan District
 "Bayfield, Town of",05265,G,2411667,G,34005,G,Bayfield,G,CO0134030,G,,N,Bayfield,G,Municipality,,x,,x,La Plata,1,37.234261,-107.595124,G,http://www.bayfieldgov.org/,G,
 Bear Creek Water and Sanitation District,,N,,N,30005,G,BearCreekWSD,G,CO0130138,G,,N,BearCreekWSD,G,Water and Sanitation District,,x,,x,Jefferson,1,39.663768,-105.105753,G,,x,
-Beehive Water Association,,N,,N,,N,BeehiveWAS,G,CO0145030,G,19871130969.000000,G,BeehiveWAS,G,Company,,x,,x,Otero,1,38.106788,-103.510798,g1,,x,Not in the Covered Entities database
+Beehive Water Association,,N,,N,,N,BeehiveWAS,G,CO0145030,G,19871130969,G,BeehiveWAS,G,Company,,x,,x,Otero,1,38.106788,-103.510798,g1,,x,Not in the Covered Entities database
 Bell Mountain Ranch Water District,,N,,N,18064,G,BellMtnRanchWD,G,CO0118002,G,,N,BellMtnRanchWD,G,Metropolitan District,,x,,x,Douglas,1,39.303425,-104.864285,G,,x,Former name was Bell Mountain Ranch Master Metropolitan District
 "Bennett, Town of",06090,G,2411676,G,64258,G,Bennett,G,CO0101020,G,,N,Bennett,G,Municipality,,x,,x,"Adams, Arapahoe",2,39.736358,-104.428527,G,https://www.colorado.gov/townofbennett,G,
-Bents Fort Water Association,,N,,N,,N,BentsFortWA,G,CO0145060,G,19871150010.000000,G,BentsFortWA,G,Company,,x,,x,Otero,1,37.984671,-103.542687,g1,,x,Not in the Covered Entities database
+Bents Fort Water Association,,N,,N,,N,BentsFortWA,G,CO0145060,G,19871150010,G,BentsFortWA,G,Company,,x,,x,Otero,1,37.984671,-103.542687,g1,,x,Not in the Covered Entities database
 Berkeley Water and Sanitation District,,N,,N,64020,G,BerkeleyWSD,G,CO0116140,G,,N,BerkeleyWSD,G,Water and Sanitation District,,x,,x,"Adams, Jefferson",2,39.798418,-105.030672,G,www.berkeleywatersanitation.com,G,Not in the Covered Entities database
 "Berthoud, Town of",06255,G,2411681,G,64237,G,Berthoud,G,CO0135138,G,,N,Berthoud,G,Municipality,,x,,x,"Larimer, Weld",2,40.307017,-105.041523,G,http://www.berthoud.org/,G,
 "Bethune, Town of",06530,G,2411684,G,32001,G,Bethune,G,CO0132001,G,,N,Bethune,G,Municipality,,x,,x,Kit Carson,1,39.303822,-102.423414,G,,N,
 Beulah Water Works District,,N,,N,51002,G,BeulahWD,G,CO0151100,G,,N,BeulahWD,G,Water District,,x,,x,Pueblo,1,38.074280,-104.988742,G,,x,
-Beverly Hills Mutual Water Company,,N,,N,,N,,M,CO0118001,G,19871136472.000000,G,BeverlyHlsMWC,C,Company,,x,,x,Douglas,1,39.575278,-105.003755,g1,,x,Not in the original BNDSS list
+Beverly Hills Mutual Water Company,,N,,N,,N,,M,CO0118001,G,19871136472,G,BeverlyHlsMWC,C,Company,,x,,x,Douglas,1,39.575278,-105.003755,g1,,x,Not in the original BNDSS list
 "Black Hawk, City of",07025,G,2409856,G,24001,G,BlackHawk,G,CO0124147,G,,N,BlackHawk,G,Municipality,,x,,x,Gilpin,1,39.804295,-105.494544,G,http://www.cityofblackhawk.org/,G,
 Blanca/Fort Garland Metropolitan District,,N,,N,12002,G,BlancaFtGarlandMD,G,CO0212200,G,,N,BlancaFtGarlandMD,G,Metropolitan District,,x,,x,Costilla,1,37.449399,-105.399040,G,,x,
 Blue Mountain Water District,,N,,N,30010,G,BlueMtnWD,G,CO0130005,G,,N,BlueMtnWD,G,Water District,,x,,x,Jefferson,1,39.861952,-105.277168,G,,x,Not in the Covered Entities database
@@ -88,7 +88,7 @@ Cherrymoor Water,,N,,N,,z,CherrymoorWS,G,CO0116181,G,,N,CherrymoorWS,G,Water Dis
 Chipeta Water District,,N,,N,43025,G,ChipetaWD,G,CO0143176,G,,N,ChipetaWD,G,Water District,,x,,x,Montrose,1,38.459717,-107.946108,G,http://www.chipetawater.org/,G,
 Clifton Water District,,N,,N,39008,G,CliftonWD,G,CO0139180,G,,N,CliftonWD,G,Water District,,x,,x,Mesa,1,39.065047,-108.454120,G,www.cliftonwaterdistrict.org,G,
 "Coal Creek, Town of",15330,G,2413219,G,22006,G,,M,CO0122250,G,,N,CoalCrk,C,Municipality,,x,,x,Fremont,1,38.362117,-105.142176,G,https://www.colorado.gov/coalcreekco,G,Not in the original BNDSS list
-Coalby Domestic Water Company,,N,,N,,N,CoalbyDWC,G,CO0115185,G,19871253860.000000,G,CoalbyDWC,G,Company,,x,,x,Pitkin,1,38.901649,-107.926454,g1,,x,Not in the Covered Entities database
+Coalby Domestic Water Company,,N,,N,,N,CoalbyDWC,G,CO0115185,G,19871253860,G,CoalbyDWC,G,Company,,x,,x,Pitkin,1,38.901649,-107.926454,g1,,x,Not in the Covered Entities database
 "Cokedale, Town of",15550,G,2413221,G,36004,G,,M,CO0136185,G,,N,Cokedale,C,Municipality,,x,,x,Las Animas,1,37.144223,-104.621590,G,,N,Not in the original BNDSS list
 "Collbran, Town of",15605,G,2413226,G,39011,G,Collbran,G,CO0139185,G,,N,Collbran,G,Municipality,,x,,x,Mesa,1,39.239678,-107.964516,G,https://www.colorado.gov/townofcollbran,G,
 Colorado Centre Metropolitan District,,N,,N,21057,G,COCntrMD,G,CO0121140,G,,N,COCntrMD,G,Metropolitan District,,x,,x,El Paso,1,38.760451,-104.651522,G,,x,Not in the Covered Entities database
@@ -112,7 +112,7 @@ Crested Butte South Metropolitan District,,N,,N,26002,G,CrestedButteSMD,G,CO0126
 Crestview Water and Sanitation District,,N,,N,01006,G,CrestviewWSD,G,CO0101040,G,,N,CrestviewWSD,G,Water and Sanitation District,,x,,x,Adams,1,39.822272,-105.020394,G,www.crestviewwater.com,G,
 "Cripple Creek, City of",18530,G,2410265,G,60001,G,CrippleCreek,G,CO0160100,G,,N,CrippleCreek,G,Municipality,,x,,x,Teller,1,38.746657,-105.185073,G,http://www.cityofcripplecreek.com/,G,
 "Crook, Town of",18640,G,2412389,G,38002,G,,M,CO0138005,G,,N,Crook,C,Municipality,,x,,x,Logan,1,40.859165,-102.801366,G,,N,Not in the original BNDSS list
-Crowley County Water Association,,N,,N,,N,CrowleyCoWA,G,CO0113100,G,19871146560.000000,G,CrowleyCoWA,G,County government,,x,,x,Crowley,1,38.218061,-103.756061,g1,,x,Not in the Covered Entities database
+Crowley County Water Association,,N,,N,,N,CrowleyCoWA,G,CO0113100,G,19871146560,G,CrowleyCoWA,G,County government,,x,,x,Crowley,1,38.218061,-103.756061,g1,,x,Not in the Covered Entities database
 Crowley County Water System,,N,,N,,N,CrowleyCountyWS,G,CO0113200,G,,N,CrowleyCountyWS,G,County government,,x,,x,Crowley,1,38.218061,-103.756061,g1,,x,Not in the Covered Entities database
 "Crowley, Town of",18750,G,2412394,G,13002,G,Crowley,G,CO0113300,G,,N,Crowley,G,Municipality,,x,,x,Crowley,1,38.193506,-103.859743,G,,N,
 Cucharas Sanitation and Water District,,N,,N,28001,G,CucharasWSD,G,CO0128100,G,,N,CucharasWSD,G,Water and Sanitation District,,x,,x,Huerfano,1,37.362173,-105.103430,G,www.cuchara.org,G,
@@ -133,7 +133,7 @@ Donala Water and Sanitation District,,N,,N,21016,G,DonalaWSD,G,CO0121175,G,,N,Do
 Douglas County Government,,N,,N,,N,DouglasCo,G,,N,,N,DouglasCo,G,County government,,x,,x,Douglas,1,39.371997,-104.862504,g1,,x,Not in the Covered Entities database
 Douglas County Water Resource Authority,,N,,N,66300,G,DCWRA,G,,N,,N,DCWRA,G,Water Authority,,x,,x,Douglas,1,39.371997,-104.862504,g1,,x,Not in the Covered Entities database
 "Dove Creek, Town of",21265,G,2412446,G,17003,G,,M,CO0117300,G,,N,DoveCrk,C,Municipality,,x,,x,Dolores,1,37.766867,-108.907180,G,,N,Not in the original BNDSS list
-"Dukes Mobile Home Park, LLC",,N,,N,,N,DukesMHP,G,,M,19991083115.000000,D,DukesMHP,G,Company,,x,,x,Jefferson,1,39.795335,-105.061817,g1,,x,Not in the Covered Entities database; dissolved in May 2013
+"Dukes Mobile Home Park, LLC",,N,,N,,N,DukesMHP,G,,M,19991083115,D,DukesMHP,G,Company,,x,,x,Jefferson,1,39.795335,-105.061817,g1,,x,Not in the Covered Entities database; dissolved in May 2013
 Durango West Metropolitan District 1,,N,,N,34006,G,DurangoWMD1,G,CO0134180,G,,N,DurangoWMD1,G,Metropolitan District,,x,,x,La Plata,1,37.264885,-107.997453,G,,x,
 Durango West Metropolitan District 2,,N,,N,34007,G,DurangoWMD2,G,CO0134190,G,,N,DurangoWMD2,G,Metropolitan District,,x,,x,La Plata,1,37.268708,-107.978798,G,www.dw2.co.municipalgovt.org/,G,
 "Durango, City of",22035,G,2410374,G,34008,G,Durango,G,CO0134150,G,,N,Durango,G,Municipality,,x,,x,La Plata,1,37.275012,-107.870336,G,http://www.durangogov.org/,G,
@@ -144,9 +144,9 @@ East Alamosa Water and Sanitation District,,N,,N,02004,G,EAlamosaWSD,G,CO0102200
 East Boulder County Water District,,N,,N,07071,G,EBoulderCoWD,G,CO0107236,G,,N,EBoulderCoWD,G,Water District,,x,,x,Boulder,1,39.977260,-105.177988,G,www.eastboulderwater.com/,G,
 East Cherry Creek Valley Water and Sanitation District,,N,,N,03038,G,ECherryCrkVlyWSD,G,CO0103035,G,,N,ECherryCrkVlyWSD,G,Water and Sanitation District,,x,,x,Arapahoe,1,39.619319,-104.752336,G,,x,
 East Dillon Water District,,N,,N,59012,G,EDillonWD,G,CO0159045,G,,N,EDillonWD,G,Water District,,x,,x,Summit,1,39.592770,-106.010562,G,www.eastdillon.com,G,
-East End Water Association,,N,,N,,N,EastEndWAS,G,CO0145120,G,19871132355.000000,G,EastEndWAS,G,Company,,x,,x,Otero,1,38.114275,-103.445686,g1,,x,Not in the Covered Entities database
+East End Water Association,,N,,N,,N,EastEndWAS,G,CO0145120,G,19871132355,G,EastEndWAS,G,Company,,x,,x,Otero,1,38.114275,-103.445686,g1,,x,Not in the Covered Entities database
 East Larimer County Water District,,N,,N,64056,G,ELCO,G,CO0135233,G,,N,ELCO,G,Water District,,x,,x,"Larimer, Weld",2,40.616102,-105.015072,G,www.elcowater.org,G,
-East Twin Lakes Ditches and Waterworks Economic Development,,N,,N,,N,ETwinLakesD&WWED,G,,M,19991010001.000000,G,ETwinLakesD&WWED,G,Company,,x,,x,Lake,1,39.096128,-106.275751,g1,,x,Not in the Covered Entities database
+East Twin Lakes Ditches and Waterworks Economic Development,,N,,N,,N,ETwinLakesD&WWED,G,,M,19991010001,G,ETwinLakesD&WWED,G,Company,,x,,x,Lake,1,39.096128,-106.275751,g1,,x,Not in the Covered Entities database
 East Valley Metropolitan District,,N,,N,03039,G,EVlyMD,G,CO0103040,G,,N,EVlyMD,G,Metropolitan District,,x,,x,Arapahoe,1,39.598435,-104.826633,G,www.eastvalleywater.20m.com,G,Former name was East Valley Water and Sanitation District
 "Eaton, Town of",22860,G,2412462,G,62008,G,Eaton,G,CO0162233,G,,N,Eaton,G,Municipality,,x,,x,Weld,1,40.527223,-104.712559,G,http://www.eatonco.org/,G,
 "Eckley, Town of",23025,G,2412464,G,63003,G,Eckley,G,CO0163001,G,,N,Eckley,G,Municipality,,x,,x,Yuma,1,40.112252,-102.488307,G,http://townofeckley.weebly.com/,G,
@@ -160,13 +160,13 @@ El Rancho Florida Metropolitan District,,N,,N,34035,G,ElRanchoFloridaMD,G,CO0134
 "Englewood, City of",24785,G,2410441,G,03041,G,Englewood,G,CO0103045,G,,N,Englewood,G,Municipality,,x,,x,Arapahoe,1,39.646791,-104.994293,G,http://www.englewoodco.gov/,G,
 "Erie, Town of",24950,G,2412599,G,64060,G,Erie,G,CO0162255,G,,N,Erie,G,Municipality,,x,,x,"Boulder, Weld",2,40.040157,-105.040252,G,https://www.erieco.gov/,G,
 "Estes Park, Town of",25115,G,2412603,G,35004,G,EstesPark,G,CO0135257,G,,N,EstesPark,G,Municipality,,x,,x,Larimer,1,40.369870,-105.521623,G,https://www.colorado.gov/townofestespark,G,
-Eureka Water Company,,N,,N,,N,EurekaWC,G,CO0145150,G,19871134052.000000,G,EurekaWC,G,Company,,x,,x,Otero,1,38.074327,-103.772318,g1,,x,Not in the Covered Entities database
+Eureka Water Company,,N,,N,,N,EurekaWC,G,CO0145150,G,19871134052,G,EurekaWC,G,Company,,x,,x,Otero,1,38.074327,-103.772318,g1,,x,Not in the Covered Entities database
 "Evans, City of",25280,G,2410467,G,62011,G,Evans,G,CO0162260,G,,N,Evans,G,Municipality,,x,,x,Weld,1,40.366034,-104.738911,G,http://www.evanscolorado.gov/,G,
 Evergreen Metropolitan District,,N,,N,65166,G,EvergreenMD,G,CO0130030,G,,N,EvergreenMD,G,Metropolitan District,,x,,x,Jefferson,1,39.637966,-105.327573,G,www.evergreenmetrodistrict.com,G,
 "Fairplay, Town of",25610,G,2412616,G,47005,G,Fairplay,G,CO0147020,G,,N,Fairplay,G,Municipality,,x,,x,Park,1,39.224496,-105.996948,G,http://fairplayco.us/,G,
-Fayette Water Company,,N,,N,,N,FayetteWAS,G,CO0145180,G,19871134896.000000,G,FayetteWAS,G,Company,,x,,x,Otero,1,38.098137,-103.832219,g1,,x,Not in the Covered Entities database
+Fayette Water Company,,N,,N,,N,FayetteWAS,G,CO0145180,G,19871134896,G,FayetteWAS,G,Company,,x,,x,Otero,1,38.098137,-103.832219,g1,,x,Not in the Covered Entities database
 "Federal Heights, City of",26270,G,2410493,G,01009,G,FederalHts,G,CO0101055,G,,N,FederalHts,G,Municipality,,x,,x,Adams,1,39.865026,-105.015469,G,http://www.fedheights.org/,G,
-Fehlmann,,N,,N,,N,FehlmannWS,G,,M,19871184529.000000,G,FehlmannWS,G,Company,,x,,x,Jefferson,1,39.668252,-105.096661,g1,,x,Not in the Covered Entities database
+Fehlmann,,N,,N,,N,FehlmannWS,G,,M,19871184529,G,FehlmannWS,G,Company,,x,,x,Jefferson,1,39.668252,-105.096661,g1,,x,Not in the Covered Entities database
 "Firestone, Town of",26600,G,2412626,G,62012,G,Firestone,G,CO0162476,G,,N,Firestone,G,Municipality,,x,,x,Weld,1,40.156383,-104.949470,G,http://www.firestoneco.gov/,G,
 "Flagler, Town of",26765,G,2412628,G,32010,G,Flagler,G,CO0132010,G,,N,Flagler,G,Municipality,,x,,x,Kit Carson,1,39.294399,-103.075062,G,http://flaglercolorado.com/,G,
 "Fleming, Town of",26875,G,2412631,G,38005,G,,M,CO0138010,G,,N,Fleming,C,Municipality,,x,,x,Logan,1,40.681191,-102.839506,G,,N,Not in the original BNDSS list
@@ -185,7 +185,7 @@ Franktown Business Area Metropolitan District,,N,,N,18120,G,FranktownMD,G,,M,,N,
 "Fraser, Town of",28305,G,2412655,G,25006,G,Fraser,G,CO0125288,G,,N,Fraser,G,Municipality,,x,,x,Grand,1,39.930264,-105.802883,G,http://www.frasercolorado.com/,G,
 "Frederick, Town of",28360,G,2412656,G,62016,G,Frederick,G,CO0162288,G,,N,Frederick,G,Municipality,,x,,x,Weld,1,40.109531,-104.966881,G,https://www.frederickco.gov/,G,
 "Frisco, Town of",28690,G,2412661,G,59015,G,Frisco,G,CO0159055,G,,N,Frisco,G,Municipality,,x,,x,Summit,1,39.579143,-106.091539,G,http://www.friscogov.com/,G,
-Fruitland Domestic Water Company,,N,,N,,N,FruitlandDWC,G,CO0115288,G,19871492414.000000,G,FruitlandDWC,G,Company,,x,,x,Delta,1,38.703877,-107.608947,g1,,x,Not in the Covered Entities database
+Fruitland Domestic Water Company,,N,,N,,N,FruitlandDWC,G,CO0115288,G,19871492414,G,FruitlandDWC,G,Company,,x,,x,Delta,1,38.703877,-107.608947,g1,,x,Not in the Covered Entities database
 "Garden City, Town of",29185,G,2412667,G,62018,G,,M,CO0140897,G,,N,GardenCity,C,Municipality,,x,,x,Weld,1,40.394586,-104.689525,G,http://townofgardencity.com/,G,Not in the original BNDSS list
 Garden Valley Water and Sanitation District,,N,,N,21027,G,GardenVlyWSD,G,CO0121325,G,,N,GardenVlyWSD,G,Water and Sanitation District,,x,,x,El Paso,1,38.800715,-104.790678,G,,x,
 Genesee Water and Sanitation District,,N,,N,30033,G,GeneseeWSD,G,CO0130035,G,,N,GeneseeWSD,G,Water and Sanitation District,,x,,x,Jefferson,1,39.685662,-105.275446,G,www.geneseewater.com,G,
@@ -214,7 +214,7 @@ Groundwater Association of South Platte,,N,,N,,N,GrdwtrAssSPlatte,G,,M,,N,Grdwtr
 Hamilton Creek Metropolitan District,,N,,N,59030,G,HamiltonCrkMD,G,CO0159063,G,,N,HamiltonCrkMD,G,Metropolitan District,,x,,x,Summit,1,39.630264,-106.043352,g1,,x,
 Hancock Water Company,,N,,N,,N,HancockWC,G,CO0145240,G,,N,HancockWC,G,Company,,x,,x,Otero,1,38.052508,-103.720227,g1,,x,Not in the Covered Entities database
 "Hartman, Town of",34520,G,2412730,G,50008,G,,M,CO0150500,G,,N,Hartman,C,Municipality,,x,,x,Prowers,1,38.121110,-102.221337,G,,N,Not in the original BNDSS list
-Hasty Water Company,,N,,N,,N,HastyWC,G,CO0106200,G,19871165883.000000,G,HastyWC,G,Company,,x,,x,Bent,1,38.112395,-102.958610,g1,,x,Not in the Covered Entities database
+Hasty Water Company,,N,,N,,N,HastyWC,G,CO0106200,G,19871165883,G,HastyWC,G,Company,,x,,x,Bent,1,38.112395,-102.958610,g1,,x,Not in the Covered Entities database
 "Haswell, Town of",34740,G,2412734,G,31003,G,,M,CO0131600,G,,N,Haswell,C,Municipality,,x,,x,Kiowa,1,38.452507,-103.164839,G,,N,Not in the original BNDSS list
 Havana Water and Sanitation District,,N,,N,03052,G,HavanaWSD,G,CO0116333,G,,N,HavanaWSD,G,Water and Sanitation District,,x,,x,Arapahoe,1,39.607037,-104.858862,G,,x,Not in the Covered Entities database
 "Haxtun, Town of",34960,G,2412738,G,48004,G,,M,CO0148001,G,,N,Haxtun,C,Municipality,,x,,x,Phillips,1,40.641876,-102.629715,G,,N,Not in the original BNDSS list
@@ -226,15 +226,15 @@ Highlands Ranch Metropolitan District,,N,,N,65783,G,HighlandsRanchMD,G,,M,,N,Hig
 Hi-Lin Water and Sanitation District,,N,,N,03054,G,HiLinWSD,G,CO0116343,G,,N,HiLinWSD,G,Water and Sanitation District,,x,,x,Arapahoe,1,39.672605,-104.927984,G,,x,Not in the Covered Entities database
 Hillcrest Water and Sanitation District,,N,,N,03055,G,HillcrestWSD,G,CO0103345,G,,N,HillcrestWSD,G,Water and Sanitation District,,x,,x,Arapahoe,1,39.641657,-104.925929,G,,x,
 "Hillrose, Town of",36610,G,2412751,G,44007,G,,M,CO0144010,G,,N,Hillrose,C,Municipality,,x,,x,Morgan,1,40.324654,-103.522175,G,http://www.hillrosecolorado.org/,G,Not in the original BNDSS list
-Hilltop Water Company,,N,,N,,N,HilltopWC,G,CO0145300,G,19871039460.000000,G,HilltopWC,G,Company,,x,,x,Otero,1,38.052508,-103.720227,g1,,x,Not in the Covered Entities database
+Hilltop Water Company,,N,,N,,N,HilltopWC,G,CO0145300,G,19871039460,G,HilltopWC,G,Company,,x,,x,Otero,1,38.052508,-103.720227,g1,,x,Not in the Covered Entities database
 Hinsdale City Planning Commission,,N,,N,,N,HinsdalePlngCom,G,,M,,N,HinsdalePlngCom,G,County government,,x,,x,Hinsdale,1,38.028331,-107.314896,g1,,x,
 Hinsdale County,,N,,N,,N,HinsdaleCo,G,,N,,N,HinsdaleCo,G,County government,,x,,x,Hinsdale,1,38.028331,-107.314896,g1,,x,Not in the Covered Entities database
-Holbrook Center Soft Water,,N,,N,,N,Holbrook,G,CO0145330,G,20031298976.000000,G,Holbrook,G,Company,,x,,x,Otero,1,38.100006,-103.534987,g1,,x,Not in the Covered Entities database
+Holbrook Center Soft Water,,N,,N,,N,Holbrook,G,CO0145330,G,20031298976,G,Holbrook,G,Company,,x,,x,Otero,1,38.100006,-103.534987,g1,,x,Not in the Covered Entities database
 "Holly, Town of",37215,G,2412764,G,50011,G,,M,CO0150600,G,,N,Holly,C,Municipality,,x,,x,Prowers,1,38.056555,-102.124297,G,http://www.townofholly.com/,G,Not in the original BNDSS list
 Holly Hills Water and Sanitation District,,N,,N,64077,G,HollyHlsWSD,G,CO0116352,G,,N,HollyHlsWSD,G,Water and Sanitation District,,x,,x,"Arapahoe, Denver",2,39.664661,-104.918722,G,,x,Not in the Covered Entities database
 "Holyoke, City of",37270,G,2410781,G,48005,G,Holyoke,G,CO0148005,G,,N,Holyoke,G,Municipality,,x,,x,Phillips,1,40.583414,-102.299812,G,http://www.cityofholyoke-co.gov/,G,
-Homestead Improvement Association,,N,,N,,N,HomesteadIA,G,CO0145360,G,19871507652.000000,G,HomesteadIA,G,Company,,x,,x,Otero,1,37.967180,-103.567425,g1,,x,Not in the Covered Entities database
-Homestead Water Company,,N,,N,,N,HomesteadWC,G,CO0130050,G,20141696765.000000,D,HomesteadWC,G,Company,,x,,x,Jefferson,1,39.590266,-105.311094,g1,,x,Not in the Covered Entities database; dissolved in December 2014
+Homestead Improvement Association,,N,,N,,N,HomesteadIA,G,CO0145360,G,19871507652,G,HomesteadIA,G,Company,,x,,x,Otero,1,37.967180,-103.567425,g1,,x,Not in the Covered Entities database
+Homestead Water Company,,N,,N,,N,HomesteadWC,G,CO0130050,G,20141696765,D,HomesteadWC,G,Company,,x,,x,Jefferson,1,39.590266,-105.311094,g1,,x,Not in the Covered Entities database; dissolved in December 2014
 "Hooper, Town of",37380,G,2412766,G,02005,G,,M,,M,,N,Hooper,C,Municipality,,x,,x,Alamosa,1,37.745925,-105.877379,G,,N,Not in the original BNDSS list
 "Hot Sulphur Springs, Town of",37600,G,2412770,G,25015,G,HotSulphurSpgs,G,CO0125352,G,,N,HotSulphurSpgs,G,Municipality,,x,,x,Delta,1,40.074869,-106.103178,G,http://www.hotsulphurspringsco.com/,G,
 "Hotchkiss, Town of",37545,G,2412771,G,15020,G,Hotchkiss,G,CO0115352,G,,N,Hotchkiss,G,Municipality,,x,,x,Grand,1,38.798951,-107.713382,G,http://www.townofhotchkiss.com/,G,
@@ -293,8 +293,8 @@ Loretto Heights,,N,,N,,N,LorettoWS,G,CO0103486,G,,N,LorettoWS,G,,,x,,x,Arapahoe,
 Mansfield Heights Water and Sanitation District,,N,,N,03057,G,MansfieldHtsWSD,G,CO0103500,G,,N,MansfieldHtsWSD,G,Water and Sanitation District,,x,,x,Arapahoe,1,39.642294,-104.935290,G,,x,Not in the Covered Entities database
 "Manzanola, Town of",48500,G,2412949,G,45009,G,Manzanola,G,CO0145450,G,,N,Manzanola,G,Municipality,,x,,x,Otero,1,38.108767,-103.866809,G,,N,
 "Marble, Town of",48555,G,2412952,G,26010,G,,M,,M,,N,Marble,C,Municipality,,x,,x,Gunnison,1,39.071654,-107.190675,G,http://www.townofmarble.com/,G,Not in the original BNDSS list
-May Valley Water Association,,N,,N,,N,MayValleyWAS,G,CO0150800,G,19871166887.000000,G,MayValleyWAS,G,Company,,x,,x,Prowers,1,38.153231,-102.719745,g1,,x,Not in the Covered Entities database
-McClave Water Association,,N,,N,,N,McClaveWAS,G,CO0106500,G,19871178254.000000,G,McClaveWAS,G,Company,,x,,x,Bent,1,38.137524,-102.849835,g1,,x,Not in the Covered Entities database
+May Valley Water Association,,N,,N,,N,MayValleyWAS,G,CO0150800,G,19871166887,G,MayValleyWAS,G,Company,,x,,x,Prowers,1,38.153231,-102.719745,g1,,x,Not in the Covered Entities database
+McClave Water Association,,N,,N,,N,McClaveWAS,G,CO0106500,G,19871178254,G,McClaveWAS,G,Company,,x,,x,Bent,1,38.137524,-102.849835,g1,,x,Not in the Covered Entities database
 "Mead, Town of",49600,G,2412970,G,62040,G,,M,CO0162500,G,,N,Mead,C,Municipality,,x,,x,Weld,1,40.232164,-104.992771,G,http://www.townofmead.org/,G,Not in the original BNDSS list
 Meadowbrook Water District,,N,,N,30061,G,MeadowbrookWS,G,CO0130500,G,,N,MeadowbrookWS,G,Water District,,x,,x,Jefferson,1,39.565971,-105.089457,G,www.meadowbrookwaterdistrict.com,G,Not in the Covered Entities database
 "Meeker, Town of",49875,G,2412977,G,52007,G,Meeker,G,CO0152505,G,,N,Meeker,G,Municipality,,x,,x,Rio Blanco,1,40.049988,-107.894444,G,http://www.townofmeeker.org/,G,
@@ -314,7 +314,7 @@ Miners Mesa Residential Metropolitan District,,N,,N,24010,G,MinersMesaResMD,G,,M
 "Monte Vista, City of",51635,G,2411143,G,53005,G,MonteVista,G,CO0153600,G,,N,MonteVista,G,Municipality,,x,,x,Rio Grande,1,37.578860,-106.150015,G,http://www.cityofmontevista.com/,G,
 "Montezuma, Town of",51690,G,2413008,G,59028,G,,M,,M,,N,Montezuma,C,Municipality,,x,,x,Summit,1,39.581488,-105.867649,G,,N,Not in the original BNDSS list
 Montezuma County Water District 1,,N,,N,42019,G,MontezumaCountyWD1,G,CO0142800,G,,N,MontezumaCountyWD1,G,Water District,,x,,x,Montezuma,1,37.311504,-108.623501,G,,x,
-Montezuma Water Company,,N,,N,,N,MontezumaWC,G,CO0142900,G,19871176663.000000,G,MontezumaWC,G,Company,,x,,x,Montezuma,1,37.456960,-108.586006,g1,,x,Not in the Covered Entities database
+Montezuma Water Company,,N,,N,,N,MontezumaWC,G,CO0142900,G,19871176663,G,MontezumaWC,G,Company,,x,,x,Montezuma,1,37.456960,-108.586006,g1,,x,Not in the Covered Entities database
 "Montrose, City of",51745,G,2411151,G,43004,G,Montrose,G,CO0143518,G,,N,Montrose,G,Municipality,,x,,x,Montrose,1,38.468826,-107.859386,G,http://www.cityofmontrose.org/,G,
 "Monument, Water Department, Town of",51800,G,2413009,G,21032,G,Monument,G,CO0121475,G,,N,Monument,G,Municipality,,x,,x,El Paso,1,39.073227,-104.846099,G,http://www.townofmonument.org/,G,
 Morgan County Quality Water District,,N,,N,64094,G,MCQWD,G,CO0144020,G,,N,MCQWD,G,Water District,,x,,x,"Morgan, Washington",2,40.296777,-103.837642,G,,x,
@@ -332,9 +332,9 @@ Mustang Water Authority,,N,,N,65050,G,,M,CO0143525,G,,N,MustangWA,C,Water Author
 Navajo Western Water District,,N,,N,28008,G,NavajoWesternWD,G,CO0128625,G,,N,NavajoWesternWD,G,Water District,,x,,x,Huerfano,1,37.597956,-104.958964,G,,x,
 "Nederland, Town of",53175,G,2413037,G,07033,G,,M,CO0107538,G,,N,Nederland,C,Municipality,,x,,x,Boulder,1,39.963280,-105.507173,G,http://nederlandco.org/,G,Not in the original BNDSS list
 "New Castle, Town of",53395,G,2413042,G,23012,G,NewCastle,G,CO0123538,G,,N,NewCastle,G,Municipality,,x,,x,Garfield,1,39.577584,-107.526809,G,http://www.newcastlecolorado.org/,G,
-Newdale-Grand Valley Water Company,,N,,N,,N,NewdaleGrandValleyWC,G,CO0145480,G,19871171775.000000,G,NewdaleGrandValleyWC,G,Company,,x,,x,Otero,1,38.052508,-103.720227,g1,,x,Not in the Covered Entities database
+Newdale-Grand Valley Water Company,,N,,N,,N,NewdaleGrandValleyWC,G,CO0145480,G,19871171775,G,NewdaleGrandValleyWC,G,Company,,x,,x,Otero,1,38.052508,-103.720227,g1,,x,Not in the Covered Entities database
 North Carter Lake Water District,,N,,N,35029,G,NCarterLakeWD,G,CO0135553,G,,N,NCarterLakeWD,G,Water District,,x,,x,Larimer,1,40.362093,-105.235004,G,,x,
-North Holbrook Water Company,,N,,N,,N,NHolbrook,G,CO0145630,G,19911046735.000000,G,NHolbrook,G,Company,,x,,x,Otero,1,38.075585,-103.583174,g1,,N,Not in the Covered Entities database
+North Holbrook Water Company,,N,,N,,N,NHolbrook,G,CO0145630,G,19911046735,G,NHolbrook,G,Company,,x,,x,Otero,1,38.075585,-103.583174,g1,,N,Not in the Covered Entities database
 North Lincoln Water and Sanitation District,,N,,N,01015,G,NLincolnWSD,G,CO0116552,G,,N,NLincolnWSD,G,Water and Sanitation District,,x,,x,Adams,1,39.794184,-104.999922,G,,x,Not in the Covered Entities database
 North Pecos Water and Sanitation District,,N,,N,64100,G,NPecosWSD,G,CO0116553,G,,N,NPecosWSD,G,Water and Sanitation District,,x,,x,"Adams, Denver",2,39.808757,-104.996664,G,,x,
 North Range Metropolitan District,,N,,N,,m,NRangeMD,G,,M,,N,NRangeMD,G,Metropolitan District,,x,,x,Adams,1,,,m,,x,Has split into multiple metropolitan districts; unsure of which DOLA_LG_ID to use
@@ -366,16 +366,16 @@ Paint Brush Hills Metropolitan District,,N,,N,21074,G,PaintBrushHlsMD,G,CO022169
 "Palisade, Town of",56970,G,2413101,G,39034,G,Palisade,G,CO0139600,G,,N,Palisade,G,Municipality,,x,,x,Mesa,1,39.108248,-108.357391,G,http://www.townofpalisade.org/,G,
 "Palmer Lake, Town of",57025,G,2413103,G,21034,G,PalmerLake,G,CO0121575,G,,N,PalmerLake,G,Municipality,,x,,x,El Paso,1,39.115196,-104.906009,G,http://www.townofpalmerlake.com/,G,
 Panorama Improvement District,,N,,N,39035,G,PanoramaImpD,G,,M,,N,PanoramaImpD,G,Metropolitan District,,x,,x,Mesa,1,39.095831,-108.655706,G,,x,
-Panorama Park Mutual Water Association,,N,,N,,N,PanoramaParkWS,G,CO0054916,G,19871177443.000000,D,PanoramaParkWS,G,Company,,x,,x,Arapahoe,1,39.679899,-104.909743,g1,,x,Not in the Covered Entities database; dissolved in November 2001
+Panorama Park Mutual Water Association,,N,,N,,N,PanoramaParkWS,G,CO0054916,G,19871177443,D,PanoramaParkWS,G,Company,,x,,x,Arapahoe,1,39.679899,-104.909743,g1,,x,Not in the Covered Entities database; dissolved in November 2001
 "Paoli, Town of",57245,G,2413107,G,48006,G,,M,CO0148010,G,,N,Paoli,C,Municipality,,x,,x,Phillips,1,40.612758,-102.471769,G,,N,Not in the original BNDSS list
 "Paonia, Town of",57300,G,2413109,G,15025,G,Paonia,G,CO0115601,G,,N,Paonia,G,Municipality,,x,,x,Delta,1,38.869758,-107.591982,G,http://townofpaonia.com/,G,
 "Parachute, Town of",57400,G,2413110,G,23013,G,,M,CO0123602,G,,N,Parachute,C,Municipality,,x,,x,Garfield,1,39.448543,-108.058250,G,http://www.parachutecolorado.com/,G,Not in the original BNDSS list
 Park Center Water District,,N,,N,22016,G,ParkCntrWD,G,CO0122600,G,,N,ParkCntrWD,G,Water District,,x,,x,Fremont,1,38.483294,-105.224489,G,,x,
 Park Forest Water District,,N,,N,21035,G,ParkForestWD,G,CO0000685,G,,N,ParkForestWD,G,Water District,,x,,x,El Paso,1,38.988088,-104.691682,G,https://www.colorado.gov/pfwd,G,
-Parkdale Water,,N,,N,,N,ParkdaleWS,G,CO0145510,G,19871171611.000000,D,ParkdaleWS,G,Company,,x,,x,Otero,1,37.982412,-103.561766,g1,,x,Not in the Covered Entities database; dissolved in January 2004
+Parkdale Water,,N,,N,,N,ParkdaleWS,G,CO0145510,G,19871171611,D,ParkdaleWS,G,Company,,x,,x,Otero,1,37.982412,-103.561766,g1,,x,Not in the Covered Entities database; dissolved in January 2004
 Parker Water and Sanitation District,,N,,N,18027,G,ParkerWSD,G,CO0118040,G,,N,ParkerWSD,G,Water and Sanitation District,,x,,x,Douglas,1,39.498711,-104.803660,G,www.pwsd.org,G,
 Parkville Water District,,N,,N,33005,G,,M,CO0133700,G,,N,ParkvilleWD,C,Water District,,x,,x,Lake,1,39.246491,-106.303356,G,www.parkvillewater.org,G,Not in the original BNDSS list
-Patterson Valley Water Company,,N,,N,,N,PattersonValleyWS,G,CO0145540,G,19871155183.000000,G,PattersonValleyWS,G,Company,,x,,x,Otero,1,38.052508,-103.720227,g1,,x,Not in the Covered Entities database
+Patterson Valley Water Company,,N,,N,,N,PattersonValleyWS,G,CO0145540,G,19871155183,G,PattersonValleyWS,G,Company,,x,,x,Otero,1,38.052508,-103.720227,g1,,x,Not in the Covered Entities database
 "Peetz, Town of",58235,G,2413123,G,38016,G,Peetz,G,CO0138030,G,,N,Peetz,G,Municipality,,x,,x,Logan,1,40.961878,-103.113943,G,https://www.sites.google.com/site/townofpeetz/,G,
 Penrose Water District,,N,,N,22017,G,Penrose,G,CO0122700,G,,N,Penrose,G,Water District,,x,,x,Fremont,1,38.429287,-105.005674,G,http://www.penrosewaterdistrict.com/,G,
 Perry Park Water and Sanitation District,,N,,N,18030,G,PerryParkWSD,G,CO0118045,G,,N,PerryParkWSD,G,Water and Sanitation District,,x,,x,Douglas,1,39.251676,-104.953280,G,www.ppwsd.org,G,
@@ -407,7 +407,7 @@ Redstone Water and Sanitation District,,N,,N,49026,G,RedstoneWSD,G,CO0149671,G,,
 Ridgewood Water District,,N,,N,60007,G,RidgewoodWD,G,CO0160400,G,,N,RidgewoodWD,G,Water District,,x,,x,Teller,1,39.110786,-105.072925,G,,x,
 "Ridgway, Town of",64200,G,2412551,G,46009,G,Ridgway,G,CO0146676,G,,N,Ridgway,G,Municipality,,x,,x,Ouray,1,38.157150,-107.754610,G,http://town.ridgway.co.us/,G,
 "Rifle, City of",64255,G,2410947,G,23017,G,Rifle,G,CO0123676,G,,N,Rifle,G,Municipality,,x,,x,Garfield,1,39.536041,-107.773106,G,https://www.rifleco.org/,G,
-Riverbend Subdivision Homeowner's Association Inc.,,N,,N,,N,RiverbendSubdv,G,,M,19891083570.000000,G,RiverbendSubdv,G,Company,,x,,x,Gunnison,1,38.871027,-106.980662,g1,,x,
+Riverbend Subdivision Homeowner's Association Inc.,,N,,N,,N,RiverbendSubdv,G,,M,19891083570,G,RiverbendSubdv,G,Company,,x,,x,Gunnison,1,38.871027,-106.980662,g1,,x,
 Roaring Fork Water and Sanitation District,,N,,N,23034,G,RoaringForkWSD,G,CO0123125,G,,N,RoaringForkWSD,G,Water and Sanitation District,,x,,x,Garfield,1,39.439163,-107.259659,G,,x,Not in the Covered Entities database; former name was Aspen Glen Water and Sanitation District
 "Rockvale, Town of",64970,G,2412564,G,22018,G,,M,CO0122800,G,,N,Rockvale,C,Municipality,,x,,x,Fremont,1,38.364443,-105.164880,G,,N,Not in the original BNDSS list
 "Rocky Ford, City of",65190,G,2410983,G,45014,G,RockyFord,G,CO0145600,G,,N,RockyFord,G,Municipality,,x,,x,Otero,1,38.050027,-103.722497,G,http://www.rockyfordco.com/,G,
@@ -432,7 +432,7 @@ Sedalia Water and Sanitation District,,N,,N,18038,G,SedaliaWSD,G,CO0118060,G,,N,
 "Sheridan Lake, Town of",69700,G,2413280,G,31008,G,,M,,M,,N,SheridanLake,C,Municipality,,x,,x,Kiowa,1,38.466714,-102.294444,G,,N,Not in the original BNDSS list
 Sheridan Sanitation District,,N,,N,03063,G,SheridanSD1,G,,M,,N,SheridanSD1,G,Sanitation District,,x,,x,Arapahoe,1,39.648430,-105.024773,G,,x,
 Sheridan Sanitation District 2,,N,,N,03064,G,,M,,M,,N,SheridanSD2,C,Sanitation District,,x,,x,"Arapahoe, Denver",2,39.596984,-104.860302,g1,,x,Not in the original BNDSS list
-Sierra Vista Douglas Mutual Water Company,,N,,N,,N,SierraVistaDouglasMWC,G,,M,19881076499.000000,G,SierraVistaDouglasMWC,G,Company,,x,,x,Douglas,1,39.552089,-104.764108,g1,,x,
+Sierra Vista Douglas Mutual Water Company,,N,,N,,N,SierraVistaDouglasMWC,G,,M,19881076499,G,SierraVistaDouglasMWC,G,Company,,x,,x,Douglas,1,39.552089,-104.764108,g1,,x,
 "Silt, Town of",70195,G,2413284,G,23019,G,Silt,G,CO0123710,G,,N,Silt,G,Municipality,,x,,x,Garfield,1,39.548173,-107.653586,G,http://www.townofsilt.org/,G,
 "Silver Cliff, Town of",70250,G,2413286,G,14004,G,,M,,M,,N,SilverCliff,C,Municipality,,x,,x,Custer,1,38.120376,-105.410415,G,http://silvercliffco.com/,G,Not in the original BNDSS list
 Silver Heights Water and Sanitation District,,N,,N,18032,G,SilverHtsWSD,G,CO0118075,G,,N,SilverHtsWSD,G,Water and Sanitation District,,x,,x,Douglas,1,39.423172,-104.866633,G,,x,
@@ -445,8 +445,8 @@ Snake River Water District,,N,,N,59026,G,SnakeRiverWD,G,CO0159105,G,,N,SnakeRive
 South Adams County Water and Sanitation District,,N,,N,01021,G,SAdamsCoWSD,G,CO0101140,G,,N,SAdamsCoWSD,G,Water and Sanitation District,,x,,x,Adams,1,39.864505,-104.850265,G,www.sacwsd.org,G,
 "South Fork, Town of",72395,G,2413307,G,53013,G,,M,,M,,N,SouthFork,C,Municipality,,x,,x,Rio Grande,1,37.668815,-106.643205,G,http://www.southfork.org/community/government.php,G,Not in the original BNDSS list
 "South Sheridan Water, Sanitary Sewer and Storm Drainage District",,N,,N,30079,G,SSheridanMD,G,CO0130718,G,,N,SSheridanMD,G,Metropolitan District,,x,,x,Jefferson,1,39.691878,-105.059215,G,,x,Not in the Covered Entities database
-South Side Water Association,,N,,N,,N,SouthSideLaJuntaWAS,G,CO0145660,G,19871133400.000000,G,SouthSideLaJuntaWAS,G,Company,,x,,x,Otero,1,38.099731,-103.472105,g1,,x,Not in the Covered Entities database
-South Swink Water Company,,N,,N,,N,SouthSwinkWC,G,CO0145690,G,19871142703.000000,G,SouthSwinkWC,G,Company,,x,,x,Otero,1,37.967390,-103.620049,g1,,x,Not in the Covered Entities database
+South Side Water Association,,N,,N,,N,SouthSideLaJuntaWAS,G,CO0145660,G,19871133400,G,SouthSideLaJuntaWAS,G,Company,,x,,x,Otero,1,38.099731,-103.472105,g1,,x,Not in the Covered Entities database
+South Swink Water Company,,N,,N,,N,SouthSwinkWC,G,CO0145690,G,19871142703,G,SouthSwinkWC,G,Company,,x,,x,Otero,1,37.967390,-103.620049,g1,,x,Not in the Covered Entities database
 South University Place Water District,,N,,N,,z,SouthUniversityWS,G,CO0103719,G,,N,SouthUniversityWS,G,Water District,,x,,x,Arapahoe,1,39.641654,-104.959425,g1,,x,Not in the Covered Entities database
 Southeast Englewood Water District,,N,,N,03072,G,SoutheastEnglewoodWS,G,CO0103720,G,,N,SoutheastEnglewoodWS,G,Water District,,x,,x,Arapahoe,1,39.590983,-104.961516,G,,x,
 Southeastern Colorado Water Conservancy District,,N,,N,64128,G,SECWCD,G,,N,,N,SECWCD,G,Water Conservancy District,,x,,x,"Bent, Chaffee, Crowley, El Paso, Fremont, Kiowa, Otero, Prowers, Pueblo",9,38.335481,-104.222610,G,,x,Not in the Covered Entities database
@@ -476,7 +476,7 @@ Teller County Water and Sanitation District,,N,,N,60011,G,TellerCoWD,G,CO0160600
 "Thornton, City of",77290,G,2412064,G,64264,G,Thornton,G,CO0101150,G,,N,Thornton,G,Municipality,,x,,x,"Adams, Weld",2,39.920507,-104.944528,G,https://www.cityofthornton.net/Pages/default.aspx,G,
 Thunderbird Water and Sanitation District,,N,,N,18033,G,,M,CO0118078,G,,N,ThunderbirdWSD,C,Water and Sanitation District,,x,,x,Douglas,1,39.410731,-105.028831,G,,x,Not in the original BNDSS list
 "Timnath, Town of",77510,G,2413391,G,35044,G,,M,CO0055699,G,,N,Timnath,C,Municipality,,x,,x,Larimer,1,40.533374,-104.960485,G,http://www.timnath.org/,G,Not in the original BNDSS list
-"Titan Road Industrial Park Water Association, Inc",,N,,N,,N,TitanRdIndstrlParkWA,G,CO0218031,G,19891074339.000000,G,TitanRdIndstrlParkWA,G,Company,,x,,x,Douglas,1,39.502745,-105.018407,g1,,x,
+"Titan Road Industrial Park Water Association, Inc",,N,,N,,N,TitanRdIndstrlParkWA,G,CO0218031,G,19891074339,G,TitanRdIndstrlParkWA,G,Company,,x,,x,Douglas,1,39.502745,-105.018407,g1,,x,
 Tri-County Water Conservation District,,N,,N,64138,G,Tri-County,G,CO0143755,G,,N,Tri-County,G,Water Conservancy District,,x,,x,"Delta, Montrose, Ouray",3,38.397573,-107.931032,G,,x,
 "Trinidad, City of",78610,G,2412094,G,36011,G,Trinidad,G,CO0136800,G,,N,Trinidad,G,Municipality,,x,,x,Las Animas,1,37.174857,-104.490816,G,http://www.trinidad.co.gov/,G,
 Triview Metropolitan District,,N,,N,21061,G,TriviewMD,G,CO0121840,G,,N,TriviewMD,G,Metropolitan District,,x,,x,El Paso,1,39.068796,-104.835530,G,www.triviewmetro.com,G,
@@ -487,25 +487,25 @@ Upper Arkansas Water Conservancy District,,N,,N,64141,G,UAWCD,G,,N,,N,UAWCD,G,Wa
 Upper Eagle Regional Water Authority,,N,,N,19042,G,UpEagleRivWA,G,CO0119786,G,,N,UpEagleRivWA,G,Water Authority,,x,,x,Eagle,1,39.641430,-106.394626,g1,,x,
 Upper Gunnison River Water Conservancy District,,N,,N,64143,G,UGRWCD,G,,N,,N,UGRWCD,G,Water Conservancy District,,x,,x,"Gunnison, Hinsdale, Saguache",3,38.456064,-106.903131,G,,x,Not in the Covered Entities database
 Upper South Platte Water Conservancy,,N,,N,64145,G,,M,,N,,N,UpperSPlatteWCD,C,Water Conservancy District,,x,,x,"Clear Creek, Douglas, Jefferson, Park, Teller",5,39.139382,-105.606694,G,,x,Not in the original BNDSS list
-Upper Surface Creek Domestic Water Users Association (USCDWUA),,N,,N,,N,USCDWUA,G,CO0115784,G,19871130243.000000,G,USCDWUA,G,Company,,x,,x,Delta,1,38.903800,-107.890000,g1,,x,Not in the Covered Entities database
+Upper Surface Creek Domestic Water Users Association (USCDWUA),,N,,N,,N,USCDWUA,G,CO0115784,G,19871130243,G,USCDWUA,G,Company,,x,,x,Delta,1,38.903800,-107.890000,g1,,x,Not in the Covered Entities database
 Upper Yampa Water Conservancy District,,N,,N,64146,G,UpYampaWCD,G,,N,,N,UpYampaWCD,G,Water Conservancy District,,x,,x,"Moffat, Routt",2,40.397381,-106.967611,G,,x,Not in the Covered Entities database
 Ute Mountain Ute Tribe,,N,,N,,N,UteMtnUtes,G,CO0184069,G,,N,UteMtnUtes,G,Tribal,,x,,x,Montezuma,1,37.201910,-108.726037,g1,,x,Not in the Covered Entities database
 Ute Water Conservancy District,,N,,N,39043,G,UteWater,G,CO0139791,G,,N,UteWater,G,Water Conservancy District,,x,,x,Mesa,1,39.146214,-108.642629,G,,x,
 Vail Associates,,N,,N,,N,VailAss,G,,M,,N,VailAss,G,Company,,x,,x,Eagle,1,,,z,,x,Not in the Covered Entities database
 "Vail, Town of",80040,G,2413415,G,19038,G,Vail,G,,M,,N,Vail,G,Municipality,,x,,x,Eagle,1,39.638501,-106.361256,G,http://vailgov.com/,G,Not in the Covered Entities database
-Valley Water Company,,N,,N,,N,VlyWC,G,CO0145750,G,19871152426.000000,G,VlyWC,G,Company,,x,,x,Otero,1,39.791292,-105.135353,g1,,x,Not in the Covered Entities database
+Valley Water Company,,N,,N,,N,VlyWC,G,CO0145750,G,19871152426,G,VlyWC,G,Company,,x,,x,Otero,1,39.791292,-105.135353,g1,,x,Not in the Covered Entities database
 "Victor, City of",80865,G,2412153,G,60012,G,,M,CO0160700,G,,N,Victor,C,Municipality,,x,,x,Teller,1,38.708701,-105.141906,G,http://www.cityofvictor.com/,G,Not in the original BNDSS list
-View Ridge Mutual Water Company,,N,,N,,N,ViewRidgeMWC,G,CO0118080,G,19871341780.000000,G,ViewRidgeMWC,G,Company,,x,,x,Douglas,1,39.517516,-105.063297,g1,,x,
+View Ridge Mutual Water Company,,N,,N,,N,ViewRidgeMWC,G,CO0118080,G,19871341780,G,ViewRidgeMWC,G,Company,,x,,x,Douglas,1,39.517516,-105.063297,g1,,x,
 "Vilas, Town of",81030,G,2413433,G,05019,G,Vilas,G,CO0105800,G,,N,Vilas,G,Municipality,,x,,x,Baca,1,37.373664,-102.447416,G,,N,
 "Vona, Town of",81690,G,2413437,G,32023,G,,M,CO0132025,G,,N,Vona,C,Municipality,,x,,x,Kit Carson,1,39.302119,-102.743352,G,,N,Not in the original BNDSS list
-Vroman Water Company,,N,,N,,N,VromanWC,G,CO0145780,G,19871139734.000000,G,VromanWC,G,Company,,x,,x,Otero,1,38.109451,-103.866066,g1,,x,Not in the Covered Entities database
+Vroman Water Company,,N,,N,,N,VromanWC,G,CO0145780,G,19871139734,G,VromanWC,G,Company,,x,,x,Otero,1,38.109451,-103.866066,g1,,x,Not in the Covered Entities database
 "Walden Public Works, Town of",82130,G,2413440,G,29006,G,Walden,G,CO0129834,G,,N,Walden,G,Municipality,,x,,x,Jackson,1,40.731584,-106.281336,G,https://www.colorado.gov/townofwalden,G,
 "Walsenburg, City of",82350,G,2412176,G,28010,G,Walsenburg,G,CO0128900,G,,N,Walsenburg,G,Municipality,,x,,x,Huerfano,1,37.630598,-104.781721,G,http://www.cityofwalsenburg.net/,G,
 "Walsh, Town of",82460,G,2413444,G,05023,G,Walsh,G,CO0105900,G,,N,Walsh,G,Municipality,,x,,x,Baca,1,37.386107,-102.279933,G,http://www.townofwalsh.com/,G,
 "Ward, Town of",82735,G,2413449,G,07042,G,,M,CO0107834,G,,N,Ward,C,Municipality,,x,,x,Boulder,1,40.072166,-105.513883,G,http://www.ward-co.org/,G,Not in the original BNDSS list
 "Wellington Public Works, Town of",83230,G,2413464,G,35047,G,Wellington,G,CO0135838,G,,N,Wellington,G,Municipality,,x,,x,Larimer,1,40.698698,-105.005937,G,http://www.townofwellington.com/,G,
 West Fort Collins Water District,,N,,N,35048,G,WFtCollinsWD,G,CO0135290,G,,N,WFtCollinsWD,G,Water District,,x,,x,Larimer,1,40.625033,-105.160776,G,,x,
-West Grand Valley Water Inc,,N,,N,,N,WGrandVlyWC,G,CO0145810,G,19571134935.000000,G,WGrandVlyWC,G,Company,,x,,x,Otero,1,37.971924,-103.747975,g1,,x,Not in the Covered Entities database
+West Grand Valley Water Inc,,N,,N,,N,WGrandVlyWC,G,CO0145810,G,19571134935,G,WGrandVlyWC,G,Company,,x,,x,Otero,1,37.971924,-103.747975,g1,,x,Not in the Covered Entities database
 West Holbrook Water,,N,,N,,N,WHolbrookWC,G,,M,,N,WHolbrookWC,G,Company,,x,,x,Otero,1,37.985009,-103.543832,g1,,x,Not in the Covered Entities database
 "Westcliffe, Town of",83450,G,2413471,G,14005,G,,M,,M,,N,Westcliffe,C,Municipality,,x,,x,Custer,1,38.133932,-105.465401,G,http://www.townofwestcliffe.com/,G,Not in the original BNDSS list
 Westcreek Lakes Water District,,N,,N,18035,G,WestcreekLakesWD,G,CO0118085,G,,N,WestcreekLakesWD,G,Water District,,x,,x,Douglas,1,39.141700,-105.159107,G,,x,
