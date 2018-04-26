@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>South Platte Data Platform - Water Providers Map with Population and Water Use from the Water Efficiency Data Portal (WEDP)</title>
+
+<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" 
+  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+   crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+	  integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+      crossorigin=""></script>
+
+
+<style>
+		body {
+			padding: 0;
+			margin: 0;
+		}
+		html, body, #map {
+			height: 100%;
+			width: 100%;
+		}
+</style>
+<style>
+	.info { 
+			padding: 10px 15px;
+			font: 14px/20px Arial, Helvetica, sans-serif; 
+			background: white;  
+			box-shadow: 0 0 15px rgba(0,0,0,0.2); 
+			border-radius: 5px; 
+		} 
+	.info h4 { 
+			margin: 5px 0; 
+			color: black; 
+		}
+	.legend { 
+			text-align: left; 
+			line-height: 22px; 
+			color: #555; 
+		} 
+	.legend i { 
+			width: 24px; 
+			height: 18px; 
+			float: left; 
+			margin-right: 8px; 
+			opacity: 1;
+		}
+	.legend .circle {
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	margin-top: 8px;
+	}
+	
+</style>
+	
+</head>
+<body>
+
+<div id='map'></div>
+
+<script src="waterproviders-wedp-population-wateruse.geojson"></script>
+
+<script>
+	
+	var map = L.map('map', {
+		center: [40.112, -104.128], 
+		zoom: 9
+	});	
+
+	var outdoors = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/outdoors-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia3Jpc3RpbnN3YWltIiwiYSI6ImNpc3Rjcnl3bDAzYWMycHBlM2phbDJuMHoifQ.vrDCYwkTZsrA_0FffnzvBw', {
+		maxZoom: 18,
+		attribution: 'Created by the <a href="http://openwaterfoundation.org">Open Water Foundation. </a>' + 
+		'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+		id: 'mapbox.outdoors'
+	}).addTo(map);
+		
+
+// Control that shows IPP info on hover -- creates an info box
+	var info = L.control();
+
+	info.onAdd = function (map) {
+		this._div = L.DomUtil.create('div', 'info'); // Creates a div with a class named "info"
+		this.update();
+		return this._div;
+	};
+
+// Method used to update the control based on feature properties passed
+	info.update = function (props) {
+		this._div.innerHTML = '<h4>WATER PROVIDERS</h4>' +  (props ?
+			'' + '<b>Name: </b>' + props.WaterProviderName + '<br/>' + '<b>IBCC Basin: </b>' + props.IBCC_Basin + '<br />' + '<b>County(s): </b>' + props.County_CSV + '<br />' +
+			'<b>Provider Type: </b>' + props.LocalGovtType + '<br />' + '<b>Website: </b>' + props.Website + '<br />' + '<b>Water Efficiency Plan: </b>' + 
+			props.WaterEfficiencyPlan_URL + '<br />' + '<b>Water Forecasts: </b>' + props.WaterForecast_URL  + '<br />' + '<b>Population Served: </b>' + props.Population_Served_2013
+ 			  + '<br />' + '<b>Water Use (acre-feet): </b>' + props.WaterUse_2013
+			: 'Hover on a circle for more information');
+	};
+	info.addTo(map);
+
+// Highlight a point when it is hovered over on the map
+	function highlightFeature(e) {
+		var layer = e.target;
+
+		layer.setStyle({
+			weight: 4,
+			color: '#252525',
+			dashArray: '',
+			fillOpacity: 0.7
+		});
+
+		if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+			layer.bringToFront();
+		}
+		info.update(layer.feature.properties);
+	}
+
+// ADD A LAYER OF 2013 POPULATION AND WATER USE DATA 	
+	var wedp2013;
+	
+// Reset the color after hovering over
+	function resetHighlight(e) {
+		wedp2013.resetStyle(e.target);
+		info.update();
+	} 	
+	
+	function onEachFeature(feature, layer) {
+		layer.on({
+			mouseover: highlightFeature,
+			mouseout: resetHighlight
+		});
+	}
+
+// Create a function that calls for colors
+	function style2013(feature) {
+	   var colorToUse2013;
+	   var point2013a = feature.properties.Population_Served_2013;
+	   
+	   return getColor2013(point2013a);
+	}
+
+// Create function of colors for population
+	function getColor2013(point2013a){
+		return point2013a > 500000 ? '#B10026' :
+				point2013a > 100000  ? '#E31A1C' :
+				point2013a > 50000  ? '#FC4E2A' :
+				point2013a > 20000  ? '#FD8D3C' :
+				point2013a > 10000   ? '#FEB24C' :
+				point2013a > 5000   ? '#FED976' :
+				point2013a > 1000   ? '#FFEDA0' :
+							'#595959';
+
+	    return colorToUse2013;
+	}
+
+// Create a function that calls for point size based on water use
+	function sizeByWaterUse2013(feature) {
+	   var sizeToUse2013;
+	   var point2013b = feature.properties.WaterUse_2013;
+		return getSize2013(point2013b);
+	}
+	
+	function getSize2013(point2013b){
+		if (point2013b > 100000) sizeToUse2013 = 24;
+		else if (point2013b > 50000) sizeToUse2013 = 20;
+		else if (point2013b > 20000) sizeToUse2013 = 16;
+		else if (point2013b > 10000) sizeToUse2013 = 12;
+		else if (point2013b > 5000) sizeToUse2013 = 8;
+		else sizeToUse2013 = 6;
+			return sizeToUse2013;
+	}
+	
+	wedp2013 = L.geoJson(ProviderWEDPData, {		
+		
+			pointToLayer: function(feature, latlng) {	
+
+			return L.circleMarker(latlng, { 
+				 fillColor: style2013(feature),
+				 color: style2013(feature),
+				 weight: 1, 
+				 radius: sizeByWaterUse2013(feature),
+				 fillOpacity: 0.8 
+				});
+			},
+
+			onEachFeature: onEachFeature
+		});
+
+// ADD A LAYER OF 2014 POPULATION AND WATER USE DATA 	
+	var wedp2014;
+	
+// Reset the color after hovering over
+	function resetHighlight(e) {
+		wedp2014.resetStyle(e.target);
+		info.update();
+	} 	
+	
+	function onEachFeature(feature, layer) {
+		layer.on({
+			mouseover: highlightFeature,
+			mouseout: resetHighlight
+		});
+	}
+
+// Create a function that calls for colors
+	function style2014(feature) {
+	   var colorToUse2014;
+	   var point2014a = feature.properties.Population_Served_2014;
+	   
+	   return getColor2014(point2014a);
+	}
+
+// Create function of colors for population
+	function getColor2014(point2014a){
+		return point2014a > 500000 ? '#B10026' :
+				point2014a > 100000  ? '#E31A1C' :
+				point2014a > 50000  ? '#FC4E2A' :
+				point2014a > 20000  ? '#FD8D3C' :
+				point2014a > 10000   ? '#FEB24C' :
+				point2014a > 5000   ? '#FED976' :
+				point2014a > 1000   ? '#FFEDA0' :
+							'#595959';
+
+	    return colorToUse2014;
+	}
+
+// Create a function that calls for point size based on water use
+	function sizeByWaterUse2014(feature) {
+	   var sizeToUse2014;
+	   var point2014b = feature.properties.WaterUse_2014;
+		return getSize2014(point2014b);
+	}
+	
+	function getSize2014(point2014b){
+		if (point2014b > 100000) sizeToUse2014 = 24;
+		else if (point2014b > 50000) sizeToUse2014 = 20;
+		else if (point2014b > 20000) sizeToUse2014 = 16;
+		else if (point2014b > 10000) sizeToUse2014 = 12;
+		else if (point2014b > 5000) sizeToUse2014 = 8;
+		else sizeToUse2014 = 6;
+			return sizeToUse2014;
+	}
+	
+	wedp2014 = L.geoJson(ProviderWEDPData, {		
+		
+			pointToLayer: function(feature, latlng) {	
+
+			return L.circleMarker(latlng, { 
+				 fillColor: style2014(feature),
+				 color: style2014(feature),
+				 weight: 1, 
+				 radius: sizeByWaterUse2014(feature),
+				 fillOpacity: 0.8 
+				});
+			},
+
+			onEachFeature: onEachFeature
+		});
+				
+var baselayers = {
+	"2013 Data": wedp2013,
+	"2014 Data": wedp2014
+	};
+	
+var layerControl = L.control.layers(baselayers, null, {collapsed: false}).addTo(map);	
+		
+map.attributionControl.addAttribution('Data &copy; SWSI2010 & Water Efficiency Data Portal');
+
+// Add a legend to the map
+var legend = L.control ({position: 'bottomright'});
+
+    legend.onAdd = function (map) {
+	
+	   var div = L.DomUtil.create('div', 'info legend'),
+	       categories = [1000, 5000, 10000, 20000, 50000, 100000, 500000, 1500000],
+		   labels = ['No data','1000-5000','5000-10,000','10,000-20,000', '20,000-50,000', '50,000-100,000', '100,000-500,000', '> 500,000'];
+		   
+		   for (var i = 0; i < categories.length; i++) {
+		        div.innerHTML +=
+				   '<i class="circle" style="background:' + getColor2013(categories[i]) + '"></i>  ' +
+				   (labels[i] ? labels[i] + '<br>' : '+');
+		   }  
+           return div;
+		}; 
+   legend.addTo(map);	
+	
+	
+</script>
+</body>
+</html>
