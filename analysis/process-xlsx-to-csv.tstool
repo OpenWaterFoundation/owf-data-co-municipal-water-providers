@@ -1,16 +1,15 @@
 # Convert municipal water provider data from Excel to csv format.
-#
+# - TODO smalers 2020-09-13 this command file takes a long time to run but don't know why
 StartLog(LogFile="xlsx-to-csv.TSTool.log")
 #
 #  TSTool is used because it automates the process.
 #  Filter out rows with empty WaterProviderName in case there are extra rows.
 # "WaterProvider" worksheet
-SetDebugLevel(LogFileLevel=1)
+# SetDebugLevel(LogFileLevel=1)
 ReadTableFromExcel(TableID="WaterProviders",InputFile="..\data\Colorado-Municipal-Water-Providers.xlsx",Worksheet="WaterProvider",ExcelColumnNames=FirstRowInRange,ColumnExcludeFilters="WaterProviderName:",ExcelIntegerColumns="GNIS_ID,NumCounty",ExcelTextColumns="FIPS_ID,DOLA_LG_ID")
-SetDebugLevel(ScreenLevel=0,LogFileLevel=0)
+# SetDebugLevel(ScreenLevel=0,LogFileLevel=0)
 WriteTableToDelimitedFile(TableID="WaterProviders",OutputFile="..\data\Colorado-Municipal-Water-Providers.csv",WriteHeaderComments=False)
 #
 # "WaterProvider_County_Relate" worksheet
 ReadTableFromExcel(TableID="WaterProvidersCounty",InputFile="..\data\Colorado-Municipal-Water-Providers.xlsx",Worksheet="WaterProvider_County_Relate",ExcelColumnNames=FirstRowInRange,ColumnExcludeFilters="WaterProviderName:")
 WriteTableToDelimitedFile(TableID="WaterProvidersCounty",OutputFile="..\data\WaterProvider-County-Relate.csv",WriteHeaderComments=False)
-#

@@ -1,5 +1,10 @@
 # Ignore the following files (do not commit working files to repository)
 
+# Ignore dynamic download files
+# - downloads folder will be created automatically if it does not exist
+
+/data-orig-process/downloads
+
 # Ignore temporary files from editors
 
 # vi/vim
