@@ -4,29 +4,52 @@
 #
 # NOTE THAT THIS IS A WORK IN PROGRESS.  MORE COMMANDS WILL BE ADDED AS THE PROCESS IS FULLY STANDARDIZED.
 #
+# Create the downloads folder to receive downloaded files.
+CreateFolder(Folder="downloads",IfFolderExists=Ignore)
+#
+# ============================
 # FIPS IDs
-# Get the data
-WebGet(URI="https://www2.census.gov/geo/docs/reference/codes/files/st08_co_places.txt",LocalFile="Municipality-FIPS-original.csv")
-# Data need column names; load in file of column names created for FIPS data and append column names to dataset  **THIS COULD BE IMPROVED UPON BY ADDING AN OPTION TO THE READTABLEFROMDELIMITEDFILE() COMMAND TO CREATE COLUMN NAMES
-AppendFile(InputFile="Municipality-FIPS-original.csv",OutputFile="FIPS-Headings.csv")
-# Read in the new file with appended column names as a table
-ReadTableFromDelimitedFile(TableID="FIPS-Headings",InputFile="FIPS-Headings.csv",Delimiter="|",HeaderLines="1",TextColumns="StateFP,PlaceFP")
-# Copy table to remove blank lines and rename
-CopyTable(TableID="FIPS-Headings",NewTableID="Municipality-FIPS",ColumnExcludeFilters="State:")
-# Save table as CSV to be located in data-orig folder
-WriteTableToDelimitedFile(TableID="Municipality-FIPS",OutputFile="..\data-orig\Colorado-FIPS-Places.csv",WriteHeaderComments=False,NaNValue="Blank")
-# Remove original FIPS file to avoid confusion about multiple files
-RemoveFile(InputFile="Municipality-FIPS-original.csv")
-# NEED TO GO BACK AND EDIT FIPS-HEADINGS FILE SO THAT IT JUST CONTAINS COLUMN HEADINGS AND NOTHING ELSE IN CASE PROCESS NEEDS TO BE RUN AGAIN
+# Download the data into the 'downloads' folder.
+# The file does not have a header and data rows will look similar to:
+# CO|08|00320|Acres Green CDP|Census Designated Place|S|Douglas County
+# Therefore, specify the column when reading the table from the file.
+# The input file has two carriage returns at the end of each line so replace with one.
+# Remove original FIPS file in case an error occurs - want to make sure file is new.
+RemoveFile(InputFile="Municipality-FIPS-original.csv",IfNotFound=Ignore)
+WebGet(URI="https://www2.census.gov/geo/docs/reference/codes/files/st08_co_places.txt",LocalFile="downloads/Municipality-FIPS-original.csv")
+TextEdit(InputFile="downloads\Municipality-FIPS-original.csv",SearchFor="\r\r",ReplaceWith="\r",OutputFile="downloads\Municipality-FIPS-original.csv")
+ReadTableFromDelimitedFile(TableID="Municipality-FIPS",InputFile="downloads/Municipality-FIPS-original.csv",Delimiter="|",ColumnNames="State,StateFP,PlaceFP,PlaceName,Type,FuncStat,County",TextColumns="StateFP,PlaceFP")
+# Save table as CSV in ../data-orig folder
+WriteTableToDelimitedFile(TableID="Municipality-FIPS",OutputFile="../data-orig/Colorado-FIPS-Places.csv",WriteHeaderComments=False,NaNValue="Blank")
 #
+# ============================
+# WebGet() command cannot be used here because website is interactive
+# - must download the data manually first from the website
+# Read the downloaded pipe-delimited file and save as comma-separated-value.
+# - all columns are quoted so identifiers with leading zeros will be treated as strings
+# - make sure that ID is treated as a string, just in case
+ReadTableFromDelimitedFile(TableID="GNIS_Table",InputFile="../data-orig/Colorado-GNIS-Civil.psv",Delimiter="|",HeaderLines="1",TextColumns="ID")
+# Save table as CSV in ../data-orig folder
+WriteTableToDelimitedFile(TableID="GNIS_Table",OutputFile="../data-orig/Colorado-GNIS-Civil.csv",WriteHeaderComments=False,NaNValue="Blank")
 #
-# GNIS IDs
-# Note that WebGet() command will not work here; must download the data manually first from the website.
-# Further processing of GNIS data is not required at this point, so no processing steps for GNIS data are listed here.
-#
-#
+# ============================
 # PWS IDs
 # Note that WebGet() command will not work here; must download the data manually first from the website.
 # Further processing of PWS data is not required at this point, so no processing steps for PWS data are listed here.
 #
+# =====================
+# DOLA Local Governments - manually downloaded and read in here to view
+# - open in Excel to paste into main data workbook
+# The following file is manually created from the following website and saved to the repository.
+# 1. Open the following in a web browser: https://dola.colorado.gov/lgis/lgActiveAlpha.jsf
+# 2. Highlight the cells in the table.
+# 3. Copy and paste into text file, will be tab separated: ../data-orig/Colorado-DOLA-LocalGovernments.tsv
+#    THIS IS PAINFULL BECAUSE MUST SELECT EVERY LETTER, 26 COPY AND PASTE
+# 4. Add headers separated by tabs to match the data:
+#  Name  Filings  Type  LG_ID  FIPS  Census_MRF  Counties
 #
+# TODO smalers 2020-09-13 don't automate yet, rely on previous csv file that was manually created.
+# Read the tab delimited file.  Specify some columns as text to preserve leading zeros.
+#ReadTableFromDelimitedFile(TableID="DOLA_LocalGovernments",InputFile="../data-orig/Colorado-DOLA-LocalGovernments.tsv",Delimiter="\t",HeaderLines="1",TextColumns="LG_ID,FIPS,Census_MRF")
+# Save as csv for direct use.
+#WriteTableToDelimitedFile(TableID="DOLA_LocalGovernments",OutputFile="../data-orig/Colorado-DOLA-LocalGovernments.csv",WriteHeaderComments=False)
