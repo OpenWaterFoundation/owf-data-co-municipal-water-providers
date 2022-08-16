@@ -1,0 +1,27 @@
+# This command file reads the publishsed csv dataset and checks the data:
+# - confirm that each website URL can be downloaded (if error need to fix)
+StartLog(LogFile="check-csv.tstool.log")
+ReadTableFromDelimitedFile(TableID="WaterProvidersTable",InputFile="..\data\Colorado-Municipal-Water-Providers.csv")
+SetProperty(PropertyName="GetCount",PropertyType=Integer,PropertyValue="0")
+For(Name="ForWebsite",IteratorProperty="Website",TableID="WaterProvidersTable",TableColumn="Website")
+# Get the web page.
+# - Don't need to save to test whether it works.
+# - Try to download name as is, with trailing /, and with /index.html
+# - If all 3 fail, then failure.
+SetProperty(PropertyName="GetCount",PropertyType=Integer,PropertyValue="${GetCount}",Add="1")
+SetProperty(PropertyName="ErrorCount",PropertyType=Integer,PropertyValue="0",Add="1")
+Message(Message="Downloading website file ${GetCount}: ${Website}")
+# First try the name as is
+WebGet(URI="${Website}",ResponseCodeProperty="WebGetStatus")
+If(Name="IfWebGetStatus1",Condition="${WebGetStatus}!=200")
+# Try with trailing /
+WebGet(URI="${Website}/",ResponseCodeProperty="WebGetStatus")
+If(Name="IfWebGetStatus2",Condition="${WebGetStatus}!=200")
+# Try with trailing /index.html
+WebGet(URI="${Website}/index.html",ResponseCodeProperty="WebGetStatus")
+If(Name="IfWebGetStatus3",Condition="${WebGetStatus}!=200")
+Message(Message="Error downloading website file ${GetCount} for ${Website}",CommandStatus=FAILURE)
+EndIf(Name="IfWebGetStatus3")
+EndIf(Name="IfWebGetStatus2")
+EndIf(Name="IfWebGetStatus1")
+EndFor(Name="ForWebsite")
