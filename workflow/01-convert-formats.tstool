@@ -1,0 +1,23 @@
+StartLog(LogFile="01-convert-formats.tstool.log")
+# Convert municipal water provider data from Excel to geojson and csv format.
+#
+# Convert municipal water provider data from Excel to geojson format.
+# - the jsgeojson file is suitable for direct use in JavaScript (no longer output)
+# - the geojson file is a typical GeoJSON file
+#
+#  Filter out rows with empty WaterProviderName in case there are extra rows.
+# SetDebugLevel(LogFileLevel=1)
+# Read in table; for unknown reasons currently takes about 20 minutes to read in.  **NEED TO FIX**
+ReadTableFromExcel(TableID="WaterProviders",InputFile="../data/co-municipal-water-providers.xlsx",Worksheet="WaterProvider",ExcelColumnNames=FirstRowInRange,ColumnExcludeFilters="WaterProviderName:",ExcelIntegerColumns="GNIS_ID,NumCounty",ExcelTextColumns="FIPS_ID,DOLA_LG_ID")
+# SetDebugLevel(ScreenLevel=0,LogFileLevel=0)
+WriteTableToGeoJSON(TableID="WaterProviders",OutputFile="../data/co-municipal-water-providers.geojson",LongitudeColumn="Longitude",LatitudeColumn="Latitude",CoordinatePrecision=6)
+#WriteTableToGeoJSON(TableID="WaterProviders",OutputFile="../data/co-municipal-water-providers.jsgeojson",LongitudeColumn="Longitude",LatitudeColumn="Latitude",CoordinatePrecision=6,JavaScriptVar="WaterProviders")
+#
+# Convert municipal water provider data from Excel to csv format.
+# - TODO smalers 2020-09-13 this command file takes a long time to run but don't know why
+# - Filter out rows with empty WaterProviderName in case there are extra rows.
+WriteTableToDelimitedFile(TableID="WaterProviders",OutputFile="../data/co-municipal-water-providers.csv",WriteHeaderComments=False)
+#
+# "WaterProvider_County_Relate" worksheet
+ReadTableFromExcel(TableID="WaterProvidersCounty",InputFile="../data/co-municipal-water-providers.xlsx",Worksheet="WaterProvider_County_Relate",ExcelColumnNames=FirstRowInRange,ColumnExcludeFilters="WaterProviderName:")
+WriteTableToDelimitedFile(TableID="WaterProvidersCounty",OutputFile="../data/co-municipal-water-providers-county-relate.csv",WriteHeaderComments=False)

@@ -9,11 +9,11 @@ The following sections provide a summary of the project repository:
 
 * [Repository Contents](#repository-contents)
 * [`Colorado-Municipal-Water-Providers.xlsx` Contents](#colorado-municipal-water-providersxlsx-contents)
-	+ [Worksheet Columns](#worksheet-columns)
-	+ [Identifier Conventions for BNDSS_ID and OWF_ID](#identifier-conventions-for-bndss_id-and-owf_id)
-	+ [Data Flags](#data-flags)
-	+ [Worksheet Conventions](#worksheet-conventions)
-	+ [Worksheets in Workbook](#worksheets-in-workbook)
+    + [Worksheet Columns](#worksheet-columns)
+    + [Identifier Conventions for BNDSS_ID and OWF_ID](#identifier-conventions-for-bndss_id-and-owf_id)
+    + [Data Flags](#data-flags)
+    + [Worksheet Conventions](#worksheet-conventions)
+    + [Worksheets in Workbook](#worksheets-in-workbook)
 * [How to Use the Data](#how-to-use-the-data)
 * [Attribution](#attribution)
 * [Dataset Workflow](#dataset-workflow)
@@ -26,9 +26,14 @@ The following sections provide a summary of the project repository:
 The repository contains the following:
 
 ```text
-analysis/                                   TSTool software command files to process data into useful forms.
-  process-xlsx-to-csv.tstool                TSTool command file that processes the core dataset from .xlsx to .csv.
-  process-xlsx-to-geojson.tstool            TSTool command file that processes the core dataset from .xlsx to .geojson.
+data/                                       Folder containing data files.
+  co-municipal-water-providers.xlsx         Excel file containing core data.
+  co-municipal-water-providers.geojson      The Excel file contents from the Water_Providers worksheet converted to a GeoJSON file,
+  co-municipal-water-providers.csv          The Excel file contents from the Water_Providers worksheet converted to a csv file,
+                                            useful for automated processing.
+  co-municipal-water-providers-county-relate.csv
+                                            The Excel file contents from the WaterProvider_County_Relate worksheet converted to a csv file,
+                                            useful for automated processing.
 data-orig/                                  Folder containing original data files downloaded from agency websites.
   Colorado-FIPS-Places.xlsx                 The data file containing original data download from the
                                             U.S. Census Bureau containing FIPS IDs.
@@ -48,16 +53,11 @@ data-orig/                                  Folder containing original data file
                                             contains coordinates of the centroid of each district's boundaries.
   README.md                                 Explanation of folder contents, description of data files,
                                             and the methodology used to obtain the data and mapping to the joined dataset.
-data-orig-process/                          Folder to process manual and automated downloaded files for data files.
-  process-original-data-to-csv.tstool       TSTool command file to automate processing original data into data.
-data/                                       Folder containing data files.
-  Colorado-Municipal-Water-Providers.xlsx   Simple Excel file containing core data.
-  Colorado-Municipal-Water-Providers.csv    The Excel file contents from the Water_Providers worksheet converted to a csv file,
-                                            useful for automated processing.
-  WaterProvider-County-Relate.csv           The Excel file contents from the WaterProvider_County_Relate worksheet converted to a csv file,
-                                            useful for automated processing.
+data-orig-workflow/                         Folder containing workflows to process manual and automated downloaded files for data files.
+  process-original-data-to-csv.tstool       TSTool command file to automate processing original data into csv.
 doc/
-  ?                                         Additional documentation for the dataset.
+workflow/                                   TSTool command files to process data into useful forms.
+  01-convert-formats.tstool                 TSTool command file that processes the core dataset from .xlsx to .geojson and .csv.
 .gitattributes                              Git configuration file indicate repository configuration,
                                             in particular handling of line-ending and binary files.
 .gitignore                                  Git configuration file to ignore files that should not be committed to the repository.
@@ -65,7 +65,7 @@ README.md                                   Explanation of repository contents, 
                                             TSTool command files used to process the core data into other products.
 ```
 
-## `Colorado-Municipal-Water-Providers.xlsx` Contents ##
+## `co-municipal-water-providers.xlsx` Contents ##
 
 ### Worksheet Columns ###
 
@@ -107,33 +107,33 @@ The core Excel workbook that serves as the master data contains the following da
 The following conventions are used to create BNDSS_IDs and OWF_IDs.
 
 | **Abbrevation** | **Long Version** |
-| -- | -- |
-| `MD` | Metropolitan District |
-| `WD` | Water District |
-| `WSD` | Water and Sanitation District |
-| `WCD` | Water Conservation District |
-| `WA` | Water Authority |
-| `WC` | Water Company |
-| `MWC` | Mutual Water Company |
-| `WS` | Water System |
+| --------------- | ---------------- |
+| `MD`            | Metropolitan District |
+| `WD`            | Water District |
+| `WSD`           | Water and Sanitation District |
+| `WCD`           | Water Conservation District |
+| `WA`            | Water Authority |
+| `WC`            | Water Company |
+| `MWC`           | Mutual Water Company |
+| `WS`            | Water System |
 
 | **Abbrevation** | **Long Version** |
-| -- | -- |
-| `Co` | County |
-| `Crk` | Creek |
-| `Hls` | Hills |
-| `Hts` | Heights |
-| `Mt` | Mount |
-| `Mtn` | Mountain |
-| `Spgs` | Springs |
-| `St` | Saint |
-| `Vlg` | Village |
-| `Vly` | Valley |
-| `Ft` | Fort |
-| `N` | North |
-| `E` | East |
-| `W` | West |
-| `S` | South |
+| --------------- | -- |
+| `Co`            | County |
+| `Crk`           | Creek |
+| `Hls`           | Hills |
+| `Hts`           | Heights |
+| `Mt`            | Mount |
+| `Mtn`           | Mountain |
+| `Spgs`          | Springs |
+| `St`            | Saint |
+| `Vlg`           | Village |
+| `Vly`           | Valley |
+| `Ft`            | Fort |
+| `N`             | North |
+| `E`             | East |
+| `W`             | West |
+| `S`             | South |
 
 ### Data Flags ###
 
@@ -141,23 +141,23 @@ Some data columns have an accompanying second column with the same name and `_Fl
 These columns are an indication of data status as it relates to missing data.  The following conventions are used:
 
 | **Flag Value** | **Description** |
-| -- | -- |
-| `G` | Value is known/good. |
-| `g` | Value is estimated (but good).  The associated cell is also highlighted in yellow. |
-| `N` | Value is not applicable for the provider and a blank cell is expected. |
-| `M` | Value is known to be missing in original source and therefore a blank cell indicates that a value cannot be provided. |
-| `m` | Value is estimated to be missing.  The associated cell is also highlighted in gray. |
-| `z` | Value is unable to be confirmed.  A value is possible but cannot be confirmed one way or the other.  The associated cell is also highlighted in orange. |
-| `x` | OWF has not made an attempt to populate the cell at this time. The value is missing because OWF has not attempted to find the value.  The associated cell is also highlighted in black. |
-| `C` | OWF_ID has been created based on BNDSS_ID naming conventions. |
-| `D` | ID is a known/good value but provider has dissolved (currently applies only to BusinessEntity_ID). |
+| -------------- | -- |
+| `G`            | Value is known/good. |
+| `g`            | Value is estimated (but good).  The associated cell is also highlighted in yellow. |
+| `N`            | Value is not applicable for the provider and a blank cell is expected. |
+| `M`            | Value is known to be missing in original source and therefore a blank cell indicates that a value cannot be provided. |
+| `m`            | Value is estimated to be missing.  The associated cell is also highlighted in gray. |
+| `z`            | Value is unable to be confirmed.  A value is possible but cannot be confirmed one way or the other.  The associated cell is also highlighted in orange. |
+| `x`            | OWF has not made an attempt to populate the cell at this time. The value is missing because OWF has not attempted to find the value.  The associated cell is also highlighted in black. |
+| `C`            | OWF_ID has been created based on BNDSS_ID naming conventions. |
+| `D`            | ID is a known/good value but provider has dissolved (currently applies only to BusinessEntity_ID). |
 
-Single-character flags may also be followed with a number, as in g1.
+Single-character flags may also be followed with a number, as in `g1`.
 These flags are specific to certain columns and are detailed above in the descriptions of the data columns.  
 
 ### Worksheet Conventions ###
 
-Colors are visible only in xlsx files and not csv files.
+Colors are visible only in `xlsx` files and not `csv` files.
 
 Column names are taken from original sources if possible.
 For clarity and attribution, agency abbreviations may be added to the original column name.
@@ -185,7 +185,7 @@ Worksheets within the workbook are as follows:
 The Colorado Municipal Water Providers dataset provides a complete statewide list of municipal water providers assembled from multiple sources.
 There are several unique identifiers for each water provider and the dataset allows cross-referencing the identifiers
 so that other datasets can be joined.
-For example, the [Colorado Municipalities dataset](https://github.com/OpenWaterFoundation/owf-data-co-municipalities)
+For example, the [Colorado Municipalities dataset](https://data.openwaterfoundation.org/state/co/owf/municipalities/)
 uses municipal water provider identifiers and can be used to link additional data.
 
 The Excel and csv files can be used as tabular datasets as is,
@@ -220,16 +220,14 @@ but approximately 100 providers needed to be added to the BNDSS list, for an ove
 Once this initial dataset was created, OWF then manually cross-referenced water providers to the identifiers
 described above for FIPS, GNIS, DOLA, PWS and Business Entities.  From here, the general workflow is as follows:
 
-1. Data flags are created for many of the data columns that indicate data status as described above.
-2. The data are formatted as a table to allow for data filtering.
-3. The dataset is saved in `.xlsx` format.
-4. The TSTool command file
-[(process-xlsx-to-csv.tstool)](https://github.com/OpenWaterFoundation/owf-data-co-municipal-water-providers/blob/master/analysis/process-xlsx-to-csv.tstool)
-is run to convert the dataset into CSV format.
-5. The TSTool command file [(Process-xlsx-to-geojson.TSTool)](https://github.com/OpenWaterFoundation/owf-data-co-municipal-water-providers/blob/master/analysis/Process-xlsx-to-geojson.TSTool)
-is run to convert the dataset into GeoJSON format for use in GIS analysis.
+1. The dataset is saved in `.xlsx` format:
+    1. Data flags are created for many of the data columns that indicate data status as described above.
+    2. The data are formatted as a table to allow for data filtering.
+2. The TSTool command file
+    [(`01-convert-formats.tstool`)](workflow/01-convert-formats.tstool)
+    is run to convert the dataset into GeoJSON and CSV format.
 
-See also the [`data-orig-process/README.md`](data-orig-process/README.md) documentation, which provides more details.
+See also the [`data-orig-workflow/README.md`](data-orig-workflow/README.md) documentation, which provides more details.
 
 ## Disclaimer ##
 
@@ -240,7 +238,9 @@ OWF provides no guarantee as to the accuracy of the data.
 
 ## License ##
 
-All the data are public so there are no restrictions on use.
+This dataset is distributed using the
+[Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License](https://creativecommons.org/licenses/by-sa/4.0/).
+Please provide attribution.
 
 ## Maintainers and Contributing ##
 

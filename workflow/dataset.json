@@ -1,0 +1,24 @@
+{
+  "title": "Colorado Municipal Water Providers",
+  "description": "Colorado Municipal Water Providers.",
+  "identifier": "owf-data-co-municipal-water-providers",
+  "landingPage": "https://data.openwaterfoundation.org/state/co/owf/municipal-water-providers/",
+  "issued": "2022-08-16",
+  "keyword": [
+    "point",
+    "municipal water providers"
+  ],
+  "publisher": {
+    "name": "Open Water Foundation",
+    "mbox": "info@openwaterfoundation.org"
+  },
+  "distribution": [
+    {
+      "accessURL": "",
+      "byteSize": null,
+      "description": "Resource locator",
+      "format": "application/geo+json",
+      "title": "Colorado Municipal Water Providers"
+    }
+  ]
+}
