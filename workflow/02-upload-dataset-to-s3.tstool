@@ -9,21 +9,24 @@ SetProperty(PropertyName="InsertsFolder",PropertyType=String,PropertyValue="../.
 # Upload the files:
 # - geojson file output by GeoProcessor
 # - dataset metadata files needed for landing page
-AwsS3(S3Command="UploadObjects",Region="us-west-2",Bucket="data.openwaterfoundation.org",UploadFiles="../data/co-municipal-water-providers.geojson:state/co/owf/municipal-water-providers/co-municipal-water-providers.geojson,dataset.json:state/co/owf/municipal-water-providers/dataset.json,dataset.png:state/co/owf/municipal-water-providers/dataset.png,dataset-details.md:state/co/owf/municipal-water-providers/dataset-details.md,../data/co-municipal-water-providers.csv:state/co/owf/municipal-water-providers/co-municipal-water-providers.csv,../data/co-municipal-water-providers.xlsx:state/co/owf/municipal-water-providers/co-municipal-water-providers.xlsx")
+AwsS3(S3Command="UploadObjects",Region="us-west-2",Bucket="data.openwaterfoundation.org",UploadFiles="../data/co-municipal-water-providers.geojson:state/co/owf/municipal-water-providers/co-municipal-water-providers.geojson,dataset.json:state/co/owf/municipal-water-providers/dataset.json,dataset.png:state/co/owf/municipal-water-providers/dataset.png,dataset-details.md:state/co/owf/municipal-water-providers/dataset-details.md,../data/co-municipal-water-providers.csv:state/co/owf/municipal-water-providers/co-municipal-water-providers.csv,../data/co-municipal-water-providers.xlsx:state/co/owf/municipal-water-providers/co-municipal-water-providers.xlsx",InvalidateCloudFront=True,CloudFrontRegion="aws-global",CloudFrontComment="*data.openwaterfoundation.org*")
 #
+# TODO smalers 2023-02-12 should no longer be needed so remove when tested out
 # Invalidate so that files are available on the CDN as soon as possible.
 # AwsCloudFront(CloudFrontCommand="ListDistributions",Region="aws-global",Comment="*data.openwaterfoundation.org*",OutputTableID="Distributions")
-AwsCloudFront(CloudFrontCommand="InvalidateDistribution",Region="aws-global",Comment="*data.openwaterfoundation.org*",InvalidationPaths="/state/co/owf/municipal-water-providers/*")
+# AwsCloudFront(CloudFrontCommand="InvalidateDistribution",Region="aws-global",Comment="*data.openwaterfoundation.org*",InvalidationPaths="/state/co/owf/municipal-water-providers/*")
 #
-# Create the dataset catalog with landing page:
+# Create the dataset landing page:
 # - also list invalidations to see what is in process
-AwsS3Catalog(Region="us-west-2",Bucket="data.openwaterfoundation.org",StartingPrefix="state/co/owf/municipal-water-providers/",DistributionId="*data.openwaterfoundation.org*",DatasetIndexFile="results/dataset-index.html",DatasetIndexHeadFile="${InsertsFolder}/head-insert.html",DatasetIndexBodyFile="${InsertsFolder}/body-nav-insert.html",DatasetIndexFooterFile="${InsertsFolder}/footer-insert.html",UploadDatasetFiles=True,OutputTableID="Datasets",KeepFiles=True)
+SetDebugLevel(LogFileLevel=1)
+AwsS3LandingPage(Region="us-west-2",Bucket="data.openwaterfoundation.org",DatasetIndexFile="results/dataset-index.html",StartingFolder="state/co/owf/municipal-water-providers/",KeepFiles=True,UploadFiles=True,DatasetIndexHeadFile="${InsertsFolder}/head-insert.html",DatasetIndexBodyFile="${InsertsFolder}/body-nav-insert.html",DatasetIndexFooterFile="${InsertsFolder}/footer-insert.html",InvalidateCloudFront=True,CloudFrontRegion="aws-global",CloudFrontComment="*data.openwaterfoundation.org*")
+SetDebugLevel(ScreenLevel=0,LogFileLevel=0)
 # AwsCloudFront(CloudFrontCommand="ListInvalidations",Region="af-south-1",OutputTableID="InvalidationList")
 # Compare the local and S3 file to see how long it takes to be avaialable on S3.
-CompareFiles(InputFile1="results/dataset-index.html",InputFile2="https://s3.us-west-2.amazonaws.com/data.openwaterfoundation.org/state/co/owf/municipal-water-providers/index.html",IfDifferent=Warn,WaitUntil=FilesAreSame,WaitTimeout=600000,WaitInterval=60000)
+CompareFiles(InputFile1="results/dataset-index.html",InputFile2="https://s3.us-west-2.amazonaws.com/data.openwaterfoundation.org/state/co/owf/municipal-water-providers/index.html",IfDifferent=Warn,WaitUntil=FilesAreSame,WaitTimeout=10000)
 # Compare the local and CloudFront file to see how long it takes to be avaialable on CloudFront.
-CompareFiles(InputFile1="results/dataset-index.html",InputFile2="https://data.openwaterfoundation.org/state/co/owf/municipal-water-providers/index.html",IfDifferent=Warn,WaitUntil=FilesAreSame,WaitTimeout=600000,WaitInterval=60000)
+CompareFiles(InputFile1="results/dataset-index.html",InputFile2="https://data.openwaterfoundation.org/state/co/owf/municipal-water-providers/index.html",CommentLineChar="<!--",IfDifferent=Warn,WaitUntil=FilesAreSame,WaitTimeout=10000)
 # Compare the index.html and folder name URLs to make sure that all variants were invalidated:
 # - the AWS configuration should automatically add index.html to folders
-CompareFiles(InputFile1="https://data.openwaterfoundation.org/state/co/owf/municipal-water-providers/index.html",InputFile2="https://data.openwaterfoundation.org/state/co/owf/municipal-water-providers/",IfDifferent=Warn,WaitUntil=FilesAreSame,WaitTimeout=600000,WaitInterval=60000)
-CompareFiles(InputFile1="https://data.openwaterfoundation.org/state/co/owf/municipal-water-providers/index.html",InputFile2="https://data.openwaterfoundation.org/state/co/owf/municipal-water-providers",IfDifferent=Warn,WaitUntil=FilesAreSame,WaitTimeout=600000,WaitInterval=60000)
+CompareFiles(InputFile1="https://data.openwaterfoundation.org/state/co/owf/municipal-water-providers/index.html",InputFile2="https://data.openwaterfoundation.org/state/co/owf/municipal-water-providers/",CommentLineChar="<!--",IfDifferent=Warn,WaitUntil=FilesAreSame,WaitTimeout=10000)
+CompareFiles(InputFile1="https://data.openwaterfoundation.org/state/co/owf/municipal-water-providers/index.html",InputFile2="https://data.openwaterfoundation.org/state/co/owf/municipal-water-providers",CommentLineChar="<!--",IfDifferent=Warn,WaitUntil=FilesAreSame,WaitTimeout=10000)
